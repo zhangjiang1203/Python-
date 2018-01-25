@@ -46,3 +46,19 @@ elif alien == 'yellow':
     print("你杀死了一个" + alien + "外星人，获取了十个积分点")
 else:
     print("你杀死了一个" + alien + "外星人，获取了十五个积分点")
+
+
+#练习测试
+current_users = ['Tom','jhon','mei','daxiong','nina']
+new_users = ['xiaoming','dingna','tom','jhon','wanger']
+
+change_user = []
+for old in current_users:
+    change_user.append(old.lower())
+
+for user in new_users:
+    if user in change_user:
+        print(user + '  老用户加一分')
+    else:
+        print(user + '  这是个新用户')
+
