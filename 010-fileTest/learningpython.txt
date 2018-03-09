@@ -1,0 +1,4 @@
+In python you can deal with dict and arr
+In python you can deal with more Data
+In python you can deal with fileopen and readfile
+张江你好
