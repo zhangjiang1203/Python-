@@ -28,5 +28,8 @@ unittest.main()
 assertEqual(a,b) 核实 a==b
 assertNotEqual(a,b) 核实a!=b
 assertTrue(x) 核实x为true
+assertFalse(x) 核实x为false
+assertIn(item,list) 核实item在list中
+assertNotIn(item,list) 核实item不在list中
 
 """
