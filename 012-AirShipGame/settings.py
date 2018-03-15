@@ -13,3 +13,4 @@ class Settings():
         self.bullet_width = 3
         self.bullet_height = 8
         self.bullet_color = (60,60,60)
+        self.bullets_allow = 3 #限制子弹的个数

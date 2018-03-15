@@ -12,8 +12,9 @@ def check_keydown_events(event,setting,screen,ship,bullets):
     elif event.key == pygame.K_DOWN:
         ship.moving_down = True
     elif event.key == pygame.K_SPACE:
-        new_bullet = Bullet(setting,screen,ship)
-        bullets.add(new_bullet)
+        if len(bullets) < setting.bullets_allow:
+            new_bullet = Bullet(setting,screen,ship)
+            bullets.add(new_bullet)
 
 
 def check_keyup_events(event,ship):
@@ -37,6 +38,13 @@ def check_events(setting,screen,ship,bullets):
         elif event.type == pygame.KEYUP:
             check_keyup_events(event,ship)
 
+def update_bullets(bullets):
+    """更新子弹位置，并删除已经消失的子弹"""
+    bullets.update()
+    #删除消失的子弹
+    for bullet in bullets.copy():
+        if bullet.rect.bottom <= 0:
+            bullets.remove(bullet)
 
 """刷新屏幕"""
 def update_screen(ai_settings,screen,ship,bullets):
