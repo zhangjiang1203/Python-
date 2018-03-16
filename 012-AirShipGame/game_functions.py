@@ -1,6 +1,7 @@
 import sys
 import pygame
 from bullet import Bullet
+from star import Star
 
 def check_keydown_events(event,setting,screen,ship,bullets):
     if event.key == pygame.K_LEFT:
@@ -15,6 +16,8 @@ def check_keydown_events(event,setting,screen,ship,bullets):
         if len(bullets) < setting.bullets_allow:
             new_bullet = Bullet(setting,screen,ship)
             bullets.add(new_bullet)
+    elif event.key == pygame.K_q:
+        sys.exit()
 
 
 def check_keyup_events(event,ship):
@@ -47,11 +50,22 @@ def update_bullets(bullets):
             bullets.remove(bullet)
 
 """刷新屏幕"""
-def update_screen(ai_settings,screen,ship,bullets):
+def update_screen(ai_settings,screen,ship,alien,bullets,stars):
     screen.fill(ai_settings.bg_color)
+    stars.draw(screen)  # 编组调用draw() 时，Pygame自动绘制编组的每个元素，绘制位置由元素的属性rect 决定
     #绘制子弹
     for bullet in bullets:
         bullet.draw_bullet()
+    #绘制飞船和外星人
     ship.blitme()
+    alien.blitme()
     #最近绘制的屏幕可见
     pygame.display.flip()
+
+def addGroupStars(setting,screen,stars):
+    for number in range(1,100):
+        myStar = Star(setting,screen)
+        myStar.rect.x = myStar.getRandomPosition()
+        myStar.rect.y = myStar.getRandomPosition()
+        stars.add(myStar)
+#

@@ -8,7 +8,7 @@ class Ship():
         self.setting = setting
 
         """加载飞船图片并获取其外接矩形"""
-        self.image = pygame.image.load('images/ship.bmp')
+        self.image = pygame.image.load('images/ship.png')
         self.rect = self.image.get_rect()
         self.screen_rect = self.screen.get_rect()
 
