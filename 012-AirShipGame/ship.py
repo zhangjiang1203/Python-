@@ -42,3 +42,9 @@ class Ship():
         #更新self.center 更新rect对象
         self.rect.centerx = self.centerx
         self.rect.centery = self.centery
+
+    def center_ship(self):
+        # 更新self.center 更新rect对象
+        self.centerx = self.screen_rect.centerx
+        self.rect.bottom = self.screen_rect.bottom
+        self.centery = float(self.rect.centery)

@@ -18,7 +18,7 @@ class Star(Sprite):
         self.rect.y = 300
 
     def getRandomPosition(self):
-        return randint(50,1000)
+        return randint(50,1200)
 
     def blitme(self):
         self.screen.blit(self.image,self.rect)
