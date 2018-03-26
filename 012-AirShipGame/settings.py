@@ -22,6 +22,8 @@ class Settings():
         # 每次消灭完了外星人就开始加速
         self.speedup_scale = 2
         self.initialize_dynamic_settings()
+        #存储最高分的文件名
+        self.scorefile_name = "highScore.txt"
 
     def initialize_dynamic_settings(self):
         """初始化随游戏进行而变化的设置"""
