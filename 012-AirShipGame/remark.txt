@@ -1,0 +1,26 @@
+1.pygame绘制图像
+导入图片资源
+image = pygame.image.load('images/alien.png')
+创建并设置当前屏幕大小
+screen = pygame.display.set_mode((setting.screen_width,setting.screen_height))
+绘制图片到当前屏幕上
+参数是绘制的图片以及添加图片的位置，位置可以自定义
+screen.blit(image,self.rect)
+
+2.文字转成图片再绘制到屏幕上
+引入pygame font类库，初始化一个font实例 (字体，字号大小)
+self.font = pygame.font.SysFont(None,48)
+将文字渲染为图片(文字，是否显示锯齿,文字颜色)
+self.image = self.font.render(score_str,True,self.text_color)
+在把图片绘制到屏幕上同1
+
+3.在屏幕上绘制图形
+在(0,0)处创建一个表示子弹的矩形，在设置正确的位置
+self.rect = pygame.Rect(0,0,setting.bullet_width,setting.bullet_height)
+屏幕上绘制子弹,图形可以自定义
+pygame.draw.rect(self.screen,self.color,self.rect)
+
+4.Sprite子类中设置update(self)函数，在一个编组中直接调用update()函数，编组中的每个对象都会自动调用自身的update()函数
+aliens.empty() 清空一个编组
+
+5.文件的读取和修改

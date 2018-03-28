@@ -1,0 +1,24 @@
+1.图表学习
+导入matplotlib框架，
+import matplotlib.pyplot as plt
+
+使用plt中的API函数
+#参数说明 这是绘制线，linewidth为线条宽度
+plt.plot(x.values,y_values,linewidth=)绘制线条
+#绘制散列点参数说明 c设置颜色值 cmap=设置渐变属性的绘制 edgescolors=设置没有黑边框 s=设置绘制点的尺寸
+plt.scatter(rw.x_values,rw.y_values,c=point_num,cmap=plt.cm.Reds,edgecolors='none',s=1)
+设置每个坐标轴的取值范围 该函数要求提供四个值:x 和 y 坐标轴的最小值和最大值。
+plt.axis([0,1100,0,1100000])
+#设置标尺 tick_params() 设置刻度的样式，其中指定的实参将影响x 轴和y 轴上的刻度 (axis='both' )，
+并将刻度标记的字号设置为14(labelsize=14 )。
+plt.tick_params(axis="both",which='major',labelsize=14)
+
+修改随机漫步中的方向和步距长度
+x_direction = choice([1,0])#一个选择值 向左或者向右
+x_distance = choice([0,1,2,3,4,5,6,7,8])
+x_step = x_direction *x_distance
+
+y_direction = choice([1,-1])
+y_distance = choice([0,1,2,3,4])
+y_step = y_direction * y_distance
+x和y轴的变化不一致 在绘制的随机数中显示的是一个随机的近似折线图
