@@ -7,7 +7,7 @@ def get_random_num():
         results.append(randint(200,1001))
     return results
 
-#绘制线段
+#绘制线段d
 line_chart = pygal.Line()
 line_chart.title = "显示的大标题"
 #设置了x_labels 绘制饼状图的时候不显示圆环半径
