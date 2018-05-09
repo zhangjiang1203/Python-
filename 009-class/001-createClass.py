@@ -37,6 +37,8 @@ myRestaurant.open_restaurant()
 
 
 class Car():
+
+    gender = "Man"
     def __init__(self,make,model,year):
         self.make = make
         self.model =  model
@@ -81,3 +83,33 @@ class ElectricCar(Car):
 my_tesla = ElectricCar("tesla","model s",2017)
 my_tesla.fill_gas_tank()
 print(my_tesla.get_description_name())
+
+# 增加对象引用计数的场景
+# 1.对象创建
+# 2.将对象添加进容器
+# 3.对象被当做参数传递给函数
+# 4.为对象创建另外的变量名
+
+# 减少引用计数
+# 1.引用此对象的某些变量名被显示销毁 如 del x
+# 2.给引用此对象的某变量名重新赋值
+# 3.从容器中移除对象时，类似 list.pop()
+# 4.容器本身被销毁时
+
+
+'''
+继承至父类，覆盖父类的方法时，不显式调用父类的方法，子类没法访问覆盖方法中定义的属性值
+'''
+class ParentClass():
+    def createname(self,age = 'sex'):
+        self.age = age
+
+class subClass(ParentClass):
+    def createname(self,age):
+        self.name = age
+        ParentClass.createname(self)
+
+
+sub = subClass()
+sub.createname(18)
+print(sub.age)
