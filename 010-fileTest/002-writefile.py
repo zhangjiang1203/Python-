@@ -60,3 +60,5 @@ while True:
         print("被除数不能为0")
     else:
         print(answer)
+
+#实现每个方法的函数对象，添加显示的集合
