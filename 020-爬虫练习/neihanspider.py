@@ -36,7 +36,7 @@ def saveneihanduanzi(item):
 if __name__ == '__main__':
     print('''
     ==================
-         内涵段子小爬虫
+        内涵段子小爬虫
     ==================     
     ''')
     page = 0
