@@ -14,6 +14,7 @@ class ItcastSpider(scrapy.spiders.Spider):
         items = []
         for site in response.xpath('//div[@class="li_txt"]'):
 
+            item = itcastitem()
             teacher_name = site.xpath('h3/text()').extract()
             teacher_level = site.xpath('h4/text()').extract()
             teacher_info = site.xpath('p/text()').extract()
@@ -22,12 +23,13 @@ class ItcastSpider(scrapy.spiders.Spider):
             # print(teacher_level[0])
             # print(teacher_info[0])
 
-            itcastitem.name = teacher_name[0]
-            itcastitem.level = teacher_level[0]
-            itcastitem.info = teacher_info[0]
+            item['name'] = teacher_name[0]
+            item['level'] = teacher_level[0]
+            item['info'] = teacher_info[0]
             # print(itcastitem.name,itcastitem.level,itcastitem.info)
-            items.append(itcastitem)
+            items.append(item)
             # print(items[0].name)
 
         return items
 
+# 运行命令 在同级文件中生成一个json文件  scrapy crawl itcast -o itcast_teacher.json -t json
