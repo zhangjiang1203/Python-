@@ -28,7 +28,7 @@ event_numbers = list(range(2,11,2))
 #函数range() 从2开始数 然后不断的加2 直到达到或者超过终值11
 print(event_numbers)
 squares = []
-for value in range(1,1000000):
+for value in range(1,100):
     # square = value ** 2
     squares.append(value)
 print(squares)

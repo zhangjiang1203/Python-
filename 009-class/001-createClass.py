@@ -46,7 +46,7 @@ class Car():
         self.odometer_reading = 0
 
     def get_description_name(self):
-        long_name = str(self.year)+' '+self.make+" "+self.model
+        long_name = str(self.year)+' '+self.make+ " " +self.model
         return long_name.title()
 
     def read_odometer(self):

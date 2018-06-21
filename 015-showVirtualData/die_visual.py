@@ -1,12 +1,13 @@
 from die import Die
 import matplotlib.pyplot as plt
 import pygal
-#ADD:同时掷两枚骰子
+
+
 
 die1 = Die()
 die2 = Die(8)
 
-#掷骰子 将结果存储起来
+''''#掷骰子 将结果存储起来'''
 results = []
 for roll_num in range(10000):
      result = die1.roll() + die2.roll()

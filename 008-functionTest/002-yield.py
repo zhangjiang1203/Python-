@@ -32,7 +32,7 @@ def decoration(func):
 def show():
     print("这就是我说的：你们记住了没")
 #执行显示的函数代码
-# show()
+show()
 
 #当要被装饰的函数带有参数时，装饰器内部要添加有参数值
 def decoration1(func):
@@ -40,13 +40,13 @@ def decoration1(func):
         print('装饰器1')
         func(x)
         print('装饰器结束')
-    return  wrapper
+    return wrapper
 
 @decoration1
 def show1(name):
     print('输入的名字'+name)
 
-# show1('zhangsan')
+show1('zhangsan')
 
 #函数递归使用
 def fact(n):
