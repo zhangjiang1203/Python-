@@ -4,6 +4,8 @@ for car in cars:
         print(car.upper())
     else:
         print(car.title())
+
+# title() 首字母大写
 #python是区分大小写的
 age = 18
 if age > 0 and age < 20:
