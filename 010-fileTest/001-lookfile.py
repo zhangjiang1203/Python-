@@ -23,7 +23,7 @@ messageStr = ""
 for message in messages:
     messageStr += message
 
-print(messageStr.strip())
+# print(messageStr.strip())
 
 replaceStr = "I really like dogs"
 newstr = replaceStr.replace("dog","cat")
