@@ -1,6 +1,5 @@
 import os
 
-
 def login():
     flag = True
     while flag:
@@ -85,6 +84,7 @@ def changAllAccount(account):
 login()
 
 '''
+问题
 文件I/O操作的时候，使用a+模式读取不出文件的内容，不指定模式或者r,r+就可以读出文件内容，
 不管是什么模式都是已经获取到文件，为什么读取不出文件的内容
 
