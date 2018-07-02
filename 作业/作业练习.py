@@ -105,19 +105,3 @@ menu = {
 
 
 
-#利用数组 减少使用的次数
-layers = [menu]
-while True:
-    if len(layers) == 0:break
-    current_layer = layers[-1]
-    for key in current_layer:
-        print(key)
-    choice = input('>>:').strip() #去掉空格
-    if choice == 'b':
-        layers.pop() #删除最后一个元素
-        continue
-    if choice == 'q':
-        break        #退出循环
-    if choice not in current_layer:
-        continue
-    layers.append(current_layer[choice])#数组中添加元素
