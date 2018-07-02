@@ -1,5 +1,38 @@
 import os
 
+#九九乘法表
+def multiplicationtable():
+    for i in range(1, 10):
+        result = []
+        for j in range(1, i + 1):
+            value = str(j) + '*' + str(i) + '=' + str(i * j)
+            result.append(value)
+        print(result)
+
+
+
+#金字塔
+def pyramid():
+    max_level = int(input('输入金字塔层级>>:').strip())
+    for current_level in range(1,max_level+1):
+        for i in range(max_level-current_level):
+            print(' ',end='') #在一行中连续打印多个空格
+        for j in range(2*current_level-1):
+            print('*',end='') #在一行中连续打印多个*
+        print()
+
+def shoplist():
+    markets = {
+        'apple': 10,
+        'tesla': 100000,
+        'mac': 3000,
+        'lenovo': 30000,
+        'chicken': 10,
+    }
+
+#编辑用户
+file_name = 'account.txt'
+
 def login():
     flag = True
     while flag:
@@ -42,13 +75,10 @@ def login():
                     else:
                         print('密码输入错误%s次,请重试' %flag)
                         break;
-
-
         if not isexist:
             print('用户不存在，请重试')
 
-#编辑用户
-file_name = 'account.txt'
+
 def getUseraccount():
     #文件是否存在
     if os.path.isfile(file_name):
@@ -64,10 +94,10 @@ def getUseraccount():
         return users
     else:
         with open(file_name, 'a+') as object:
-            users = [{'account': 'zhang', 'password': '123456', 'loginCount': 2},
-                     {'account': 'wang', 'password': '123456', 'loginCount': 0},
-                     {'account': 'guo', 'password': '123456', 'loginCount': 1},
-                     {'account': 'xiang', 'password': '123456', 'loginCount': 0}]
+            users = [{'account': 'zhang', 'password': '123456', 'loginCount': 2,'salary':0},
+                     {'account': 'wang', 'password': '123456', 'loginCount': 0,'salary':0},
+                     {'account': 'guo', 'password': '123456', 'loginCount': 1,'salary':0},
+                     {'account': 'xiang', 'password': '123456', 'loginCount': 0,'salary':0}]
             for value in users:
                 account = str(value)
                 object.write(account + '\n')
@@ -80,6 +110,27 @@ def changAllAccount(account):
             user = str(value)
             file_object.write(user + '\n')
 
-#开始登录
-login()
+
+
+
+tag = True
+while tag:
+    print('''
+    1.打印九九乘法表
+    2.打印金字塔
+    3.购物车
+    ''')
+    choice = input('>>:').strip()
+    if choice == 'q' or choice == 'Q':
+        break
+    choice = int(choice)
+    if choice == 1:
+        multiplicationtable()
+    elif choice == 2:
+        pyramid()
+    else:
+        login()
+
+
+
 

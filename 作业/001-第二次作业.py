@@ -115,20 +115,15 @@ def multiplicationtable():
         print(result)
 
 def pyramid():
-    theCode = 10
-    i = 0
-    while i < theCode:
-        for j in range(theCode - i, 0, -1):
+    theCode = 5
+    for  i in  range(theCode+1):
+        for j in range(theCode - i):
             print(" ", end='')
             # 输出相应的空格
-        for i_temp in range(0, i):
+        for i_temp in range(2*i-1):
             print('*', end='')
             # 正向输出字母
-        for i_temp_temp in range(i, -1, -1):
-            print('*', end='')
-            # 反向补齐输出字母
-        i += 1
-        print("\n")
+        print()
 
 def mulmenuoperation(mylist):
     # 利用数组 减少使用的次数
@@ -149,3 +144,12 @@ def mulmenuoperation(mylist):
         layers.append(current_layer[choice])  # 数组中添加元素
 
 pyramid()
+
+
+# max_level=5
+# for current_level in range(1,max_level+1):
+#     for i in range(max_level-current_level):
+#         print(' ',end='') #在一行中连续打印多个空格
+#     for j in range(2*current_level-1):
+#         print('*',end='') #在一行中连续打印多个空格
+#     print()
