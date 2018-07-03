@@ -29,7 +29,7 @@ def pyramid():
 def shoplist(user):
     product_list = [['Iphone7', 5800],
                     ['Coffee', 30],
-                    ['疙瘩汤', 10],
+                    ['iMac', 12000],
                     ['Python Book', 99],
                     ['Bike', 199],
                     ['ViVo X9', 2499]]
@@ -40,15 +40,6 @@ def shoplist(user):
             print(index,value)
         market = input("输入商品编号选择商品，q退出>>:").strip()
         if market == 'q':
-            #输出所有购买的商品，并确认是否购买，退出循环
-            if len(shops_mark):
-                print('=' * 70)
-                print('已购买商品')
-                for k,v in shops_mark.items():
-                    print(k,v)
-                print('账户余额===%s' %user['salary'])
-                print('=' * 70)
-                #结算商品信息
             tag = False
             continue
 
@@ -74,12 +65,14 @@ def shoplist(user):
                 changAllAccount(users)
             else:
                 print('对不起客官，您的余额不足，原价 {} 还差{}大洋，努力吧骚年🤣🤣🤣'.format(product_price,product_price-balance))
-            print('='*70)
-            print('已购买商品')
-            for k,v in shops_mark.items():
-                print(k,v)
-            print('账户余额===%s' %user['salary'])
-            print('=' * 70)
+
+            print("""-------------------------已购买商品列表------------------------
+                商品           单价          数量
+                """)
+            for k, v in shops_mark.items():
+                print('%20s%13s%13s' % (k, v['price'], v['count']))
+            print('账户余额===%s' % user['salary'])
+            print('-' * 60)
         else:
             print('输入不合法')
 
