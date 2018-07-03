@@ -1,5 +1,10 @@
 import os
 
+#循环标识
+tag = True
+#存取文件名
+file_name = 'account.txt'
+
 #九九乘法表
 def multiplicationtable():
     for i in range(1, 10):
@@ -35,8 +40,18 @@ def shoplist(user):
             print(index,value)
         market = input("输入商品编号选择商品，q退出>>:").strip()
         if market == 'q':
-            #输出所有购买的商品，并确认是否购买
-        print(shops_mark)
+            #输出所有购买的商品，并确认是否购买，退出循环
+            if len(shops_mark):
+                print('=' * 70)
+                print('已购买商品')
+                for k,v in shops_mark.items():
+                    print(k,v)
+                print('账户余额===%s' %user['salary'])
+                print('=' * 70)
+                #结算商品信息
+            tag = False
+            continue
+
         if market.isdigit():
             index = int(market)
             if index < 0 or index >= len(product_list):
@@ -50,16 +65,24 @@ def shoplist(user):
                     shops_mark[product_name]['count']+=1
                 else:
                     shops_mark[product_name] = {"price":product_price,'count':1}
+                # 更新用户金额信息
+                users = getUseraccount()
+                index = users.index(user)
+                users.pop(index)
+                user['salary'] = balance - product_price
+                users.append(user)
+                changAllAccount(users)
             else:
-                print('对不起客官，您的余额不足，原价 {} 请充值{}'.format(product_price,product_price-balance))
-            print(shops_mark)
+                print('对不起客官，您的余额不足，原价 {} 还差{}大洋，努力吧骚年🤣🤣🤣'.format(product_price,product_price-balance))
+            print('='*70)
+            print('已购买商品')
+            for k,v in shops_mark.items():
+                print(k,v)
+            print('账户余额===%s' %user['salary'])
+            print('=' * 70)
         else:
             print('输入不合法')
 
-
-
-#编辑用户
-file_name = 'account.txt'
 
 def login():
     flag = True
@@ -74,8 +97,8 @@ def login():
         for user in users:
             if account in user.values():
                 isexist = True
-                flag = int(user['loginCount'])
-                if flag == 3:
+                loginCount = int(user['loginCount'])
+                if loginCount == 3:
                     print('您登录密码输入错误次数过多，账号已被锁定')
                     flag = False
                     break
@@ -92,22 +115,20 @@ def login():
                     changAllAccount(users)
                     flag = False
                     #输出商品列表
-
-
-
+                    shoplist(user)
                 else:
-                    flag+=1
+                    loginCount+=1
                     #修改用户信息
                     users.remove(user)
-                    user['loginCount'] = flag
+                    user['loginCount'] = loginCount
                     users.append(user)
                     changAllAccount(users)
-                    if flag == 3:
+                    if loginCount == 3:
                         print('密码输入错误3次,账号已被锁定')
                         flag = False
                         break
                     else:
-                        print('密码输入错误%s次,请重试' %flag)
+                        print('密码输入错误%s次,请重试' %loginCount)
                         break
         if not isexist:
             print('用户不存在，请重试')
@@ -146,9 +167,6 @@ def changAllAccount(account):
             file_object.write(user + '\n')
 
 
-
-
-tag = True
 while tag:
     print('''
     1.打印九九乘法表
@@ -165,11 +183,7 @@ while tag:
         elif choice == 2:
             pyramid()
         else:
-            shoplist()
-            # login()
+            # shoplist()
+            login()
     else:
         print('输入不合法，请输入数字')
-
-
-
-
