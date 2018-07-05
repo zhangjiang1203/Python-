@@ -5,6 +5,75 @@ tag = True
 #存取文件名
 file_name = 'account.txt'
 
+menu = {
+    '北京':{
+        '海淀':{
+            '五道口':{
+                'soho':{},
+                '网易':{},
+                'google':{}
+            },
+            '中关村':{
+                '爱奇艺':{},
+                '汽车之家':{},
+                'youku':{},
+            },
+            '上地':{
+                '百度':{},
+            },
+        },
+        '昌平':{
+            '沙河':{
+                '老男孩':{},
+                '北航':{},
+            },
+            '天通苑':{},
+            '回龙观':{},
+        },
+        '朝阳':{},
+        '东城':{},
+    },
+    '上海':{
+        '闵行':{
+            "人民广场":{
+                '炸鸡店':{}
+            }
+        },
+        '闸北':{
+            '火车战':{
+                '携程':{}
+            }
+        },
+        '浦东':{},
+    },
+    '山东':{},
+}
+
+
+
+def mulmenuoperation(mylist):
+    # 利用数组 减少使用的次数
+    layers = [mylist]
+    while True:
+        if len(layers) == 0: break
+        current_layer = layers[-1]
+        if len(current_layer):
+            for key in current_layer:
+                print(key)
+        else:
+            print('骚年，没有更多菜单了😂😂😂😂😂')
+        print()
+        choice = input('输入b返回上一层，q退出，输入菜单进入下一层>>:').strip()  # 去掉空格
+        if choice == 'b':
+            layers.pop()  # 删除最后一个元素
+            continue
+        if choice == 'q':
+            break  # 退出循环
+        if choice not in current_layer:
+            print('骚年，要输入打印出来的菜单😂😂😂😂😂')
+            continue
+        layers.append(current_layer[choice])  # 数组中添加元素
+
 #九九乘法表
 def multiplicationtable():
     for i in range(1, 10):
@@ -142,6 +211,7 @@ def getUseraccount():
         return users
     else:
         # 文件不存在就创造文件
+        print('生成账户文件')
         with open(file_name, 'a+') as object:
             users = [{'account': 'zhang', 'password': '123456', 'loginCount': 2,'salary':0},
                      {'account': 'wang', 'password': '123456', 'loginCount': 0,'salary':0},
@@ -162,6 +232,7 @@ def changAllAccount(account):
 
 while tag:
     print('''
+    0.三级菜单
     1.打印九九乘法表
     2.打印金字塔
     3.购物车
@@ -171,7 +242,9 @@ while tag:
         break
     if choice.isdigit():
         choice = int(choice)
-        if choice == 1:
+        if choice == 0:
+            mulmenuoperation(menu)
+        elif choice == 1:
             multiplicationtable()
         elif choice == 2:
             pyramid()
