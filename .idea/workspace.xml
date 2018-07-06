@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d7f6578-3738-4bc4-9207-53184fcaeb63" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/喜马拉雅爬虫/allDataMaYaSpider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python测试.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python测试.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/喜马拉雅爬虫/mayaSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/喜马拉雅爬虫/mayaSpider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/购物车.py" beforeDir="false" afterPath="$PROJECT_DIR$/作业/购物车.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,8 +45,8 @@
     <SUITE FILE_PATH="coverage/Python_$001_lookfile.coverage" NAME="001-lookfile Coverage Results" MODIFIED="1529892836369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/010-fileTest" />
     <SUITE FILE_PATH="coverage/Python_$001_functionTest.coverage" NAME="001-functionTest Coverage Results" MODIFIED="1525836089932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/008-functionTest" />
     <SUITE FILE_PATH="coverage/Python_$002_yield.coverage" NAME="002-yield Coverage Results" MODIFIED="1529546946759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/008-functionTest" />
-    <SUITE FILE_PATH="coverage/Python_$.coverage" NAME="作业练习 Coverage Results" MODIFIED="1530264610633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
     <SUITE FILE_PATH="coverage/Python_$001_dictionaryTest.coverage" NAME="001-dictionaryTest Coverage Results" MODIFIED="1529543659314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/006-dictionary" />
+    <SUITE FILE_PATH="coverage/Python_$.coverage" NAME="购物车 Coverage Results" MODIFIED="1530864409006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
     <SUITE FILE_PATH="coverage/Python_$world_population.coverage" NAME="world_population Coverage Results" MODIFIED="1529549812490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/016-downloadData" />
     <SUITE FILE_PATH="coverage/Python_$die.coverage" NAME="die Coverage Results" MODIFIED="1529547608779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/015-showVirtualData" />
     <SUITE FILE_PATH="coverage/Python$002_dimension.coverage" NAME="002-dimension Coverage Results" MODIFIED="1516675306727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/004-List" />
@@ -72,13 +69,16 @@
     <SUITE FILE_PATH="coverage/Python_$itcast_spider.coverage" NAME="itcast_spider Coverage Results" MODIFIED="1528270740914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mySpider/mySpider/spiders" />
     <SUITE FILE_PATH="coverage/Python$whileTest.coverage" NAME="whileTest Coverage Results" MODIFIED="1519799824950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/007-userInput" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Python-" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="allDataMaYaSpider.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="allDataMaYaSpider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/喜马拉雅爬虫/allDataMaYaSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            <state relative-caret-position="209">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -86,11 +86,29 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="作业练习.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/作业/作业练习.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11">
+              <caret line="82" column="29" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="购物车.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/作业/购物车.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="mayaSpider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/喜马拉雅爬虫/mayaSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-420">
-              <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+            <state relative-caret-position="403">
+              <caret line="65" column="18" lean-forward="true" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -165,7 +183,6 @@
         <option value="$PROJECT_DIR$/015-showVirtualData/mpl_squares.py" />
         <option value="$PROJECT_DIR$/015-showVirtualData/pipinstall.py" />
         <option value="$PROJECT_DIR$/010-fileTest/001-lookfile.py" />
-        <option value="$PROJECT_DIR$/作业/购物车.py" />
         <option value="$PROJECT_DIR$/作业/作业练习.py" />
         <option value="$PROJECT_DIR$/作业/003-zuoye.py" />
         <option value="$PROJECT_DIR$/作业/account.txt" />
@@ -173,6 +190,7 @@
         <option value="$PROJECT_DIR$/作业/002-综合作业.py" />
         <option value="$PROJECT_DIR$/喜马拉雅爬虫/mayaSpider.py" />
         <option value="$PROJECT_DIR$/喜马拉雅爬虫/allDataMaYaSpider.py" />
+        <option value="$PROJECT_DIR$/作业/购物车.py" />
       </list>
     </option>
   </component>
@@ -186,10 +204,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1591" />
-    <option name="y" value="39" />
-    <option name="width" value="1698" />
-    <option name="height" value="1018" />
+    <option name="x" value="2218" />
+    <option name="y" value="23" />
+    <option name="width" value="1234" />
+    <option name="height" value="933" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -209,7 +227,7 @@
             <path>
               <item name="Python-" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python-" type="462c0819:PsiDirectoryNode" />
-              <item name="喜马拉雅爬虫" type="462c0819:PsiDirectoryNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -244,7 +262,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.allDataMaYaSpider">
+  <component name="RunManager" selected="Python.购物车">
+    <configuration name="购物车" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python测试" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/购物车.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="001-第二次作业" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python测试" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -278,25 +315,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/002-综合作业.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="003-zuoye" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python测试" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/003-zuoye.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -398,19 +416,19 @@
     <list>
       <item itemvalue="Python tests.Unittests in test1.py" />
       <item itemvalue="Python.PythonListTest" />
-      <item itemvalue="Python.003-zuoye" />
       <item itemvalue="Python.001-第二次作业" />
       <item itemvalue="Python.002-综合作业" />
       <item itemvalue="Python.mayaSpider" />
       <item itemvalue="Python.allDataMaYaSpider" />
+      <item itemvalue="Python.购物车" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.购物车" />
         <item itemvalue="Python.allDataMaYaSpider" />
         <item itemvalue="Python.mayaSpider" />
         <item itemvalue="Python.002-综合作业" />
         <item itemvalue="Python.001-第二次作业" />
-        <item itemvalue="Python.003-zuoye" />
       </list>
     </recent_temporary>
   </component>
@@ -469,24 +487,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1591" y="39" width="1698" height="1018" extended-state="0" />
+    <frame x="2218" y="23" width="1234" height="933" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5034965" side_tool="true" weight="0.36820084" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4965035" weight="0.22909881" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4965035" weight="0.40789473" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32899022" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32899022" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.34093377" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18599033" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992248" visible="true" weight="0.17617449" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32820514" />
       <window_info anchor="right" id="SciView" order="4" weight="0.3297568" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.5007752" side_tool="true" weight="0.17617449" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3974359" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.5007752" side_tool="true" weight="0.17617449" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -495,6 +512,7 @@
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32820514" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,6 +534,16 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/喜马拉雅爬虫/mayaSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/020-爬虫练习/spider1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -804,29 +832,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/购物车.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/作业/001-第二次作业.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="127" selection-start-line="127" selection-end-line="148" selection-end-column="55" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/作业练习.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="42" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/喜马拉雅爬虫/《人在江湖》郭德纲 于谦.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/作业/002-综合作业.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -842,30 +853,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/喜马拉雅爬虫/《一户侯》 郭德纲 于谦.txt">
+    <entry file="file://$PROJECT_DIR$/喜马拉雅爬虫/《一户侯》 郭德纲 于谦.txt" />
+    <entry file="file://$PROJECT_DIR$/喜马拉雅爬虫/allDataMaYaSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        <state relative-caret-position="209">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/作业练习.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="82" column="29" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/喜马拉雅爬虫/mayaSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-420">
-          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        <state relative-caret-position="403">
+          <caret line="65" column="18" lean-forward="true" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/喜马拉雅爬虫/allDataMaYaSpider.py">
+    <entry file="file://$PROJECT_DIR$/作业/购物车.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="266">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
         </state>
       </provider>
     </entry>
