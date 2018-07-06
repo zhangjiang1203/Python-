@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d7f6578-3738-4bc4-9207-53184fcaeb63" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/喜马拉雅爬虫/mayaSpider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/喜马拉雅爬虫/allDataMaYaSpider.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Python测试.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python测试.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/喜马拉雅爬虫/mayaSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/喜马拉雅爬虫/mayaSpider.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,77 +16,81 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Python_$neihanspider.coverage" NAME="neihanspider Coverage Results" MODIFIED="1528009589706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/020-爬虫练习" />
+    <SUITE FILE_PATH="coverage/Python$001_createClass.coverage" NAME="001-createClass Coverage Results" MODIFIED="1520820159602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/009-class" />
+    <SUITE FILE_PATH="coverage/Python$001_functionTest.coverage" NAME="001-functionTest Coverage Results" MODIFIED="1519710898291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/008-functionTest" />
+    <SUITE FILE_PATH="coverage/Python_$001_testMyFile.coverage" NAME="001-testMyFile Coverage Results" MODIFIED="1525356957853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/018-pythonTest" />
+    <SUITE FILE_PATH="coverage/Python_$003_zuoye.coverage" NAME="003-zuoye Coverage Results" MODIFIED="1530541417467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
+    <SUITE FILE_PATH="coverage/Python_$001_circleList.coverage" NAME="001-circleList Coverage Results" MODIFIED="1529542364447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/004-List" />
+    <SUITE FILE_PATH="coverage/Python$star.coverage" NAME="star Coverage Results" MODIFIED="1521190338412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/012-AirShipGame" />
+    <SUITE FILE_PATH="coverage/Python$001_dictionaryTest.coverage" NAME="001-dictionaryTest Coverage Results" MODIFIED="1519452401567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/006-dictionary" />
+    <SUITE FILE_PATH="coverage/Python_$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1529547252101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/009-class" />
+    <SUITE FILE_PATH="coverage/Python_$rw_visual.coverage" NAME="rw.visual Coverage Results" MODIFIED="1529549705769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/015-showVirtualData" />
+    <SUITE FILE_PATH="coverage/Python_$pygal_test_model.coverage" NAME="pygal_test_model Coverage Results" MODIFIED="1529549567213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/015-showVirtualData" />
+    <SUITE FILE_PATH="coverage/Python$userInput.coverage" NAME="userInput Coverage Results" MODIFIED="1519455848596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/007-userInput" />
+    <SUITE FILE_PATH="coverage/Python$alien_invasion.coverage" NAME="alien_invasion Coverage Results" MODIFIED="1521185092721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/012-AirShipGame" />
+    <SUITE FILE_PATH="coverage/Python_$scatter_squares.coverage" NAME="scatter_squares Coverage Results" MODIFIED="1529549684923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/015-showVirtualData" />
+    <SUITE FILE_PATH="coverage/Python_$highs_lows.coverage" NAME="highs_lows Coverage Results" MODIFIED="1529549739062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/016-downloadData" />
+    <SUITE FILE_PATH="coverage/Python_$005_fileoperation.coverage" NAME="005-fileoperation Coverage Results" MODIFIED="1525788525549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/010-fileTest" />
+    <SUITE FILE_PATH="coverage/Python_$Unittests_in_test_name_function_py.coverage" NAME="Unittests in test_name_function.py Coverage Results" MODIFIED="1529547573591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/011-testunit" />
+    <SUITE FILE_PATH="coverage/Python_$random_walk.coverage" NAME="random_walk Coverage Results" MODIFIED="1529549622333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/015-showVirtualData" />
+    <SUITE FILE_PATH="coverage/Python$004_jsonfile.coverage" NAME="004-jsonfile Coverage Results" MODIFIED="1519808926608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/010-fileTest" />
+    <SUITE FILE_PATH="coverage/Python_$ifTest.coverage" NAME="ifTest Coverage Results" MODIFIED="1529543258454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/005-if语句" />
+    <SUITE FILE_PATH="coverage/Python_$001_.coverage" NAME="001-第二次作业 Coverage Results" MODIFIED="1530755857340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
+    <SUITE FILE_PATH="coverage/Python_$whileTest.coverage" NAME="whileTest Coverage Results" MODIFIED="1529545170308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/007-userInput" />
     <SUITE FILE_PATH="coverage/Python_$001_createClass.coverage" NAME="001-createClass Coverage Results" MODIFIED="1525858410399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/009-class" />
+    <SUITE FILE_PATH="coverage/Python_$bar_custom.coverage" NAME="bar_custom Coverage Results" MODIFIED="1529549866138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/017-useAPI" />
+    <SUITE FILE_PATH="coverage/Python_$mpl_squares.coverage" NAME="mpl_squares Coverage Results" MODIFIED="1529548448552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/015-showVirtualData" />
+    <SUITE FILE_PATH="coverage/Python_$die_visual.coverage" NAME="die_visual Coverage Results" MODIFIED="1529549551500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/015-showVirtualData" />
+    <SUITE FILE_PATH="coverage/Python$surveyTest.coverage" NAME="surveyTest Coverage Results" MODIFIED="1520821915440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/011-testunit" />
+    <SUITE FILE_PATH="coverage/Python_$neihanspider.coverage" NAME="neihanspider Coverage Results" MODIFIED="1528009589706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/020-爬虫练习" />
+    <SUITE FILE_PATH="coverage/Python_$python_repos.coverage" NAME="python_repos Coverage Results" MODIFIED="1529549904198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/017-useAPI" />
+    <SUITE FILE_PATH="coverage/Python_$allDataMaYaSpider.coverage" NAME="allDataMaYaSpider Coverage Results" MODIFIED="1530851741285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/喜马拉雅爬虫" />
     <SUITE FILE_PATH="coverage/Python_$001_lookfile.coverage" NAME="001-lookfile Coverage Results" MODIFIED="1529892836369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/010-fileTest" />
+    <SUITE FILE_PATH="coverage/Python_$001_functionTest.coverage" NAME="001-functionTest Coverage Results" MODIFIED="1525836089932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/008-functionTest" />
+    <SUITE FILE_PATH="coverage/Python_$002_yield.coverage" NAME="002-yield Coverage Results" MODIFIED="1529546946759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/008-functionTest" />
+    <SUITE FILE_PATH="coverage/Python_$.coverage" NAME="作业练习 Coverage Results" MODIFIED="1530264610633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
+    <SUITE FILE_PATH="coverage/Python_$001_dictionaryTest.coverage" NAME="001-dictionaryTest Coverage Results" MODIFIED="1529543659314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/006-dictionary" />
+    <SUITE FILE_PATH="coverage/Python_$world_population.coverage" NAME="world_population Coverage Results" MODIFIED="1529549812490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/016-downloadData" />
+    <SUITE FILE_PATH="coverage/Python_$die.coverage" NAME="die Coverage Results" MODIFIED="1529547608779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/015-showVirtualData" />
+    <SUITE FILE_PATH="coverage/Python$002_dimension.coverage" NAME="002-dimension Coverage Results" MODIFIED="1516675306727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/004-List" />
+    <SUITE FILE_PATH="coverage/Python$ifTest.coverage" NAME="ifTest Coverage Results" MODIFIED="1519434406171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/005-if语句" />
+    <SUITE FILE_PATH="coverage/Python$nameTest.coverage" NAME="nameTest Coverage Results" MODIFIED="1520821215583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/011-testunit" />
+    <SUITE FILE_PATH="coverage/Python$001_circleList.coverage" NAME="001-circleList Coverage Results" MODIFIED="1516673087251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/004-List" />
+    <SUITE FILE_PATH="coverage/Python$002_writefile.coverage" NAME="002-writefile Coverage Results" MODIFIED="1519803264618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/010-fileTest" />
+    <SUITE FILE_PATH="coverage/Python$003_countfile.coverage" NAME="003-countfile Coverage Results" MODIFIED="1519804963374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/010-fileTest" />
     <SUITE FILE_PATH="coverage/Python$PythonListTest.coverage" NAME="PythonListTest Coverage Results" MODIFIED="1516265705469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python$yinyongFile.coverage" NAME="yinyongFile Coverage Results" MODIFIED="1519723255754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/009-class" />
+    <SUITE FILE_PATH="coverage/Python$Unittests_in_test_name_function_py.coverage" NAME="Unittests in test_name_function.py Coverage Results" MODIFIED="1520821748066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/011-testunit" />
+    <SUITE FILE_PATH="coverage/Python_$userInput.coverage" NAME="userInput Coverage Results" MODIFIED="1529545165016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/007-userInput" />
     <SUITE FILE_PATH="coverage/Python$001_lookfile.coverage" NAME="001-lookfile Coverage Results" MODIFIED="1519799362327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/010-fileTest" />
     <SUITE FILE_PATH="coverage/Python_$mayaSpider.coverage" NAME="mayaSpider Coverage Results" MODIFIED="1530806686139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/喜马拉雅爬虫" />
-    <SUITE FILE_PATH="coverage/Python$Unittests_in_test_name_function_py.coverage" NAME="Unittests in test_name_function.py Coverage Results" MODIFIED="1520821748066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/011-testunit" />
-    <SUITE FILE_PATH="coverage/Python_$scatter_squares.coverage" NAME="scatter_squares Coverage Results" MODIFIED="1529549684923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/015-showVirtualData" />
-    <SUITE FILE_PATH="coverage/Python$004_jsonfile.coverage" NAME="004-jsonfile Coverage Results" MODIFIED="1519808926608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/010-fileTest" />
-    <SUITE FILE_PATH="coverage/Python$001_circleList.coverage" NAME="001-circleList Coverage Results" MODIFIED="1516673087251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/004-List" />
-    <SUITE FILE_PATH="coverage/Python_$pygal_test_model.coverage" NAME="pygal_test_model Coverage Results" MODIFIED="1529549567213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/015-showVirtualData" />
-    <SUITE FILE_PATH="coverage/Python_$python_repos.coverage" NAME="python_repos Coverage Results" MODIFIED="1529549904198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/017-useAPI" />
-    <SUITE FILE_PATH="coverage/Python$userInput.coverage" NAME="userInput Coverage Results" MODIFIED="1519455848596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/007-userInput" />
-    <SUITE FILE_PATH="coverage/Python_$.coverage" NAME="作业练习 Coverage Results" MODIFIED="1530264610633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
-    <SUITE FILE_PATH="coverage/Python$nameTest.coverage" NAME="nameTest Coverage Results" MODIFIED="1520821215583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/011-testunit" />
-    <SUITE FILE_PATH="coverage/Python_$highs_lows.coverage" NAME="highs_lows Coverage Results" MODIFIED="1529549739062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/016-downloadData" />
-    <SUITE FILE_PATH="coverage/Python_$whileTest.coverage" NAME="whileTest Coverage Results" MODIFIED="1529545170308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/007-userInput" />
-    <SUITE FILE_PATH="coverage/Python_$001_.coverage" NAME="001-第二次作业 Coverage Results" MODIFIED="1530755857340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
-    <SUITE FILE_PATH="coverage/Python_$005_fileoperation.coverage" NAME="005-fileoperation Coverage Results" MODIFIED="1525788525549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/010-fileTest" />
-    <SUITE FILE_PATH="coverage/Python_$ifTest.coverage" NAME="ifTest Coverage Results" MODIFIED="1529543258454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/005-if语句" />
-    <SUITE FILE_PATH="coverage/Python_$bar_custom.coverage" NAME="bar_custom Coverage Results" MODIFIED="1529549866138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/017-useAPI" />
-    <SUITE FILE_PATH="coverage/Python_$001_functionTest.coverage" NAME="001-functionTest Coverage Results" MODIFIED="1525836089932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/008-functionTest" />
-    <SUITE FILE_PATH="coverage/Python$002_writefile.coverage" NAME="002-writefile Coverage Results" MODIFIED="1519803264618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/010-fileTest" />
-    <SUITE FILE_PATH="coverage/Python$Unittests_in_testFileMyName_py.coverage" NAME="Unittests in testFileMyName.py Coverage Results" MODIFIED="1520823092482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/011-testunit" />
-    <SUITE FILE_PATH="coverage/Python_$random_walk.coverage" NAME="random_walk Coverage Results" MODIFIED="1529549622333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/015-showVirtualData" />
-    <SUITE FILE_PATH="coverage/Python$003_countfile.coverage" NAME="003-countfile Coverage Results" MODIFIED="1519804963374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/010-fileTest" />
-    <SUITE FILE_PATH="coverage/Python$002_dimension.coverage" NAME="002-dimension Coverage Results" MODIFIED="1516675306727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/004-List" />
-    <SUITE FILE_PATH="coverage/Python$alien_invasion.coverage" NAME="alien_invasion Coverage Results" MODIFIED="1521185092721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/012-AirShipGame" />
-    <SUITE FILE_PATH="coverage/Python_$itcast_spider.coverage" NAME="itcast_spider Coverage Results" MODIFIED="1528270740914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mySpider/mySpider/spiders" />
-    <SUITE FILE_PATH="coverage/Python$test_surveyfile.coverage" NAME="test-surveyfile Coverage Results" MODIFIED="1520822034038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/011-testunit" />
-    <SUITE FILE_PATH="coverage/Python_$userInput.coverage" NAME="userInput Coverage Results" MODIFIED="1529545165016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/007-userInput" />
-    <SUITE FILE_PATH="coverage/Python_$die.coverage" NAME="die Coverage Results" MODIFIED="1529547608779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/015-showVirtualData" />
-    <SUITE FILE_PATH="coverage/Python_$die_visual.coverage" NAME="die_visual Coverage Results" MODIFIED="1529549551500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/015-showVirtualData" />
-    <SUITE FILE_PATH="coverage/Python$ifTest.coverage" NAME="ifTest Coverage Results" MODIFIED="1519434406171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/005-if语句" />
-    <SUITE FILE_PATH="coverage/Python$001_createClass.coverage" NAME="001-createClass Coverage Results" MODIFIED="1520820159602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/009-class" />
-    <SUITE FILE_PATH="coverage/Python_$001_testMyFile.coverage" NAME="001-testMyFile Coverage Results" MODIFIED="1525356957853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/018-pythonTest" />
-    <SUITE FILE_PATH="coverage/Python$Unittests_in_test1_py.coverage" NAME="Unittests in test1.py Coverage Results" MODIFIED="1516080304616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_$world_population.coverage" NAME="world_population Coverage Results" MODIFIED="1529549812490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/016-downloadData" />
-    <SUITE FILE_PATH="coverage/Python$001_dictionaryTest.coverage" NAME="001-dictionaryTest Coverage Results" MODIFIED="1519452401567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/006-dictionary" />
     <SUITE FILE_PATH="coverage/Python_$alien_invasion.coverage" NAME="alien_invasion Coverage Results" MODIFIED="1525186708345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/012-AirShipGame" />
-    <SUITE FILE_PATH="coverage/Python_$003_zuoye.coverage" NAME="003-zuoye Coverage Results" MODIFIED="1530541417467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
-    <SUITE FILE_PATH="coverage/Python_$mpl_squares.coverage" NAME="mpl_squares Coverage Results" MODIFIED="1529548448552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/015-showVirtualData" />
-    <SUITE FILE_PATH="coverage/Python_$001_dictionaryTest.coverage" NAME="001-dictionaryTest Coverage Results" MODIFIED="1529543659314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/006-dictionary" />
-    <SUITE FILE_PATH="coverage/Python_$001_circleList.coverage" NAME="001-circleList Coverage Results" MODIFIED="1529542364447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/004-List" />
-    <SUITE FILE_PATH="coverage/Python_$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1529547252101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/009-class" />
-    <SUITE FILE_PATH="coverage/Python_$Unittests_in_test_name_function_py.coverage" NAME="Unittests in test_name_function.py Coverage Results" MODIFIED="1529547573591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/011-testunit" />
-    <SUITE FILE_PATH="coverage/Python$yinyongFile.coverage" NAME="yinyongFile Coverage Results" MODIFIED="1519723255754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/009-class" />
-    <SUITE FILE_PATH="coverage/Python$001_functionTest.coverage" NAME="001-functionTest Coverage Results" MODIFIED="1519710898291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/008-functionTest" />
-    <SUITE FILE_PATH="coverage/Python$whileTest.coverage" NAME="whileTest Coverage Results" MODIFIED="1519799824950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/007-userInput" />
-    <SUITE FILE_PATH="coverage/Python$star.coverage" NAME="star Coverage Results" MODIFIED="1521190338412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/012-AirShipGame" />
-    <SUITE FILE_PATH="coverage/Python_$rw_visual.coverage" NAME="rw.visual Coverage Results" MODIFIED="1529549705769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/015-showVirtualData" />
-    <SUITE FILE_PATH="coverage/Python$surveyTest.coverage" NAME="surveyTest Coverage Results" MODIFIED="1520821915440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/011-testunit" />
     <SUITE FILE_PATH="coverage/Python_$002_.coverage" NAME="002-综合作业 Coverage Results" MODIFIED="1530756224634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
-    <SUITE FILE_PATH="coverage/Python_$002_yield.coverage" NAME="002-yield Coverage Results" MODIFIED="1529546946759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/008-functionTest" />
+    <SUITE FILE_PATH="coverage/Python$Unittests_in_testFileMyName_py.coverage" NAME="Unittests in testFileMyName.py Coverage Results" MODIFIED="1520823092482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/011-testunit" />
+    <SUITE FILE_PATH="coverage/Python$Unittests_in_test1_py.coverage" NAME="Unittests in test1.py Coverage Results" MODIFIED="1516080304616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python$test_surveyfile.coverage" NAME="test-surveyfile Coverage Results" MODIFIED="1520822034038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/011-testunit" />
+    <SUITE FILE_PATH="coverage/Python_$itcast_spider.coverage" NAME="itcast_spider Coverage Results" MODIFIED="1528270740914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mySpider/mySpider/spiders" />
+    <SUITE FILE_PATH="coverage/Python$whileTest.coverage" NAME="whileTest Coverage Results" MODIFIED="1519799824950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/007-userInput" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="002-综合作业.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业/002-综合作业.py">
+      <file leaf-file-name="allDataMaYaSpider.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/喜马拉雅爬虫/allDataMaYaSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="342">
+              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mayaSpider.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mayaSpider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/喜马拉雅爬虫/mayaSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="64" column="34" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+            <state relative-caret-position="-420">
+              <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -117,7 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/007-userInput/whileTest.py" />
         <option value="$PROJECT_DIR$/008-functionTest/make_pizza.py" />
         <option value="$PROJECT_DIR$/009-class/myCar.py" />
         <option value="$PROJECT_DIR$/009-class/yinyongFile.py" />
@@ -168,6 +172,7 @@
         <option value="$PROJECT_DIR$/作业/001-第二次作业.py" />
         <option value="$PROJECT_DIR$/作业/002-综合作业.py" />
         <option value="$PROJECT_DIR$/喜马拉雅爬虫/mayaSpider.py" />
+        <option value="$PROJECT_DIR$/喜马拉雅爬虫/allDataMaYaSpider.py" />
       </list>
     </option>
   </component>
@@ -181,10 +186,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="97" />
-    <option name="y" value="60" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="x" value="1591" />
+    <option name="y" value="39" />
+    <option name="width" value="1698" />
+    <option name="height" value="1018" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -194,7 +199,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,6 +215,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,26 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mayaSpider">
-    <configuration name="作业练习" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python测试" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/作业练习.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.allDataMaYaSpider">
     <configuration name="001-第二次作业" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python测试" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -335,6 +321,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="allDataMaYaSpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python测试" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/喜马拉雅爬虫" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/喜马拉雅爬虫/allDataMaYaSpider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="mayaSpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python测试" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -395,17 +400,17 @@
       <item itemvalue="Python.PythonListTest" />
       <item itemvalue="Python.003-zuoye" />
       <item itemvalue="Python.001-第二次作业" />
-      <item itemvalue="Python.作业练习" />
       <item itemvalue="Python.002-综合作业" />
       <item itemvalue="Python.mayaSpider" />
+      <item itemvalue="Python.allDataMaYaSpider" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.allDataMaYaSpider" />
         <item itemvalue="Python.mayaSpider" />
         <item itemvalue="Python.002-综合作业" />
         <item itemvalue="Python.001-第二次作业" />
         <item itemvalue="Python.003-zuoye" />
-        <item itemvalue="Python.作业练习" />
       </list>
     </recent_temporary>
   </component>
@@ -454,7 +459,7 @@
       <configuration name="Unittests in test_name_function.py" configurationId="tests" />
     </history-entry>
   </component>
-  <component name="TodoView" selected-index="2">
+  <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -464,23 +469,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="97" y="60" width="1440" height="877" extended-state="0" />
+    <frame x="1591" y="39" width="1698" height="1018" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32939914" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5034965" side_tool="true" weight="0.36820084" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32939914" />
-      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32939914" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4965035" weight="0.39102563" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.34199134" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17453505" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4965035" weight="0.22909881" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32899022" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.34093377" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18599033" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32820514" />
       <window_info anchor="right" id="SciView" order="4" weight="0.3297568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3974359" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -489,7 +495,6 @@
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32820514" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,27 +516,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/021-Scrapy测试demo/ITCast/ITCast/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/021-Scrapy测试demo/ITCast/ITCast/spiders/itcast.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/020-爬虫练习/myStory.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23541">
-          <caret line="1239" column="33" selection-start-line="1239" selection-start-column="33" selection-end-line="1239" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/020-爬虫练习/spider1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -841,24 +825,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/003-zuoye.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/喜马拉雅爬虫/《人在江湖》郭德纲 于谦.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/作业/002-综合作业.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="1012">
+          <caret line="176" column="42" selection-start-line="176" selection-start-column="42" selection-end-line="176" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/003-zuoye.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/喜马拉雅爬虫/《一户侯》 郭德纲 于谦.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/喜马拉雅爬虫/mayaSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="64" column="34" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+        <state relative-caret-position="-420">
+          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/喜马拉雅爬虫/allDataMaYaSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

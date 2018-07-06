@@ -27,6 +27,11 @@ import re
 # for value in audioData:
 #     print(value)
 
+#获取所有的榜单
+#//*[@id="root"]/main/section/div/div[2]/div[2]/div[2]/div/div[@class]/a/@href
+#获取页面加载的个数
+#//*[@id="root"]/main/section/div/div[2]/div[1]/div[2]/div[2]/div/nav/ul/li[last()-1]
+
 #定义类去获取数据
 class RequestData:
     def __init__(self,name):
