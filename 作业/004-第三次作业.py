@@ -12,6 +12,7 @@
 '''
 
 import sys
+import os
 
 # select * from emp where name like zhang limit 3
 # 开始解析,sql四种语句 CURD insert delete update select
@@ -87,6 +88,7 @@ def handle_sql_parse(sql_l,sql_dic):
             key = item
             continue
         if tag:
+            # 标识为true 就把对应的item放到上次循环中对应的key中
             # 根据上一步的item 在字典中取出对应的列表添加元素
             sql_dic[key].append(item)
 
@@ -116,7 +118,7 @@ def sql_where_parse(sql_where_l):
     return result
 
 
-def logic_parse(login_str):
+def logic_parse(logic_str):
     '''
     对where中的逻辑运算做处理，返回一个字典，将一个小的条件过滤
     例如 age>10  转换成 ['age','>','10']
@@ -128,7 +130,7 @@ def logic_parse(login_str):
     char = '' #拼接运算符
     flag = False #添加的标识位
     option = '' #记录是否是运算符
-    for value in login_str:
+    for value in logic_str:
         if value in key:
             flag = True
             if len(char) != 0:
@@ -146,6 +148,13 @@ def logic_parse(login_str):
             char+=value
     else:
         result.append(char)
+
+    # 添加对like的解析
+    if len(result) == 1:
+        # 以like为分割线，转化为数组，
+        result = result[0].split('like')
+        # 在中间位置添加like
+        result.insert(1,'like')
 
     return result
 
@@ -165,20 +174,18 @@ def select_action(sql_dic):
     :param sql_dic:
     :return:
     '''
-
-    file = sql_dic['from'][0]
-    table = ''
-    path = ''
-    if '.' in file:
-        path ,table = sql_dic['from'][0].split('.')
+    if '.' in sql_dic['from'][0]:
+        file_path = sql_dic['from'][0].replace('.','/')
     else:
-        ptah = sql_dic['from'][0]
+        file_path = sql_dic['from'][0]
 
     # print(path,table)
-    filehandle = open('%s/%s' %(path,table),'r',encoding='utf-8')
+
+    filehandle = open(file_path,'r',encoding='utf-8')
     #分别去解析where limit 还要对比显示文字
     where_resutl = where_action(filehandle,sql_dic['where'])
     filehandle.close()
+    print(where_resutl)
     #添加limit操作
     limit_result = limit_action(where_resutl,sql_dic['limit'])
     #根据搜索添加结果
@@ -187,13 +194,122 @@ def select_action(sql_dic):
 
 
 def delete_action(sql_dic):
-    pass
+    '''
+    删除表中的元素，返回删除成功标识
+    :param sql_dic:
+    :return:
+    '''
+    # 'func': delete_action,
+    # 'delete': [],
+    # 'from': [],
+    # 'where': [],
+    if '.' in sql_dic['from'][0]:
+        file_path = sql_dic['from'][0].replace('.','/')
+    else:
+        file_path = sql_dic['from'][0]
+    titles = "id,name,age,phone,dept,enroll_date".split(',')
+    with open(file_path,'r',encoding='utf-8') as r_obj,\
+            open("%s.txt" %file_path,'w',encoding='utf-8') as w_obj:
+        for item in r_obj:
+            tem_dic = dict(zip(titles,item.split(',')))
+            flag = logic_action(tem_dic,sql_dic['where'])
+            if not flag:
+                w_obj.write(item)
+        w_obj.flush()#立刻从内存刷到硬盘上
+
+    os.remove(file_path)
+    os.rename("%s.txt" %file_path,file_path)
+    return [['删除成功']]
+
 
 def update_action(sql_dic):
-    pass
+    '''
+    更新对应的数据
+    'func': update_action,
+        'update': [],
+        'set': [],
+        'where': [],
+    :param sql_dic:
+    :return:
+    '''
+    if '.' in sql_dic['update'][0]:
+        file_path = sql_dic['update'][0].replace('.','/')
+    else:
+        file_path = sql_dic['update'][0]
+
+    set_sql = sql_dic['set'][0].split(',')
+    sets = []
+    for value in set_sql:
+        sets.append(value.split('='))
+
+    titles = "id,name,age,phone,dept,enroll_date".split(',')
+    with open(file_path,'r',encoding='utf-8') as r_obj,\
+            open('%s.txt' %file_path,'w',encoding='utf-8') as w_obj:
+        # 遍历文件内容
+        for item in r_obj:
+            changeline = []
+            # 将每组数据格式化为一个字典
+            temp_dic = dict(zip(titles,item.split(',')))
+            # 匹配字典中的值是否和where语句中的值相同
+            flag = logic_action(temp_dic,sql_dic['where'])
+            if flag:
+                #在数据库中存在这个数据,拿到数据修改为要设置的值
+                for set in sets:
+                    k = set[0]
+                    v = set[-1].strip("'")
+                    temp_dic[k] = v
+                for prop in titles:
+                    changeline.append(temp_dic[prop])
+            # 数组转化为字符串，保存到文件中
+            w_obj.write(','.join(changeline))
+        w_obj.flush()
+    os.remove(file_path)
+    os.rename("%s.txt" % file_path, file_path)
+    return [['修改成功']]
+
+
+
 
 def insert_action(sql_dic):
-    pass
+    '''
+    'func': insert_action,
+        'insert': [],
+        'into': [],
+        'values': [],
+    插入新的元素，先要获取最后一行的数据，获取到他的ID，自增长ID
+    :param sql_dic:
+    :return:
+    '''
+    if '.' in sql_dic['into'][0]:
+        file_path = sql_dic['into'][0].replace('.','/')
+    else:
+        file_path = sql_dic['into'][0]
+    print(file_path)
+    titles = "id,name,age,phone,dept,enroll_date".split(',')
+    with open(file_path,'ab+') as f_obj:
+        offset = -50
+        while True:
+            # seek(offset,可选值) 可选值默认为0 从文件开头算 1 从当前位置开始算 2从文件末尾算
+            f_obj.seek(offset,2)
+            lines = f_obj.readlines()
+            if len(lines) > 1:
+                last_line = lines[-1]
+                break
+            offset *= 2
+        # 以二进制打开的文件，要对字符串解码
+        last_line = last_line.decode(encoding='utf-8')
+
+        #取出最后一行的ID
+        temp_dict = dict(zip(titles,last_line.split(',')))
+        last_id = int(temp_dict['id'])
+        #id加一 添加到数组中
+        add_info = sql_dic['values']
+        add_info.insert(0,str(last_id+1))
+        # 数组转化为字符串
+        new_line = ','.join(add_info) + '\n'
+        f_obj.write(new_line.encode('utf-8'))
+        f_obj.flush()
+    return [['添加成功']]
 
 
 def where_action(filehandler,whele_sql):
@@ -205,14 +321,14 @@ def where_action(filehandler,whele_sql):
     '''
     result = []
     logic_str = ['and','or','not']
-    title = 'id,name,age,phone,dept,enroll_data'
+    titles = 'id,name,age,phone,dept,enroll_data'.split(',')
     if len(whele_sql) != 0:
         for line in filehandler:
             # zip 转化为一个元祖，如果两个队列长度不一致，以短的返回一个元祖
-            tem_dic = dict(zip(title.split(','),line.splite(',')))
+            tem_dic = dict(zip(titles,line.split(',')))
             logic_res = logic_action(tem_dic,whele_sql)
             if logic_res:
-                result.append(line.splite(','))
+                result.append(line.split(','))
     else:
         return filehandler.readlines()
 
@@ -220,7 +336,7 @@ def where_action(filehandler,whele_sql):
 
 def logic_action(dic,where_sql):
     '''
-    根据字典和sql语句进行匹配
+    根据字典和sql语句进行匹配,匹配成功返回true  匹配失败返回false
     :param dic:
     :param where_sql:
     :return:
@@ -228,6 +344,7 @@ def logic_action(dic,where_sql):
     result = []
     for item in where_sql:
         if type(item) is list:
+            # print(item,dic)
             prop,option,value = item
             # 如果option为= 在后面在拼接一个=
             if option == '=':
@@ -235,7 +352,7 @@ def logic_action(dic,where_sql):
             # 判断是否是数字
             if dic[prop].isdigit():
                 dic_v = int(dic[prop])
-                value = int(dic_v)
+                value = int(value)
             else:
                 dic_v = '%s' %dic[prop]
 
@@ -249,7 +366,7 @@ def logic_action(dic,where_sql):
                     flag = 'False'
         result.append(flag)
 
-    # 将result中的bool值进行处理，并计算
+    # 将result中的bool值进行处理，并计算所有bool值的最后结果
     return eval(' '.join(result))
 
 def limit_action(where_res,limit_l):
@@ -274,15 +391,15 @@ def search_action(limit_res,select_l):
     '''
     result = []
     fileds_l = []
-    title = 'id,name,age,phone,dept,enroll_data'
+    titles = 'id,name,age,phone,dept,enroll_data'.split(',')
     if select_l[0] == "*":
-        fileds_l = title.split(',')
+        fileds_l = titles
         result = limit_res
     else:
         # 循环匹配where和limit语句的执行结果
         for item in limit_res:
             # zip 转化为一个元祖，如果两个队列长度不一致，以短的返回一个元祖
-            temp_dict = dict(zip(title.split(','),item.split(',')))
+            temp_dict = dict(zip(titles,item.split(',')))
             condition_l = []
 
             fileds_l = select_l
@@ -307,6 +424,19 @@ if __name__ == "__main__":
     # res = eval(' '.join(myList))
     # print(res)
 
+
+    # with open('db1/emp','ab+') as f_obj:
+    #     offset = -50
+    #     while True:
+    #         f_obj.seek(offset,2)
+    #         lines = f_obj.readlines()
+    #         if len(lines) > 1:
+    #             line = lines[-1]
+    #             break
+    #         offset *= 2
+    #     # 以二进制打开的文件，要对字符串解码
+    #     print(line.decode(encoding='utf-8'))
+
     while True:
         # params = sys.argv
         # print(params)
@@ -320,5 +450,6 @@ if __name__ == "__main__":
         sql_dic = sql_parse(sql)
         print(sql_dic)
         result = sql_action(sql_dic)
-        for value in result[1]:
+        for value in result[-1]:
             print(value)
+
