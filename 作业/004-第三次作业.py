@@ -11,21 +11,27 @@
 10.update emp set name='alex' where name like sb
 '''
 
-import sys
 import os
 
 # select * from emp where name like zhang limit 3
 # 开始解析,sql四种语句 CURD insert delete update select
+
 def sql_parse(sql):
+    '''
+    输入sql语句，根据关键字拿到处理的函数，传入sql语句解析
+    :param sql:
+    :return:
+    '''
 
     func_dict = {
         'insert':insert_sql_parse,
         'delete':delete_sql_parse,
         'update':update_sql_parse,
-        'select':selete_sql_parse
+        'select':select_sql_parse
     }
+    #将sql语句以空格为界转化为一个列表
     sql_l = sql.split(' ')
-    #命令可能为大写，全部转化为小写去执行
+    #获取列表中的第一个值即为字典对应的key，命令可能为大写，全部转化为小写去执行
     sql_order = sql_l[0].lower()
     sql_result = ''
     if sql_order in func_dict:
@@ -34,6 +40,11 @@ def sql_parse(sql):
 
 
 def insert_sql_parse(sql_l):
+    '''
+    insert语句，定义语法规则字典传入给语句解析函数
+    :param sql_l:
+    :return:
+    '''
     sql_dic = {
         'func': insert_action,
         'insert': [],
@@ -43,6 +54,11 @@ def insert_sql_parse(sql_l):
     return handle_sql_parse(sql_l, sql_dic)
 
 def delete_sql_parse(sql_l):
+    '''
+    delete语句，定义语法规则字典传入给语句解析函数
+    :param sql_l:
+    :return:
+    '''
     sql_dic = {
         'func': delete_action,
         'delete': [],
@@ -52,6 +68,11 @@ def delete_sql_parse(sql_l):
     return handle_sql_parse(sql_l, sql_dic)
 
 def update_sql_parse(sql_l):
+    '''
+    update语句，定义语法规则字典传入给语句解析函数
+    :param sql_l:
+    :return:
+    '''
     sql_dic = {
         'func': update_action,
         'update': [],
@@ -60,7 +81,12 @@ def update_sql_parse(sql_l):
     }
     return handle_sql_parse(sql_l, sql_dic)
 
-def selete_sql_parse(sql_l):
+def select_sql_parse(sql_l):
+    '''
+    select语句，定义语法规则字典传入给语句解析函数
+    :param sql_l:
+    :return:
+    '''
     sql_dic = {
         'func':select_action,
         'select': [],
@@ -76,9 +102,18 @@ def handle_sql_parse(sql_l,sql_dic):
     :param sql:
     :param sql_dic:
     :return:
+    sql_dic = {
+        'func':select_action,
+        'select': [],
+        'from': [],
+        'where': [],
+        'limit': [],
+    }
     '''
     tag = False
     for item in sql_l:
+        #对应的key都转换为小写
+        item = item.lower()
         #如果列表中的值和key对应，并且标志位也是true ，就把标志位置反
         if tag and item in sql_dic:
             tag = False
@@ -93,6 +128,7 @@ def handle_sql_parse(sql_l,sql_dic):
             sql_dic[key].append(item)
 
     if sql_dic.get('where'):
+        print(sql_dic)
         sql_dic['where'] = sql_where_parse(sql_dic.get('where'))
 
     return sql_dic
@@ -185,7 +221,7 @@ def select_action(sql_dic):
     #分别去解析where limit 还要对比显示文字
     where_resutl = where_action(filehandle,sql_dic['where'])
     filehandle.close()
-    print(where_resutl)
+    # print(where_resutl)
     #添加limit操作
     limit_result = limit_action(where_resutl,sql_dic['limit'])
     #根据搜索添加结果
@@ -438,9 +474,20 @@ if __name__ == "__main__":
     #     print(line.decode(encoding='utf-8'))
 
     while True:
-        # params = sys.argv
-        # print(params)
-        # 去除空格，全部都小写
+
+        print('''
+        支持大小写的SQL语句查询，大写或者小写都可以
+        1. select * from db1.emp
+        2. select * from db1.emp limit 4
+        3. select * from db1.emp where id > 24
+        4. select * from db1.emp where name like 李
+        5. select * from db1.emp where id > 10 and id <14 or name like 李
+        6. select * from db1.emp where not id > 24
+        7. insert into db1.emp values 张国辉，30，18676575678，运维，2007-8-1
+        8. delete from db1.emp where id > 25
+        9. update db1.emp set name='sb' where id=24
+        10.update db1.emp set name='alex' where name like sb
+        ''')
         sql = input('sql>>:').strip()
         if sql == 'exit' or sql == 'q':
             break
