@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7d7f6578-3738-4bc4-9207-53184fcaeb63" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/003-zuoye.py" beforeDir="false" afterPath="$PROJECT_DIR$/作业/003-zuoye.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/作业/004-第三次作业.py" beforeDir="false" afterPath="$PROJECT_DIR$/作业/004-第三次作业.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +17,7 @@
     <SUITE FILE_PATH="coverage/Python$001_createClass.coverage" NAME="001-createClass Coverage Results" MODIFIED="1520820159602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/009-class" />
     <SUITE FILE_PATH="coverage/Python$001_functionTest.coverage" NAME="001-functionTest Coverage Results" MODIFIED="1519710898291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/008-functionTest" />
     <SUITE FILE_PATH="coverage/Python_$001_testMyFile.coverage" NAME="001-testMyFile Coverage Results" MODIFIED="1525356957853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/018-pythonTest" />
-    <SUITE FILE_PATH="coverage/Python_$003_zuoye.coverage" NAME="003-zuoye Coverage Results" MODIFIED="1530541417467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
+    <SUITE FILE_PATH="coverage/Python_$003_zuoye.coverage" NAME="003-zuoye Coverage Results" MODIFIED="1531358304535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
     <SUITE FILE_PATH="coverage/Python_$001_circleList.coverage" NAME="001-circleList Coverage Results" MODIFIED="1529542364447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/004-List" />
     <SUITE FILE_PATH="coverage/Python$star.coverage" NAME="star Coverage Results" MODIFIED="1521190338412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/012-AirShipGame" />
     <SUITE FILE_PATH="coverage/Python$001_dictionaryTest.coverage" NAME="001-dictionaryTest Coverage Results" MODIFIED="1519452401567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/006-dictionary" />
@@ -39,7 +40,7 @@
     <SUITE FILE_PATH="coverage/Python_$mpl_squares.coverage" NAME="mpl_squares Coverage Results" MODIFIED="1529548448552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/015-showVirtualData" />
     <SUITE FILE_PATH="coverage/Python_$die_visual.coverage" NAME="die_visual Coverage Results" MODIFIED="1529549551500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/015-showVirtualData" />
     <SUITE FILE_PATH="coverage/Python$surveyTest.coverage" NAME="surveyTest Coverage Results" MODIFIED="1520821915440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/011-testunit" />
-    <SUITE FILE_PATH="coverage/Python_$004_.coverage" NAME="004-第三次作业 Coverage Results" MODIFIED="1531303350012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
+    <SUITE FILE_PATH="coverage/Python_$004_.coverage" NAME="004-第三次作业 Coverage Results" MODIFIED="1531362987195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
     <SUITE FILE_PATH="coverage/Python_$neihanspider.coverage" NAME="neihanspider Coverage Results" MODIFIED="1528009589706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/020-爬虫练习" />
     <SUITE FILE_PATH="coverage/Python_$python_repos.coverage" NAME="python_repos Coverage Results" MODIFIED="1529549904198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/017-useAPI" />
     <SUITE FILE_PATH="coverage/Python_$allDataMaYaSpider.coverage" NAME="allDataMaYaSpider Coverage Results" MODIFIED="1530851741285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/喜马拉雅爬虫" />
@@ -78,8 +79,17 @@
       <file leaf-file-name="004-第三次作业.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/作业/004-第三次作业.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="99" column="7" lean-forward="true" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
+            <state relative-caret-position="125">
+              <caret line="479" column="28" lean-forward="true" selection-start-line="479" selection-start-column="28" selection-end-line="479" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="298" column="21" lean-forward="true" selection-start-line="298" selection-start-column="21" selection-end-line="298" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -87,8 +97,8 @@
       <file leaf-file-name="003-zuoye.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/作业/003-zuoye.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+            <state relative-caret-position="226">
+              <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -96,8 +106,8 @@
       <file leaf-file-name="emp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/作业/db1/emp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="148">
+              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -115,11 +125,14 @@
     <findStrings>
       <find>li_txt</find>
       <find>itcast_teacher</find>
-      <find>print</find>
       <find>range</find>
       <find>mulmenuoperation</find>
       <find>split</find>
       <find>title</find>
+      <find>print</find>
+      <find>select_action</find>
+      <find>search_action</find>
+      <find>logic_str</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -171,13 +184,13 @@
         <option value="$PROJECT_DIR$/015-showVirtualData/pipinstall.py" />
         <option value="$PROJECT_DIR$/010-fileTest/001-lookfile.py" />
         <option value="$PROJECT_DIR$/作业/作业练习.py" />
-        <option value="$PROJECT_DIR$/作业/003-zuoye.py" />
         <option value="$PROJECT_DIR$/作业/account.txt" />
         <option value="$PROJECT_DIR$/作业/001-第二次作业.py" />
         <option value="$PROJECT_DIR$/作业/002-综合作业.py" />
         <option value="$PROJECT_DIR$/喜马拉雅爬虫/mayaSpider.py" />
         <option value="$PROJECT_DIR$/喜马拉雅爬虫/allDataMaYaSpider.py" />
         <option value="$PROJECT_DIR$/作业/购物车.py" />
+        <option value="$PROJECT_DIR$/作业/003-zuoye.py" />
         <option value="$PROJECT_DIR$/作业/004-第三次作业.py" />
       </list>
     </option>
@@ -276,7 +289,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="002-综合作业" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="003-zuoye" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python测试" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -289,7 +302,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/002-综合作业.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/003-zuoye.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -410,19 +423,19 @@
     <list>
       <item itemvalue="Python tests.Unittests in test1.py" />
       <item itemvalue="Python.PythonListTest" />
-      <item itemvalue="Python.002-综合作业" />
       <item itemvalue="Python.mayaSpider" />
       <item itemvalue="Python.allDataMaYaSpider" />
       <item itemvalue="Python.购物车" />
       <item itemvalue="Python.004-第三次作业" />
+      <item itemvalue="Python.003-zuoye" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.004-第三次作业" />
+        <item itemvalue="Python.003-zuoye" />
         <item itemvalue="Python.购物车" />
         <item itemvalue="Python.allDataMaYaSpider" />
         <item itemvalue="Python.mayaSpider" />
-        <item itemvalue="Python.002-综合作业" />
       </list>
     </recent_temporary>
   </component>
@@ -482,20 +495,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1692" y="23" width="1646" height="1015" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5034965" side_tool="true" weight="0.36820084" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4965035" visible="true" weight="0.31808278" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4965035" weight="0.1949891" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32899022" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32899022" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3398693" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992248" visible="true" weight="0.13653366" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992248" visible="true" weight="0.13778055" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="SciView" order="4" weight="0.3297568" />
       <window_info id="Structure" order="1" sideWeight="0.5007752" side_tool="true" weight="0.17617449" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38017428" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41503268" />
       <window_info id="Favorites" order="2" sideWeight="0.5007752" side_tool="true" weight="0.17617449" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -516,6 +530,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/作业/004-第三次作业.py</url>
+          <line>468</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -523,7 +544,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="35" />
+      <option name="time" value="49" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -830,13 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="320" column="74" lean-forward="true" selection-start-line="320" selection-start-column="74" selection-end-line="320" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/作业/001-第二次作业.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
@@ -851,24 +865,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/db1/emp">
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="250">
+          <caret line="298" column="21" lean-forward="true" selection-start-line="298" selection-start-column="21" selection-end-line="298" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/作业/003-zuoye.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+        <state relative-caret-position="226">
+          <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/db1/emp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/作业/004-第三次作业.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="99" column="7" lean-forward="true" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
+        <state relative-caret-position="125">
+          <caret line="479" column="28" lean-forward="true" selection-start-line="479" selection-start-column="28" selection-end-line="479" selection-end-column="28" />
         </state>
       </provider>
     </entry>

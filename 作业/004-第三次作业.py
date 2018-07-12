@@ -125,32 +125,44 @@ def handle_sql_parse(sql_l,sql_dic):
         if tag:
             # 标识为true 就把对应的item放到上次循环中对应的key中
             # 根据上一步的item 在字典中取出对应的列表添加元素
+            # 以select为例，输入select * from db1.emp where id > 24
+            # 返回{'func': <function select_action at 0x10343f598>, 'select': ['*'], 'from': ['db1.emp'], 'where': ['id', '>', '24'], 'limit': []}
             sql_dic[key].append(item)
 
     if sql_dic.get('where'):
-        print(sql_dic)
+        # 单独处理where,返回之后的字典，就是把where中的比较字符每一个条件处理成了一个数组
+        #{'func': < function select_action at 0x102ecf598 >, 'select': ['*'],'from': ['db1.emp'], 'where': [['id', '>', '24']], 'limit': []}
         sql_dic['where'] = sql_where_parse(sql_dic.get('where'))
 
     return sql_dic
 
 def sql_where_parse(sql_where_l):
+    '''
+    处理where语句 <class 'list'>: ['id', '>', '10', 'and', 'id', '<14', 'or', 'name', 'like', '李']
+    :param sql_where_l:
+    :return:
+    '''
     result = []
     key = ['and','or','not']
     char = '' #拼接字符显示
     for value in sql_where_l:
         if len(value) == 0:continue
-        if value in key: #如果是逻辑运算
+        # 如果是逻辑运算
+        if value in key:
             if len(char) != 0:
                 char = logic_parse(char)
                 result.append(char)
                 result.append(value)
                 char = '' #每次都清空
         else:
+            # 先处理 and or not 这个三个特殊的逻辑运算符，例如上面的例子中，先把id>10作为一个整体放入char中，遍历到and的时候再对char处理
+            # 调用logic_parse()函数进行处理，将id>10处理为一个列表['id','>','10']，将列表添加到外围的列表中，同时添加逻辑运算符，清空char
+            # 再次运行
             char+=value
     else:
+        # 处理最后一个char字符，变为列表
         char = logic_parse(char)
         result.append(char)
-
     return result
 
 
@@ -167,6 +179,8 @@ def logic_parse(logic_str):
     flag = False #添加的标识位
     option = '' #记录是否是运算符
     for value in logic_str:
+        # age>10，类似于这样的字符串，逐个处理，如果不是运算符，就拼接字符，直到是运算符为止，
+        # 将字符添加到数组中，再次判断是否是运算符，拼接运算符，如果不是运算符 就将运算符也添加到数组中，依次循环
         if value in key:
             flag = True
             if len(char) != 0:
@@ -200,6 +214,14 @@ def sql_action(sql_dic):
     字典中提取命令 分发给对应的具体指令去执行
     :param sql_dic:
     :return:
+    根据传入的字典，调用对用的方法，
+    sql_dic = {
+        'func':select_action,
+        'select': [],
+        'from': [],
+        'where': [],
+        'limit': [],
+    }
     '''
     return sql_dic.get('func')(sql_dic)
 
@@ -210,6 +232,7 @@ def select_action(sql_dic):
     :param sql_dic:
     :return:
     '''
+    # 解析路径
     if '.' in sql_dic['from'][0]:
         file_path = sql_dic['from'][0].replace('.','/')
     else:
@@ -244,6 +267,7 @@ def delete_action(sql_dic):
     else:
         file_path = sql_dic['from'][0]
     titles = "id,name,age,phone,dept,enroll_date".split(',')
+    # 创建一个临时文件复制指定文件的内容，完成之后，删除源文件，修改临时文件的名称
     with open(file_path,'r',encoding='utf-8') as r_obj,\
             open("%s.txt" %file_path,'w',encoding='utf-8') as w_obj:
         for item in r_obj:
@@ -303,9 +327,6 @@ def update_action(sql_dic):
     os.rename("%s.txt" % file_path, file_path)
     return [['修改成功']]
 
-
-
-
 def insert_action(sql_dic):
     '''
     'func': insert_action,
@@ -323,6 +344,7 @@ def insert_action(sql_dic):
     print(file_path)
     titles = "id,name,age,phone,dept,enroll_date".split(',')
     with open(file_path,'ab+') as f_obj:
+        # 查询文件的最后一行
         offset = -50
         while True:
             # seek(offset,可选值) 可选值默认为0 从文件开头算 1 从当前位置开始算 2从文件末尾算
@@ -356,13 +378,15 @@ def where_action(filehandler,whele_sql):
     :return:
     '''
     result = []
-    logic_str = ['and','or','not']
     titles = 'id,name,age,phone,dept,enroll_data'.split(',')
     if len(whele_sql) != 0:
         for line in filehandler:
             # zip 转化为一个元祖，如果两个队列长度不一致，以短的返回一个元祖
+            #tem_dict={'id': '1', 'name': '姬建明', 'age': '25', 'phone': '15201541043', 'dept': '运维', 'enroll_data': '2013-11-01\n'}
             tem_dic = dict(zip(titles,line.split(',')))
+            # 处理逻辑运算符中的数据
             logic_res = logic_action(tem_dic,whele_sql)
+            # 返回为true的时候，添加数据到列表中
             if logic_res:
                 result.append(line.split(','))
     else:
@@ -377,8 +401,10 @@ def logic_action(dic,where_sql):
     :param where_sql:
     :return:
     '''
+    # [['id', '>', '10'], 'and', ['id', '<', '14'], 'or', ['name', 'like', '李']]
     result = []
     for item in where_sql:
+        # 过滤掉and or not 等逻辑运算符
         if type(item) is list:
             # print(item,dic)
             prop,option,value = item
@@ -400,10 +426,17 @@ def logic_action(dic,where_sql):
                     flag = 'True'
                 else:
                     flag = 'False'
+        # 拼接每一个匹配的值，
         result.append(flag)
+        # 添加and进行连接
+        result.append('and')
+    #删除最后一个and
+    result.pop()
+    # 计算数组中的表达式的值
+    res = eval(' '.join(result))
 
     # 将result中的bool值进行处理，并计算所有bool值的最后结果
-    return eval(' '.join(result))
+    return res
 
 def limit_action(where_res,limit_l):
     '''
@@ -412,7 +445,7 @@ def limit_action(where_res,limit_l):
     :param limit_l:
     :return:
     '''
-    result = []
+    # 根据传入的limit 做一个切片处理
     if len(limit_l) != 0:
         return where_res[0:int(limit_l[0])]
     else:
@@ -435,46 +468,20 @@ def search_action(limit_res,select_l):
         # 循环匹配where和limit语句的执行结果
         for item in limit_res:
             # zip 转化为一个元祖，如果两个队列长度不一致，以短的返回一个元祖
-            temp_dict = dict(zip(titles,item.split(',')))
+            #{'id': '25', 'name': '张国辉', 'age': '30', 'phone': '18500841678', 'dept': '运维', 'enroll_data': '2007-8-1\n'}
+            temp_dict = dict(zip(titles,item))
             condition_l = []
 
             fileds_l = select_l
             for i in fileds_l:
                 condition_l.append(temp_dict[i].strip())
             result.append(condition_l)
+    #只返回搜索的字段名
     return (fileds_l,result)
 
 
-
-
-def openfile():
-    with open('db1/emp','r',encoding='utf-8') as r_obj:
-        print(r_obj.read())
-
-
-
-
 if __name__ == "__main__":
-
-    # myList = ['True', 'or', 'False', 'or', 'true']
-    # res = eval(' '.join(myList))
-    # print(res)
-
-
-    # with open('db1/emp','ab+') as f_obj:
-    #     offset = -50
-    #     while True:
-    #         f_obj.seek(offset,2)
-    #         lines = f_obj.readlines()
-    #         if len(lines) > 1:
-    #             line = lines[-1]
-    #             break
-    #         offset *= 2
-    #     # 以二进制打开的文件，要对字符串解码
-    #     print(line.decode(encoding='utf-8'))
-
     while True:
-
         print('''
         支持大小写的SQL语句查询，大写或者小写都可以
         1. select * from db1.emp
@@ -496,7 +503,9 @@ if __name__ == "__main__":
         #开始解析sql语句
         sql_dic = sql_parse(sql)
         print(sql_dic)
+        # 拿到处理好的sql语句开始查询
         result = sql_action(sql_dic)
+        print('*'*30 + '查询结果' + '*'*30)
         for value in result[-1]:
             print(value)
-
+        print('*'*30 + '查询完毕' + '*'*30)

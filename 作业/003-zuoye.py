@@ -81,5 +81,8 @@ def changAllAccount(account):
             file_object.write(user + '\n')
 
 #开始登录
-login()
+# login()
+
+result = ['True','False','True','False','True']
+print(eval(' '.join(result)))
 
