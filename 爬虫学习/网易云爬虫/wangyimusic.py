@@ -1,8 +1,9 @@
 # 引入python GUI类库创建界面
 from tkinter import *
 import requests
-# 解析html
 from bs4 import BeautifulSoup
+import os
+import getpass
 
 header = {
              "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
@@ -10,34 +11,53 @@ header = {
 
 # 爬取网页数据
 def download_song():
+    # 删除listBox里面的所有的内容
+    text.delete(0,END)
     # 获取用户输入的URL地址
-    #  url = entry.get()
+    url = entry.get()
     # 下载的url https://music.163.com/#/playlist?id=2302000737
-    url = "https://music.163.com/playlist?id=2302000737"
+    # url = "https://music.163.com/playlist?id=2302000737"
     song_url = "http://music.163.com/song/media/outer/url?id={}"
     result = requests.get(url,headers=header)
     html = BeautifulSoup(result.text,'html.parser')
     print(html)
     musics = html.find('ul',{'class','f-hide'}).find_all('a')
     music_dict = {}
-    for music in musics[0:1]:
+    for music in musics:
         music_id = music.get('href').strip('/song?id=')
         music_name = music.text
         music_dict[music_id] = music_name
 
-
-    # 拿到下载路径和文件保存路径
-    for k,v in music_dict.items():
+    for k, v in music_dict.items():
         download_url = song_url.format(k)
-        save_path = '/Users/zitang/Download/musics/%s.mp3' %v
-        #开始下载数据
-        result = requests.get(download_url,headers=header)
-        with open(save_path,'wb') as w_obj:
-            w_obj.write(result)
+        saveMusic(download_url,v)
 
 
 
-download_song()
+
+
+def saveMusic(download_url,music_name):
+    # 拿到下载路径和文件保存路径
+    #在listbox中输出正在下载的文件和状态
+    text.insert(END,'正在下载>>>>:' + music_name)
+    # /Users/zitang/Downloads
+    file_path = '/Users/'+getpass.getuser()+'/Downloads/musics'
+    if not os.path.exists(file_path):
+        os.makedirs(file_path)
+
+    save_path = file_path + '/%s.mp3' % music_name
+    print(save_path)
+
+    # 开始下载数据
+    result = requests.get(download_url, headers=header)
+    with open(save_path, 'wb') as w_obj:
+        w_obj.write(result.content)
+    text.insert(END,'下载完成:>>>>' + music_name)
+    # 跳转到指定的item索引位置
+    text.see(text.size()-1)
+
+
+
 
 
 # 创建窗口
@@ -66,13 +86,13 @@ text = Listbox(root,font=('微软雅黑',15),width=55,height=10)
 text.grid(row=1,columnspan=2)
 
 
-# 添加下载按钮和退出按钮
-download = Button(root,text='开始下载',font=('微软雅黑',15),width=10,height=2)
+# 添加下载按钮和退出按钮，command设置按钮的点击事件
+download = Button(root,text='开始下载',font=('微软雅黑',15),width=10,height=2,command=download_song)
 # 添加最后的对齐方式
 # sticky对齐方式 N S W E
 download.grid(row=2,column=0,sticky=W)
 
-exit = Button(root,text='退出',font=('微软雅黑',15),width=10,height=2,command=root.quit())
+exit = Button(root,text='退出',font=('微软雅黑',15),width=10,height=2,command=root.quit)
 # 添加最后的对齐方式
 # sticky对齐方式 N S W E
 exit.grid(row=2,column=1,sticky=E)
