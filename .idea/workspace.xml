@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d7f6578-3738-4bc4-9207-53184fcaeb63" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/爬虫学习/网易云爬虫/wangyimusic.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫学习/网易云爬虫/wangyimusic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫学习/tkinter测试/lovepic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫学习/tkinter测试/myTKShowDemo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,6 +43,7 @@
     <SUITE FILE_PATH="coverage/Python_$004_.coverage" NAME="004-第三次作业 Coverage Results" MODIFIED="1531362987195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
     <SUITE FILE_PATH="coverage/Python_$neihanspider.coverage" NAME="neihanspider Coverage Results" MODIFIED="1528009589706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/020-爬虫练习" />
     <SUITE FILE_PATH="coverage/Python_$python_repos.coverage" NAME="python_repos Coverage Results" MODIFIED="1529549904198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/017-useAPI" />
+    <SUITE FILE_PATH="coverage/Python_$myTKShowDemo.coverage" NAME="myTKShowDemo Coverage Results" MODIFIED="1531734841862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫学习/tkinter测试" />
     <SUITE FILE_PATH="coverage/Python_$allDataMaYaSpider.coverage" NAME="allDataMaYaSpider Coverage Results" MODIFIED="1530851741285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/喜马拉雅爬虫" />
     <SUITE FILE_PATH="coverage/Python_$001_lookfile.coverage" NAME="001-lookfile Coverage Results" MODIFIED="1529892836369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/010-fileTest" />
     <SUITE FILE_PATH="coverage/Python_$001_functionTest.coverage" NAME="001-functionTest Coverage Results" MODIFIED="1525836089932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/008-functionTest" />
@@ -87,13 +90,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wangyimusic.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wangyimusic.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/爬虫学习/网易云爬虫/wangyimusic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="-1206">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
               <folding>
                 <element signature="e#21#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myTKShowDemo.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/爬虫学习/tkinter测试/myTKShowDemo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+              <folding>
+                <element signature="e#32#53#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,7 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/010-fileTest/pi_mycircle.txt" />
         <option value="$PROJECT_DIR$/010-fileTest/003-countfile.py" />
         <option value="$PROJECT_DIR$/010-fileTest/learningpython.txt" />
         <option value="$PROJECT_DIR$/010-fileTest/004-jsonfile.py" />
@@ -184,6 +198,7 @@
         <option value="$PROJECT_DIR$/作业/004-第三次作业.py" />
         <option value="$PROJECT_DIR$/爬虫学习/网易云爬虫/demo.py" />
         <option value="$PROJECT_DIR$/爬虫学习/网易云爬虫/wangyimusic.py" />
+        <option value="$PROJECT_DIR$/爬虫学习/tkinter测试/myTKShowDemo.py" />
       </list>
     </option>
   </component>
@@ -210,6 +225,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,7 +242,7 @@
               <item name="Python-" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python-" type="462c0819:PsiDirectoryNode" />
               <item name="爬虫学习" type="462c0819:PsiDirectoryNode" />
-              <item name="喜马拉雅爬虫" type="462c0819:PsiDirectoryNode" />
+              <item name="tkinter测试" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python-" type="b2602c69:ProjectViewProjectNode" />
@@ -238,7 +254,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,11 +263,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/爬虫学习/tkinter测试" />
       <recent name="$PROJECT_DIR$/爬虫学习" />
       <recent name="$PROJECT_DIR$/作业" />
       <recent name="$PROJECT_DIR$/009-class" />
       <recent name="$PROJECT_DIR$/012-AirShipGame/images" />
-      <recent name="$PROJECT_DIR$/012-AirShipGame" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -267,7 +282,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.wangyimusic">
+  <component name="RunManager" selected="Python.myTKShowDemo">
     <configuration name="购物车" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python测试" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -344,7 +359,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="allDataMaYaSpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="myTKShowDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python测试" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -352,12 +367,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/喜马拉雅爬虫" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫学习/tkinter测试" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/喜马拉雅爬虫/allDataMaYaSpider.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫学习/tkinter测试/myTKShowDemo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -421,19 +436,19 @@
     <list>
       <item itemvalue="Python tests.Unittests in test1.py" />
       <item itemvalue="Python.PythonListTest" />
-      <item itemvalue="Python.allDataMaYaSpider" />
       <item itemvalue="Python.购物车" />
       <item itemvalue="Python.004-第三次作业" />
       <item itemvalue="Python.003-zuoye" />
       <item itemvalue="Python.wangyimusic" />
+      <item itemvalue="Python.myTKShowDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.myTKShowDemo" />
         <item itemvalue="Python.wangyimusic" />
         <item itemvalue="Python.004-第三次作业" />
         <item itemvalue="Python.003-zuoye" />
         <item itemvalue="Python.购物车" />
-        <item itemvalue="Python.allDataMaYaSpider" />
       </list>
     </recent_temporary>
   </component>
@@ -498,16 +513,16 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5034965" side_tool="true" weight="0.36820084" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4965035" weight="0.36923078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4965035" weight="0.0" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32899022" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.03846154" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992248" visible="true" weight="0.16165951" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.29102564" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992248" visible="true" weight="0.16380544" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="SciView" order="4" weight="0.3297568" />
       <window_info id="Structure" order="1" sideWeight="0.5007752" side_tool="true" weight="0.17617449" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41282052" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2846154" />
       <window_info id="Favorites" order="2" sideWeight="0.5007752" side_tool="true" weight="0.17617449" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -546,20 +561,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/008-functionTest/make_pizza.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/008-functionTest/002-yield.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/009-class/001-createClass.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
@@ -867,13 +868,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫学习/网易云爬虫/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫学习/网易云爬虫/setup.py" />
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/getpass.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4">
@@ -881,12 +876,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫学习/tkinter测试/lovepic.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/爬虫学习/网易云爬虫/wangyimusic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        <state relative-caret-position="-1206">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding>
             <element signature="e#21#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫学习/tkinter测试/myTKShowDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+          <folding>
+            <element signature="e#32#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
