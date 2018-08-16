@@ -25,7 +25,7 @@ urlpatterns = [
     # 直接搜索 polls/id
     url(r'^(?P<question_id>[0-9]+)/$',views.detail,name='detail'),
     # 直接访问 polls/id/results
-    url(r'^(?P<question_id>[0-9]+)/results/$',views.results,name='result'),
+    url(r'^(?P<question_id>[0-9]+)/results/$',views.results,name='results'),
     # 直接访问 polls/id/vote
     url(r'^(?P<question_id>[0-9]+)/vote/$',views.vote,name='vote'),
 ]

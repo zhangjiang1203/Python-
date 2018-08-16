@@ -1,18 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>问题详细</title>
-</head>
-<body>
 
-<p>{{ question.question_text }}</p>
 
-<ul>
+<h1>{{ question.question_text }}</h1>
+
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+
+{#提交表单，提交表单之后跳到vote界面进行展示#}
+<form action="{% url 'polls:vote' question.id %}" method='post'>
+
+{# 避免跨站请求伪造的安全问题 #}
+    {% csrf_token %}
     {% for choice in question.choice_set.all %}
-    <li>{{ choice.choice_text }}</li>
+    <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}">
+    <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label>
+    {#添加文字关联，点击文字也可以响应  #}
     {% endfor %}
-</ul>
+    <input type="submit" value="Vote">
 
-</body>
-</html>
+</form>

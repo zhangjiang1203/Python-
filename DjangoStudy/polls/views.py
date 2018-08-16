@@ -1,7 +1,8 @@
-from django.shortcuts import render
+from django.shortcuts import render,get_object_or_404
 #404 模块显示问题
-from django.http import HttpResponse,Http404
-from .models import Question
+from django.http import HttpResponse,Http404,HttpResponseRedirect
+from .models import Question, Choice
+from django.urls import reverse
 # from django.template import loader
 
 '''
@@ -32,8 +33,29 @@ def detail(request,question_id):
 
 
 def results(request,question_id):
-    response = "You're looking at the result of question %s"
-    return HttpResponse(response % question_id)
+    # response = "You're looking at the result of question %s"
+    question = get_object_or_404(Question,pk=question_id)
+    return render(request,'polls/results.html',{"question":question})
 
 def vote(request,question_id):
-    return HttpResponse("You're voting on question %s." %question_id)
+    '''
+    投票的选项
+    :param request:
+    :param question_id:
+    :return:
+    '''
+    question = get_object_or_404(Question,pk=question_id)
+    try:
+        selected_choice = question.choice_set.get(pk=request.POST['choice'])
+    except (KeyError,Choice.DoesNotExist):
+        #发生choice未找到异常时，重新返回表单页面，并给出提示信息
+        return render(request,'polls/detail.html',{
+            'question':question,
+            'error_message':"You don't select a choice",
+        })
+    else:
+        selected_choice.votes += 1
+        # 保存信息
+        selected_choice.save()
+    # 返回一个重定向的URL
+    return HttpResponseRedirect(reverse('polls:results',args=(question.id,)))
