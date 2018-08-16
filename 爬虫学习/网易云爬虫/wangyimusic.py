@@ -15,15 +15,15 @@ def download_song():
     text.delete(0,END)
     # 获取用户输入的URL地址
     url = entry.get()
-    # 下载的url https://music.163.com/#/playlist?id=2302000737
     # url = "https://music.163.com/playlist?id=2302000737"
     song_url = "http://music.163.com/song/media/outer/url?id={}"
     result = requests.get(url,headers=header)
     html = BeautifulSoup(result.text,'html.parser')
     print(html)
     musics = html.find('ul',{'class','f-hide'}).find_all('a')
+    print(musics)
     music_dict = {}
-    for music in musics:
+    for music in musics[:5]:
         music_id = music.get('href').strip('/song?id=')
         music_name = music.text
         music_dict[music_id] = music_name
@@ -31,9 +31,6 @@ def download_song():
     for k, v in music_dict.items():
         download_url = song_url.format(k)
         saveMusic(download_url,v)
-
-
-
 
 
 def saveMusic(download_url,music_name):
@@ -55,9 +52,6 @@ def saveMusic(download_url,music_name):
     text.insert(END,'下载完成:>>>>' + music_name)
     # 跳转到指定的item索引位置
     text.see(text.size()-1)
-
-
-
 
 
 # 创建窗口
