@@ -17,7 +17,9 @@ class Question(models.Model):
 
     # 判断问卷最近是否发布过
     def was_published_recently(self):
-        return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
+        # 限制发布日期在一天以内
+        now = timezone.now()
+        return now - datetime.timedelta(days=1) <= self.pub_date <= now
 
 
 @python_2_unicode_compatible

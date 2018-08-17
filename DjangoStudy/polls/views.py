@@ -1,13 +1,48 @@
 from django.shortcuts import render,get_object_or_404
 #404 模块显示问题
-from django.http import HttpResponse,Http404,HttpResponseRedirect
+from django.http import Http404,HttpResponseRedirect
 from .models import Question, Choice
 from django.urls import reverse
+from django.views import generic
 # from django.template import loader
+
+# 重新定义视图，替换成Django的类视图
+
+class IndexView(generic.ListView):
+    '''
+    index视图，继承listView，显示一个对象列表
+    template_name 属性指定模板的名称
+    context_object_name指定为latest_question_list和模板中的变量名对应
+    '''
+    template_name = 'polls/index.html'
+    context_object_name = 'latest_question_list'
+    def get_queryset(self):
+        #返回最近发布的5个问卷
+        return Question.objects.order_by('-pub_date')[:5]
+
+
+class DetailView(generic.DetailView):
+    '''
+    详情界面
+    '''
+    model = Question
+    template_name = 'polls/detail.html'
+
+
+class ResultsView(generic.DetailView):
+    '''
+    结果界面
+    '''
+    model = Question
+    template_name = 'polls/results.html'
+
+
 
 '''
 下面定义的每一个方法就是一个视图，包含index detail results vote 这四个视图
 '''
+
+"""
 def index(request):
     latest_question_list = Question.objects.order_by('-pub_date')[:5]
     # template = loader.get_template('polls/index.html')
@@ -36,6 +71,8 @@ def results(request,question_id):
     # response = "You're looking at the result of question %s"
     question = get_object_or_404(Question,pk=question_id)
     return render(request,'polls/results.html',{"question":question})
+    
+"""
 
 def vote(request,question_id):
     '''

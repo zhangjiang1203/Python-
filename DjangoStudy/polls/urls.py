@@ -21,13 +21,23 @@ urlpatterns = [
     # url路由设置
     # url(r'^$',views.index,name='index'),
     # path路由设置
-    url('^$', views.index,name='index'),
+    url('^$', views.IndexView.as_view(),name='index'),
     # 直接搜索 polls/id
-    url(r'^(?P<question_id>[0-9]+)/$',views.detail,name='detail'),
+    url(r'^(?P<pk>[0-9]+)/$',views.DetailView.as_view(),name='detail'),
     # 直接访问 polls/id/results
-    url(r'^(?P<question_id>[0-9]+)/results/$',views.results,name='results'),
+    url(r'^(?P<pk>[0-9]+)/results/$',views.ResultsView.as_view(),name='results'),
     # 直接访问 polls/id/vote
     url(r'^(?P<question_id>[0-9]+)/vote/$',views.vote,name='vote'),
+
+    # 不使用类视图的URL设置方法
+    #url('^$', views.index,name='index'),
+    # 直接搜索 polls/id
+    #url(r'^(?P<question_id>[0-9]+)/$',views.detail,name='detail'),
+    # 直接访问 polls/id/results
+    #url(r'^(?P<question_id>[0-9]+)/results/$',views.result,name='results'),
+    # 直接访问 polls/id/vote
+    #url(r'^(?P<question_id>[0-9]+)/vote/$',views.vote,name='vote'),
+
 ]
 
 # 刚开始创建的时候 urlpattrens = {}  默认的是{}  修改为[]  就可以访问http://127.0.0.1:8000/admin/
