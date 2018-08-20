@@ -34,7 +34,27 @@ class Choice(models.Model):
 
     def __str__(self):
         return self.choice_text
+'''
+  添加了模型之后，我们要启用模型，Django会做下面的两件事
+  1.创建该app对应的数据库表结构
+  2.为Question和Choice对象创建基于Python的数据库访问API
+  
+  启用步骤：
+  在项目setting.py文件中查找INSTALLED_APPS字段，配置App路径'polls.apps.PollsConfig'或者直接简写为'polls'
+  运行一下以下的命令
+  python manage.py makemigrations polls
+  告诉Django你对模型有改动，并且想要保存这些改动
+  下面的命令就是展示后台执行的sql语句
+  python manage.py sqlmigrate polls 0001
+  同步数据
+  python manage.py migrate
+  
+  
+  在models.py中修改模型；
+  运行python manage.py makemigrations为改动创建迁移记录；
+  运行python manage.py migrate，将操作同步到数据库
 
+'''
 
 
 '''
