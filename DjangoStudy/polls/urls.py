@@ -18,6 +18,7 @@ urlpatterns = [
     # 参数4：name对url命名，在模板内部显式的引用它
     # path多了一个patten参数
 
+
     # url路由设置
     # url(r'^$',views.index,name='index'),
     # path路由设置
@@ -27,7 +28,9 @@ urlpatterns = [
     # 直接访问 polls/id/results
     url(r'^(?P<pk>[0-9]+)/results/$',views.ResultsView.as_view(),name='results'),
     # 直接访问 polls/id/vote
-    url(r'^(?P<question_id>[0-9]+)/vote/$',views.vote,name='vote'),
+    url(r'^(?P<question_id>[0-9]+)/vote/$',views.vote,name='vote')
+
+
 
     # 不使用类视图的URL设置方法
     #url('^$', views.index,name='index'),
