@@ -35,7 +35,7 @@ class Choice(models.Model):
     def __str__(self):
         return self.choice_text
 '''
-  添加了模型之后，我们要启用模型，Django会做下面的两件事
+  添加了模型之后，我们要启用模型，Django会做下面的两件事，
   1.创建该app对应的数据库表结构
   2.为Question和Choice对象创建基于Python的数据库访问API
   
