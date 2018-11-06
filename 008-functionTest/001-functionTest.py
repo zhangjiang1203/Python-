@@ -119,6 +119,7 @@ def add(x,y):
     return x + y;
 # print(reduce(add,l4))
 # print(l4.reduce())
+mylist =  [j**2 for j in range(1,11)]
 
 for i in [j**2 for j in range(1,11)]:
     print(i)

@@ -66,3 +66,10 @@ for alien in aliens[0:5]:
     print(alien)
 
 
+s = "hello zhangsan hello lisi hello everyone"
+l = s.split()#分割为数组
+dict = {}
+word_count = set(l)#元素去重
+for word in word_count:
+    dict[word] = s.count(word)
+print(dict)

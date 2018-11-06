@@ -83,6 +83,4 @@ def changAllAccount(account):
 #开始登录
 # login()
 
-result = ['True','False','True','False','True']
-print(eval(' '.join(result)))
 
