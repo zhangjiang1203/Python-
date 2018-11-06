@@ -165,16 +165,16 @@ if __name__ == "__main__":
                         choice = input("请输入商品编号进行购买，输入q退出:>>>").strip()
                         if choice.lower() == "q":
                             if len(shopCar) == 0: shopFlag = False
-                            print("已购买商品".center(80,"*"))
-                            print("id          商品           数量          单价          总价")
+                            print("\033[31m已购买商品\033[0m".center(80,"*"))
+                            print("\033[31mid          商品           数量          单价          总价\033[0m")
                             total = 0
                             for i,key in enumerate(shopCar):
-                                print("%s%18s%10s%13s%13s" %(i,key,shopCar[key]["count"],
+                                print("\033[31m%s%18s%10s%13s%13s\033[0m" %(i,key,shopCar[key]["count"],
                                                              shopCar[key]["price"],
                                                              shopCar[key]["price"]*shopCar[key]["count"]))
                                 total += shopCar[key]["price"]*shopCar[key]["count"]
 
-                            print("end".center(80, "*"))
+                            print("\033[31mend\033[0m".center(80, "*"))
                             print("\033[31m此次购物总花费: %s  你的余额为: %s\033[0m" %(total,user_balance))
                             while shopFlag:
                                 confirm = input("确定要购买吗？(y/n)").strip().lower()
@@ -187,7 +187,7 @@ if __name__ == "__main__":
                                         user["salary"] = user_balance
                                         users.append(user)
                                         shopFlag = False
-                            print("*" * 40 + "end" + '*' * 40)
+
                         if choice.isdigit():
                             choice = int(choice)
                             if choice < 0 or choice >= len(product_list): continue
