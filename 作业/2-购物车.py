@@ -10,6 +10,7 @@ import os
 file_name = 'account.txt'
 loginInfo = []
 shopCar = {}
+shopFlag = True
 
 product_list = [['Iphone7',5800],
                 ['Coffee',30],
@@ -127,7 +128,7 @@ def registerAccount():
                     salary = input("请输入薪资>>>").strip()
                     if salary.isdigit():
                         # 保存用户信息
-                        temp = {'account': account, 'salary': salary, 'loginCount': 0, 'password': confirm}
+                        temp = {'account': account, 'salary': float(salary), 'loginCount': 0, 'password': confirm}
                         users.append(temp)
                         changAllAccount(users)
                         flag = False
@@ -135,10 +136,84 @@ def registerAccount():
                         print("\033[0m输入有误\033[0m")
 
 
+#购物
+def shoppingAction():
+    global shopFlag
+    global shopCar
+    if len(loginInfo) == 0:
+        print("\033[31m还没有登录，请先登录\033[0m")
+        login()
+    else:
+        user_name = loginInfo[0]
+        user_balance = loginInfo[1]
+        print("\033[32m尊敬的用户 %s 你的余额为%s,预祝你购物愉快\033[0m" % (user_name, user_balance))
+
+        while shopFlag:
+            for index, shop in enumerate(product_list):
+                print(index, shop)
+            choice = input("请输入商品编号进行购买，输入q退出:>>>").strip()
+            if choice.isdigit():
+                choice = int(choice)
+                if choice < 0 or choice >= len(product_list): continue
+                # 添加商品，展示用户余额信息。若是余额不够就提示用户金钱不足
+                goods = product_list[choice]
+                # 修改金额
+                good_price = goods[1]
+                good_name = goods[0]
+                if user_balance >= good_price:
+                    if good_name in shopCar:
+                        # 之前已经添加到购物车
+                        shopCar[good_name]["count"] += 1
+                    else:
+                        shopCar[good_name] = {"price": good_price, "count": 1}
+                    user_balance -= goods[1]
+                    # 更新用户余额
+                    loginInfo[1] = user_balance
+                    # 输出购买数据
+                    print("\033[34m%s已添加到购物车，剩余金额%s\033[0m" % (good_name, str(user_balance)))
+                else:
+                    print("\033[31m余额不足，还差%s元，请充值🤣🤣🤣🤣\033[0m" % (good_price-user_balance))
+            else:
+                if choice.lower() == "q":
+                    if len(shopCar) == 0: shopFlag = False
+                    print("\033[31m已购买商品\033[0m".center(80, "*"))
+                    print("\033[31mid          商品           数量          单价          总价\033[0m")
+                    total = 0
+                    for i, key in enumerate(shopCar):
+                        print("\033[31m%s%18s%10s%13s%13s\033[0m" % (i, key, shopCar[key]["count"],
+                                                                     shopCar[key]["price"],
+                                                                     shopCar[key]["price"] * shopCar[key]["count"]))
+                        total += shopCar[key]["price"] * shopCar[key]["count"]
+
+                    print("\033[31mend\033[0m".center(80, "*"))
+                    while shopFlag:
+                        confirm = input("确定要购买吗？(y/n)").strip().lower()
+                        if confirm not in ['y', 'n']: continue
+                        # 修改账号余额，清空购物车
+                        if confirm == "y":
+                            users = getUseraccount()
+                            for user in users[:]:
+                                if user["account"] == user_name:
+                                    print("\033[31m此次购物总花费: %s  你的余额为: %s\033[0m" % (total, user_balance))
+                                    users.remove(user)
+                                    user["salary"] = user_balance
+                                    users.append(user)
+                                    changAllAccount(users)
+                                    shopFlag = False
+                                    shopCar = {}
+                                    continue
+                        else:
+                            # 清空购物车
+                            shopCar = {}
+                            shopFlag = False
+                else:
+                    print("\033[31m请输入商品编号\033[0m")
+
+
 
 if __name__ == "__main__":
 
-    while True:
+    while shopFlag:
         print("""
         1.登录
         2.注册
@@ -151,65 +226,6 @@ if __name__ == "__main__":
             if choice == "2":
                 registerAccount()
             if choice == "3":
-                if len(loginInfo) == 0:
-                    print("\033[31m还没有登录，请先登录\033[0m")
-                    login()
-                else:
-                    user_name = loginInfo[0]
-                    user_balance = loginInfo[1]
-                    print("\033[32m尊敬的用户 %s 你的余额为%s,预祝你购物愉快\033[0m" %(user_name,user_balance))
-                    shopFlag = True
-                    while shopFlag:
-                        for index,shop in enumerate(product_list):
-                            print(index,shop)
-                        choice = input("请输入商品编号进行购买，输入q退出:>>>").strip()
-                        if choice.lower() == "q":
-                            if len(shopCar) == 0: shopFlag = False
-                            print("\033[31m已购买商品\033[0m".center(80,"*"))
-                            print("\033[31mid          商品           数量          单价          总价\033[0m")
-                            total = 0
-                            for i,key in enumerate(shopCar):
-                                print("\033[31m%s%18s%10s%13s%13s\033[0m" %(i,key,shopCar[key]["count"],
-                                                             shopCar[key]["price"],
-                                                             shopCar[key]["price"]*shopCar[key]["count"]))
-                                total += shopCar[key]["price"]*shopCar[key]["count"]
-
-                            print("\033[31mend\033[0m".center(80, "*"))
-                            print("\033[31m此次购物总花费: %s  你的余额为: %s\033[0m" %(total,user_balance))
-                            while shopFlag:
-                                confirm = input("确定要购买吗？(y/n)").strip().lower()
-                                if confirm not in ['y','n']: continue
-                                #修改账号余额，清空购物车
-                                users = getUseraccount()
-                                for user in users[:]:
-                                    if user["accout"] == user_name:
-                                        users.remove(user)
-                                        user["salary"] = user_balance
-                                        users.append(user)
-                                        shopFlag = False
-
-                        if choice.isdigit():
-                            choice = int(choice)
-                            if choice < 0 or choice >= len(product_list): continue
-                            #添加商品，展示用户余额信息。若是余额不够就提示用户金钱不足
-                            goods = product_list[choice]
-                            #修改金额
-                            good_price = goods[1]
-                            good_name = goods[0]
-                            if user_balance >= good_price:
-                                if good_name in shopCar:
-                                    #之前已经添加到购物车
-                                    shopCar[good_name]["count"] += 1
-                                else:
-                                    shopCar[good_name] = {"price": good_price, "count": 1}
-                                user_balance -= goods[1]
-                                #更新用户余额
-                                loginInfo[1] = user_balance
-                                # 输出购买数据
-                                print("\033[34m%s已添加到购物车，剩余金额%s\033[0m" %(good_name,str(user_balance)))
-                            else:
-                                print("\033[31m余额不足，请充值\033[0m")
-                        else:
-                            print("\033[31m请输入商品编号\033[0m")
+               shoppingAction()
         else:
             print("\033[31m请输入数字\033[0m")
