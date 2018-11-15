@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32ab43cf-60a7-4075-841e-f16d1d36ea88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/作业/第三天作业/ATM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python-.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python-.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/作业/第三天作业/ATM.py" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第三天作业/ATM.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +13,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Python_$001_dictionaryTest.coverage" NAME="001-dictionaryTest Coverage Results" MODIFIED="1541041876118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/006-dictionary" />
     <SUITE FILE_PATH="coverage/Python_$.coverage" NAME="第二次作业 Coverage Results" MODIFIED="1541642847492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
-    <SUITE FILE_PATH="coverage/Python_$ATM.coverage" NAME="ATM Coverage Results" MODIFIED="1542294674971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第三天作业" />
+    <SUITE FILE_PATH="coverage/Python_$ATM.coverage" NAME="ATM Coverage Results" MODIFIED="1542295049248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第三天作业" />
     <SUITE FILE_PATH="coverage/Python_$001_circleList.coverage" NAME="001-circleList Coverage Results" MODIFIED="1541036799924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/004-List" />
     <SUITE FILE_PATH="coverage/Python_$pytest_for_001_functionTest_test3.coverage" NAME="pytest for 001-functionTest.test3 Coverage Results" MODIFIED="1541056262790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/008-functionTest" />
     <SUITE FILE_PATH="coverage/Python_$2_.coverage" NAME="2-购物车 Coverage Results" MODIFIED="1542276023465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
@@ -68,6 +65,7 @@
     <session id="760578116">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -86,12 +84,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="802" />
+          <entry key="py" value="810" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="802" />
+          <entry key="Python" value="810" />
         </counts>
       </usages-collector>
     </session>
@@ -110,11 +108,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/作业/第三天作业/ATM.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="327" column="20" lean-forward="true" selection-start-line="327" selection-start-column="20" selection-end-line="327" selection-end-column="20" />
+            <state relative-caret-position="916">
+              <caret line="295" column="28" lean-forward="true" selection-start-line="295" selection-start-column="28" selection-end-line="295" selection-end-column="28" />
               <folding>
-                <marker date="1542294674959" expanded="true" signature="7958:8085" ph="..." />
-                <marker date="1542294674959" expanded="true" signature="10399:12000" ph="..." />
+                <marker date="1542295373272" expanded="true" signature="7958:8085" ph="..." />
+                <marker date="1542295373272" expanded="true" signature="10399:12007" ph="..." />
               </folding>
             </state>
           </provider>
@@ -400,14 +398,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="27" y="23" width="1628" height="925" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19609079" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32893157" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.020408163" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26530612" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.1212485" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -629,11 +626,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/作业/第三天作业/ATM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="327" column="20" lean-forward="true" selection-start-line="327" selection-start-column="20" selection-end-line="327" selection-end-column="20" />
+        <state relative-caret-position="916">
+          <caret line="295" column="28" lean-forward="true" selection-start-line="295" selection-start-column="28" selection-end-line="295" selection-end-column="28" />
           <folding>
-            <marker date="1542294674959" expanded="true" signature="7958:8085" ph="..." />
-            <marker date="1542294674959" expanded="true" signature="10399:12000" ph="..." />
+            <marker date="1542295373272" expanded="true" signature="7958:8085" ph="..." />
+            <marker date="1542295373272" expanded="true" signature="10399:12007" ph="..." />
           </folding>
         </state>
       </provider>

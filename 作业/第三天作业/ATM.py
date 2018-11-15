@@ -292,7 +292,7 @@ def withdrawUserMoneyToUser():
         if withdrawMoney.isdigit():
             withdrawMoney = float(withdrawMoney)
             if withdrawMoney > (tempSalary*0.95):
-                print("\033[31m 大哥钱不够，赶紧充值吧 😂😂😂😂")
+                print("\033[31m 大哥钱不够，赶紧充值吧 😂😂😂😂\033[0m")
                 flag = False
             else:
                 #开始提现，修改用户数据
