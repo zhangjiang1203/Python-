@@ -1,4 +1,4 @@
-{'account': 'wang', 'salary': 17000, 'loginCount': 0, 'password': '123456'}
-{'account': 'guo', 'salary': 16000, 'loginCount': 1, 'password': '123456'}
-{'account': 'xiang', 'salary': 19000, 'loginCount': 0, 'password': '123456'}
-{'account': 'zhang', 'salary': 15000, 'loginCount': 0, 'password': '123456'}
+{'password': '123456', 'salary': 17000, 'loginCount': 0, 'account': 'wang'}
+{'password': '123456', 'salary': 16000, 'loginCount': 1, 'account': 'guo'}
+{'password': '123456', 'salary': 19000, 'loginCount': 0, 'account': 'xiang'}
+{'password': '123456', 'salary': 15000, 'loginCount': 0, 'account': 'zhang'}

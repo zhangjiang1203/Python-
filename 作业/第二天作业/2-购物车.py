@@ -8,6 +8,7 @@
 import os
 #编辑用户
 file_name = 'account.txt'
+#保存用户信息 账号 余额 密码
 loginInfo = []
 shopCar = {}
 shopFlag = True
@@ -47,7 +48,7 @@ def login():
                     users.append(user)
                     changAllAccount(users)
 
-                    loginInfo = [account,user["salary"]]
+                    loginInfo = [account,user["salary"],user['password']]
                     flag = False
                     break
                 else:
@@ -209,23 +210,90 @@ def shoppingAction():
                 else:
                     print("\033[31m请输入商品编号\033[0m")
 
+def transferccounts():
+    '''
+    转账给指定用户
+    :return:
+    '''
+    flag = True
+    while flag:
+        account = input("请输入转账账户:>>>").strip().lower()
+        #先判断是否是自己
+        if account == loginInfo[0]:
+            print("\033[31m不能给自己转账\033[0m")
+            continue
+        users = getUseraccount()
+        isexist = False
+        for user in users[:]:
+            if account in user.values():
+                isexist = True
+        if isexist:
+            money = input("请输入转账金额:>>>").strip().lower()
+            if money.isdigit():
+                #判断金额是否充足
+                if loginInfo[1] >= money:
+                    while flag:
+                        confirm = input("确定要转账吗？(y/n)").strip().lower()
+                        if confirm not in ['y', 'n']: continue
+                        # 修改账号余额，开始转账
+                        if confirm == "y":
+                            users = getUseraccount()
+                            #修改两个人的余额
+                            for user in users[:]:
+                                if user["account"] == account:
+                                    user["salary"] = user["salary"] + money
 
+                        else:
+                            # 清空购物车
+                            shopCar = {}
+                            shopFlag = False
+
+                else:
+                    print("\033[31m骚年金额不足，赶紧充值吧\033[0m")
+            else:
+                print("\033[31m输入转账金额不合法\033[0m")
+                break
+        else:
+            print("\033[31m账号不存在请重新输入\033[0m")
 
 if __name__ == "__main__":
 
     while shopFlag:
-        print("""
-        1.登录
-        2.注册
-        3.购物
-        """)
+        if len(loginInfo) > 0:
+            print("""
+                3.购物
+                4.转账
+                5.提现
+                6.还款
+                7.退出
+                """)
+        else:
+            print("""
+                1.登录
+                2.注册
+                """)
         choice = input(" 请选择:>>>").strip()
-        if choice.isdigit():
-            if choice == "1":
-                login()
-            if choice == "2":
-                registerAccount()
-            if choice == "3":
-               shoppingAction()
+        if choice.isdigit() :
+            if len(loginInfo) == 0:
+                if choice == "1":
+                    login()
+                elif choice == "2":
+                    registerAccount()
+                else:
+                    print("\033[31m输入不合法，请重新输入\033[0m")
+            else:
+                if choice == "3":
+                    shoppingAction()
+                elif choice == "4":
+                    transferccounts()
+                elif choice == "5":
+                    print("")
+                elif choice == "6":
+                    print("")
+                elif choice == "7":
+                    loginInfo = []
+                    break
+                else:
+                    print("\033[31m输入不合法，请重新输入\033[0m")
         else:
             print("\033[31m请输入数字\033[0m")
