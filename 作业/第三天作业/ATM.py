@@ -264,7 +264,7 @@ def transferccounts():
                                     user["salary"] = user["salary"] - money
                                     users.append(user)
                                     changAllAccount(users)
-                            print("\033[31m汇款成功,请注意查收\033[0m")
+                            print("\033[31m汇款成功,您当前余额%s,请查看当前余额\033[0m" %(user["salary"]))
                             flag = False
                         else:
                             #取消返回上一级操作
@@ -303,7 +303,7 @@ def withdrawUserMoneyToUser():
                     # 修改账号余额，开始转账
                     if confirm == "y":
                         users = getUseraccount()
-                        # 修改两个人的余额
+                        # 修改余额
                         for user in users[:]:
                             if user["account"] == loginInfo[0]:
                                 users.remove(user)
@@ -318,6 +318,42 @@ def withdrawUserMoneyToUser():
         else:
             print("\033[31m提现金额输入不合法\033[0m")
             continue
+
+def repaymentMyBalance():
+    #查看当前账户余额
+    money = getUserMoney(loginInfo[0])
+    if money > 0:
+        print("\033[31m当前账户余额充足，没有还款信息,👏👏👏土豪尽管花👏👏👏\033[0m")
+    else:
+        print("\033[31m尊敬的用户 %s 您已欠费 %s，请充值\033[0m" %(loginInfo[0],money))
+        flag = True
+        while flag:
+            inputMoney = input("请输入还款金额:>>>").strip().lower()
+            if inputMoney.isdigit():
+                while flag:
+                    confirm = input("确定要还款吗？(y/n)").strip().lower()
+                    if confirm not in ['y', 'n']: continue
+                    # 修改账号余额，开始还款
+                    if confirm == "y":
+                        users = getUseraccount()
+                        for user in users[:]:
+                            if user["account"] == loginInfo[0]:
+                                users.remove(user)
+                                user["salary"] += float(inputMoney)
+                                users.append(user)
+                                changAllAccount(users)
+                        print("\033[31m还款成功，当前余额%s\033[0m" %(user["salary"]))
+                        flag = False
+                    else:
+                        # 取消返回上一级操作
+                        flag = False
+
+            else:
+                print("\033[31m金额输入不合法\033[0m")
+
+
+
+
 
 if __name__ == "__main__":
 
@@ -352,7 +388,7 @@ if __name__ == "__main__":
                 elif choice == "5":
                     withdrawUserMoneyToUser()
                 elif choice == "6":
-                    print("")
+                    repaymentMyBalance()
                 elif choice == "7":
                     loginInfo = []
                     break
