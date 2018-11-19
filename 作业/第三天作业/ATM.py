@@ -351,12 +351,14 @@ def repaymentMyBalance():
             else:
                 print("\033[31m金额输入不合法\033[0m")
 
-
-
-
-
 if __name__ == "__main__":
 
+    funcsArr = {"1":login,
+                "2":registerAccount,
+                "3":shoppingAction,
+                "4":transferccounts,
+                "5":withdrawUserMoneyToUser,
+                "6":repaymentMyBalance}
     while shopFlag:
         if len(loginInfo) > 0:
             print("""
@@ -373,6 +375,18 @@ if __name__ == "__main__":
                 """)
         choice = input(" 请选择:>>>").strip()
         if choice.isdigit() :
+            if choice == "7":
+                loginInfo = []
+                break
+            if choice in funcsArr:
+                if len(loginInfo) == 0:
+                    #登录
+                    funcsArr[choice]()
+                else:
+                    print("")
+
+            else:
+                print("\033[31m输入不合法，请重新输入\033[0m")
             if len(loginInfo) == 0:
                 if choice == "1":
                     login()
