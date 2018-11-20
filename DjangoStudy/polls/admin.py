@@ -4,8 +4,8 @@ from django.contrib import admin
 from .models import Question, Choice
 
 
-# 注册站点应用，注册之后刷新就可以看到对应的模块了
-# admin.site.register(Question)
+# 注册站点应用，注册之后刷新就可以看到对应的模块了,不注册是看不到对应的app的
+#admin.site.register(Question)
 
 
 # 同时在新建question的时候加上choice

@@ -1,7 +1,8 @@
 {% extends "admin/base.html" %}
 
 {% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
-
+<!--修改系统的base_site站点展示-->
+<!--但是在实际的项目中，你可以使用django.contrib.admin.AdminSite.site_header属性-->
 {% block branding %}
 <h1 id="site-name"><a href="{% url 'admin:index' %}">投票站点管理</a></h1>
 {% endblock %}

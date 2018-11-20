@@ -31,7 +31,7 @@ class QuestionMethonTests(TestCase):
         只要在一天之内的都返回True
         :return:
         '''
-        time = timezone.now() -datetime.timedelta(hours=23,minutes=59,seconds=59)
+        time = timezone.now() - datetime.timedelta(hours=23,minutes=59,seconds=59)
         recent_question = Question(pub_date=time)
         self.assertIs(recent_question.was_published_recently(),True)
 

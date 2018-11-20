@@ -11,6 +11,7 @@ from django.views import generic
 class IndexView(generic.ListView):
     '''
     index视图，继承listView，显示一个对象列表
+    model 每一个类视图都要知道它要作用在哪个模型上，
     template_name 属性指定模板的名称
     context_object_name指定为latest_question_list和模板中的变量名对应
     '''
@@ -82,6 +83,7 @@ def vote(request,question_id):
     :return:
     '''
     question = get_object_or_404(Question,pk=question_id)
+    #request.POST["choice"]获取对应的post数据。这里的post就是一个字典
     try:
         selected_choice = question.choice_set.get(pk=request.POST['choice'])
     except (KeyError,Choice.DoesNotExist):

@@ -12,6 +12,7 @@ class Question(models.Model):
     question_text = models.CharField(max_length=200)
     pub_date = models.DateTimeField('date published')
 
+    # 让Django在打印模型的时候显示我们指定的信息，返回question的text
     def __str__(self):
         return self.question_text
 
@@ -160,5 +161,33 @@ class Choice(models.Model):
     # 使用delete方法删除对象
     >>> c = q.choice_set.filter(choice_text__startswith='Just hacking')
     >>> c.delete()
+    
+    
+    migrations的功能非常强大，允许你随时修改你的模型，而不需要删除或者新建你的数据库或数据表，在不丢失数据的同时，实时动态更新数据库。我们将在后面的章节对此进行深入的阐述，但是现在，只需要记住修改模型时的操作分三步：
+
+    在models.py中修改模型；
+    运行python manage.py makemigrations为改动创建迁移记录；
+    运行python manage.py migrate，将操作同步到数据库。
 
 '''
+
+'''自定义添加的属性'''
+class Person(models.Model):
+    # 每一个字段都是一个类属性，每个类属性表示数据表中的一个列
+    first_name = models.CharField(max_length=30)
+    last_name = models.CharField(max_length=30)
+
+class Car(models.Model):
+    # 设置外键 外键要定义在‘多’的一方！
+    manufacturer = models.ForeignKey('Manufacturer',on_delete=models.CASCADE)
+
+
+
+class Manufacturer(models.Model):
+    pass
+
+#创建递归的主键,自己关联自己的外键，
+class Comment(models.Model):
+    title = models.CharField(max_length=128)
+    text = models.TextField()
+    parent_comment = models.ForeignKey("self",on_delete=models.CASCADE)

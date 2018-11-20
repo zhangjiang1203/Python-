@@ -40,6 +40,8 @@ INSTALLED_APPS = [
 
     # 要将应用添加到项目中，需要在INSTALLED_APPS设置中增加指向该应用的配置文件的链接
     # 实际上也可以写成polls就可以
+    # python manage.py migrate。migrate命令将遍历INSTALLED_APPS设置中的所有项目，
+    # 在数据库中创建对应的表，并打印出每一条动作信息
     'polls',
     'django.contrib.admin',
     'django.contrib.auth',
