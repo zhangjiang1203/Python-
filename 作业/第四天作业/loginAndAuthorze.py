@@ -15,6 +15,7 @@ import time
 #用户的登录信息
 login_info = []
 file_name = 'account.txt'
+record_log = "record_log.txt"
 
 
 def login_deco(func):
@@ -23,7 +24,6 @@ def login_deco(func):
     :param func:
     :return:
     '''
-    @wraps(func)
     def wrapper(*args,**kwargs):
         # 执行登录代码
         #执行函数并返回值
@@ -55,7 +55,6 @@ def login_deco(func):
                             user['loginCount'] = 0
                             users.append(user)
                             changAllAccount(users)
-                            print("执行%s " % (func.__name__))
                             login_info = [account, user["salary"], user['password']]
                             res = func(*args, **kwargs)
                             flag = False
@@ -93,42 +92,39 @@ def login_deco(func):
                     return res
     return wrapper
 
-def run_time(func):
-    @wraps(func)
-    def wrapper(*args,**kwargs):
-        start = time.time()
-        res = func(*args,**kwargs)
-        end = time.time()
-        print("\033[35m函数 %s 执行时间为 %s\033[0m" %(func.__name__, (end - start)))
-        return res
-
-    return wrapper
-
-
 def actionRecord(func):
     '''
     记录操作日志
     '''
     def wrapper(*args,**kwargs):
         #获取时间，保存文件
-        res = func(*args,**kwargs)
-        with open('recordLog.txt',"r+",encoding='utf-8') as read_f, open('.recordLog.txt.swap', 'w+',encoding="utf-8") as write_f:
-            for line in read_f:
-                write_f.write(line)
-            timeStr = time.strftime("%Y-%m-%d %X ")
-            write_f.write("时间：" + timeStr + "函数名：" + func.__name__ + " run \n")
-        os.remove('recordLog.txt')
-        os.rename('.recordLog.txt.swap', 'recordLog.txt')
+        res = func(*args, **kwargs)
+        if os.path.isfile(record_log):
+            with open(record_log,"r",encoding='utf-8') as read_f, open('.recordLog.txt.swap', 'w+',encoding="utf-8") as write_f:
+                for line in read_f:
+                    write_f.write(line)
+                timeStr = time.strftime("%Y-%m-%d %X ")
+                write_f.write("时间：" + timeStr + "函数名：" + func.__name__ + " run \n")
+            os.remove(record_log)
+            os.rename('.recordLog.txt.swap', record_log)
+        else:
+            with open(record_log, 'w',encoding='utf-8') as obj:
+                obj.write("用户操作记录\n")
+
         return res
     return wrapper
 
-@run_time
+@actionRecord
 def lookRecordInfo():
-    with open('recordLog.txt', "r+", encoding='utf-8') as read_f:
-        for line in read_f:
-            print(line)
+    if os.path.isfile(record_log):
+        with open(record_log, "r", encoding='utf-8') as read_f:
+            for line in read_f:
+                print(line)
+    else:
+        with open(record_log, 'w', encoding='utf-8') as object:
+            object.write("用户操作记录\n")
+            print("暂无数据")
 
-@run_time
 @actionRecord
 def getUseraccount():
     '''
@@ -137,7 +133,7 @@ def getUseraccount():
     '''
     #文件是否存在
     if os.path.isfile(file_name):
-        with open(file_name, 'r+') as file_object:
+        with open(file_name, 'r+',encoding='utf-8') as file_object:
             contents = file_object.readlines()
             users = []
             for line in contents:
@@ -148,7 +144,7 @@ def getUseraccount():
                 users.append(eval(templine));
         return users
     else:
-        with open(file_name, 'a+') as object:
+        with open(file_name, 'a+',encoding='utf-8') as object:
             users = [{'account': 'zhang', 'password': '123456', 'loginCount': 1,'salary':15000},
                      {'account': 'wang', 'password': '123456', 'loginCount': 0,'salary':17000},
                      {'account': 'guo', 'password': '123456', 'loginCount': 1,'salary':16000},
@@ -159,7 +155,6 @@ def getUseraccount():
         return users
 
 #存储修改用户的群组
-@run_time
 @actionRecord
 def changAllAccount(account):
     '''
@@ -172,7 +167,6 @@ def changAllAccount(account):
             user = str(value)
             file_object.write(user + '\n')
 
-@run_time
 @actionRecord
 def getUserMoney(account):
     """
@@ -186,7 +180,6 @@ def getUserMoney(account):
             return user["salary"]
 
 
-@run_time
 @actionRecord
 def registerAccount():
     '''

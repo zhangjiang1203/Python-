@@ -11,7 +11,6 @@ import loginAndAuthorze as loginM
 loginInfo = []
 
 @loginM.login_deco
-@loginM.run_time
 @loginM.actionRecord
 def transferccounts():
     '''
@@ -75,7 +74,6 @@ def transferccounts():
 
 
 @loginM.login_deco
-@loginM.run_time
 @loginM.actionRecord
 def withdrawUserMoneyToUser():
     """
@@ -121,7 +119,6 @@ def withdrawUserMoneyToUser():
 
        
 @loginM.login_deco
-@loginM.run_time
 @loginM.actionRecord
 def repaymentMyBalance():
     '''

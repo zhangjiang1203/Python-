@@ -1,6 +1,0 @@
-时间：2018-11-21 13:52:16 函数名：recordMyAction run 
-时间：2018-11-21 13:52:44 函数名：recordMyAction run 
-时间：2018-11-21 13:52:44 函数名：myNameAction run 
-时间：2018-11-21 14:05:12 函数名：getUseraccount run 
-时间：2018-11-21 14:05:27 函数名：changAllAccount run 
-时间：2018-11-21 14:05:30 函数名：shoppingAction run 

@@ -56,8 +56,9 @@ def myNameAction(name):
     print("我们的过去===%s" %name)
 
 if __name__ == "__main__":
-    recordMyAction("你好")
-    myNameAction("哈哈哈")
+    # recordMyAction("你好")
+    # myNameAction("哈哈哈")
+    foo('name')
 
 
 
