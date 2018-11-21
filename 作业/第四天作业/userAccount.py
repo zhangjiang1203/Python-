@@ -12,6 +12,7 @@ loginInfo = []
 
 @loginM.login_deco
 @loginM.run_time
+@loginM.actionRecord
 def transferccounts():
     '''
     转账给指定用户
@@ -75,6 +76,7 @@ def transferccounts():
 
 @loginM.login_deco
 @loginM.run_time
+@loginM.actionRecord
 def withdrawUserMoneyToUser():
     """
     提现实现
@@ -120,6 +122,7 @@ def withdrawUserMoneyToUser():
        
 @loginM.login_deco
 @loginM.run_time
+@loginM.actionRecord
 def repaymentMyBalance():
     '''
     还款操作

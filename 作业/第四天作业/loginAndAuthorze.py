@@ -104,7 +104,32 @@ def run_time(func):
 
     return wrapper
 
+
+def actionRecord(func):
+    '''
+    记录操作日志
+    '''
+    def wrapper(*args,**kwargs):
+        #获取时间，保存文件
+        res = func(*args,**kwargs)
+        with open('recordLog.txt',"r+",encoding='utf-8') as read_f, open('.recordLog.txt.swap', 'w+',encoding="utf-8") as write_f:
+            for line in read_f:
+                write_f.write(line)
+            timeStr = time.strftime("%Y-%m-%d %X ")
+            write_f.write("时间：" + timeStr + "函数名：" + func.__name__ + " run \n")
+        os.remove('recordLog.txt')
+        os.rename('.recordLog.txt.swap', 'recordLog.txt')
+        return res
+    return wrapper
+
 @run_time
+def lookRecordInfo():
+    with open('recordLog.txt', "r+", encoding='utf-8') as read_f:
+        for line in read_f:
+            print(line)
+
+@run_time
+@actionRecord
 def getUseraccount():
     '''
     获取所有用户的存储信息
@@ -135,6 +160,7 @@ def getUseraccount():
 
 #存储修改用户的群组
 @run_time
+@actionRecord
 def changAllAccount(account):
     '''
     修改存储所有的用户信息
@@ -147,6 +173,7 @@ def changAllAccount(account):
             file_object.write(user + '\n')
 
 @run_time
+@actionRecord
 def getUserMoney(account):
     """
     获取用户的信用额度
@@ -160,6 +187,7 @@ def getUserMoney(account):
 
 
 @run_time
+@actionRecord
 def registerAccount():
     '''
     用户注册

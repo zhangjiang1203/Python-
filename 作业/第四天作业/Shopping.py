@@ -18,6 +18,7 @@ product_list = [['Iphone7',5800],
 
 
 @loginM.login_deco
+@loginM.actionRecord
 def shoppingAction():
     loginInfo = loginM.login_info
     shopFlag = True
