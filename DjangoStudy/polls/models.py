@@ -171,6 +171,9 @@ class Choice(models.Model):
 
 '''
 
+from django.conf import settings
+from django.contrib.auth import get_user_model
+
 '''自定义添加的属性'''
 class Person(models.Model):
     # 每一个字段都是一个类属性，每个类属性表示数据表中的一个列
@@ -179,15 +182,23 @@ class Person(models.Model):
 
 class Car(models.Model):
     # 设置外键 外键要定义在‘多’的一方！
-    manufacturer = models.ForeignKey('Manufacturer',on_delete=models.CASCADE)
-
-
+    manufacturer = models.ForeignKey('Manufacturer',
+                                     on_delete=models.CASCADE,
+                                     # 关联对象反向引用模型名称
+                                     related_name='car_producted_by_this_manufacturer')
 
 class Manufacturer(models.Model):
     pass
 
-#创建递归的主键,自己关联自己的外键，
+#创建递归的主键,自己关联自己的外键，一条评论可以被很多人评论
 class Comment(models.Model):
     title = models.CharField(max_length=128)
     text = models.TextField()
     parent_comment = models.ForeignKey("self",on_delete=models.CASCADE)
+
+def get_sentinel_user():
+    return get_user_model().objects.get_or_create(username='deleted')[0]
+
+class MyModel(models.Model):
+    user = models.ForeignKey(settings.AUTH_USER_MODEL,
+                             on_delete=models.SET(get_sentinel_user))
