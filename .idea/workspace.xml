@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32ab43cf-60a7-4075-841e-f16d1d36ea88" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DjangoStudy/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoStudy/TestShowDemo/manyToManyTable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoStudy/TestShowDemo/模型的元数据Meta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoStudy/polls/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoStudy/polls/test/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoStudy/polls/test/showModels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoStudy/remark.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第六天作业/01-reCalculateTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十天作业/01-server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十天作业/02-client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十天作业/netProtol.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/作业/第五天作业/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/作业/第五天作业/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoStudy/.idea/DjangoStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoStudy/.idea/DjangoStudy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoStudy/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoStudy/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoStudy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoStudy/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoStudy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoStudy/TestShowDemo/LearnModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoStudy/TestShowDemo/LearnModel.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,198 +27,50 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Python_$pytest_in_001_functionTest_py.coverage" NAME="pytest in 001-functionTest.py Coverage Results" MODIFIED="1541056232364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/008-functionTest" />
-    <SUITE FILE_PATH="coverage/Python_$loginAndAuthorze.coverage" NAME="loginAndAuthorze Coverage Results" MODIFIED="1542783550545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第四天作业" />
-    <SUITE FILE_PATH="coverage/Python_$PythonListTest.coverage" NAME="PythonListTest Coverage Results" MODIFIED="1541063090500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/004-List" />
-    <SUITE FILE_PATH="coverage/Python_$Shopping.coverage" NAME="Shopping Coverage Results" MODIFIED="1542611508190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第四天作业" />
-    <SUITE FILE_PATH="coverage/Python_$ATM_Deco.coverage" NAME="ATM_Deco Coverage Results" MODIFIED="1542962653836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第四天作业" />
-    <SUITE FILE_PATH="coverage/Python_$userAccount.coverage" NAME="userAccount Coverage Results" MODIFIED="1542611813829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第四天作业" />
-    <SUITE FILE_PATH="coverage/Python_$.coverage" NAME="生成器 Coverage Results" MODIFIED="1542864519085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/个人练习" />
-    <SUITE FILE_PATH="coverage/Python_$001_circleList.coverage" NAME="001-circleList Coverage Results" MODIFIED="1541036799924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/004-List" />
     <SUITE FILE_PATH="coverage/Python_$2_.coverage" NAME="2-购物车 Coverage Results" MODIFIED="1542276023465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
-    <SUITE FILE_PATH="coverage/Python_$05_fileAction.coverage" NAME="05-fileAction Coverage Results" MODIFIED="1541064314260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
+    <SUITE FILE_PATH="coverage/Python_$.coverage" NAME="生成器 Coverage Results" MODIFIED="1542864519085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/个人练习" />
     <SUITE FILE_PATH="coverage/Python_$001_dictionaryTest.coverage" NAME="001-dictionaryTest Coverage Results" MODIFIED="1541041876118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/006-dictionary" />
+    <SUITE FILE_PATH="coverage/Python_$01_server.coverage" NAME="01-server Coverage Results" MODIFIED="1548669328918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第十天作业" />
     <SUITE FILE_PATH="coverage/Python_$ATM.coverage" NAME="ATM Coverage Results" MODIFIED="1542358118663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第三天作业" />
     <SUITE FILE_PATH="coverage/Python_$pytest_for_001_functionTest_test3.coverage" NAME="pytest for 001-functionTest.test3 Coverage Results" MODIFIED="1541056262790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/008-functionTest" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1887637349">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="14" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.5" value="4" />
-          <entry key="project.open.time.6" value="5" />
-          <entry key="project.open.time.7" value="4" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="15" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="css" value="1" />
-          <entry key="html" value="4" />
-          <entry key="js" value="1" />
-          <entry key="md" value="1" />
-          <entry key="py" value="84" />
-          <entry key="txt" value="15" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSS" value="1" />
-          <entry key="HTML" value="4" />
-          <entry key="JavaScript" value="1" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="15" />
-          <entry key="Python" value="84" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="41" />
-          <entry key="html" value="65" />
-          <entry key="md" value="255" />
-          <entry key="py" value="14637" />
-          <entry key="txt" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="65" />
-          <entry key="Markdown" value="255" />
-          <entry key="PLAIN_TEXT" value="48" />
-          <entry key="Python" value="14637" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.vcs.git.usages" />
-    </session>
-    <session id="760578116">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="py" value="1" />
-          <entry key="txt" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="810" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Python" value="810" />
-        </counts>
-      </usages-collector>
-    </session>
+    <SUITE FILE_PATH="coverage/Python_$02_client.coverage" NAME="02-client Coverage Results" MODIFIED="1548669332093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第十天作业" />
+    <SUITE FILE_PATH="coverage/Python_$Shopping.coverage" NAME="Shopping Coverage Results" MODIFIED="1542611508190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第四天作业" />
+    <SUITE FILE_PATH="coverage/Python_$05_fileAction.coverage" NAME="05-fileAction Coverage Results" MODIFIED="1541064314260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业" />
+    <SUITE FILE_PATH="coverage/Python_$ATM_Deco.coverage" NAME="ATM_Deco Coverage Results" MODIFIED="1542962653836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第四天作业" />
+    <SUITE FILE_PATH="coverage/Python_$userAccount.coverage" NAME="userAccount Coverage Results" MODIFIED="1542611813829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第四天作业" />
+    <SUITE FILE_PATH="coverage/Python_$loginAndAuthorze.coverage" NAME="loginAndAuthorze Coverage Results" MODIFIED="1542783550545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第四天作业" />
+    <SUITE FILE_PATH="coverage/Python_$PythonListTest.coverage" NAME="PythonListTest Coverage Results" MODIFIED="1541063090500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/004-List" />
+    <SUITE FILE_PATH="coverage/Python_$pytest_in_001_functionTest_py.coverage" NAME="pytest in 001-functionTest.py Coverage Results" MODIFIED="1541056232364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/008-functionTest" />
+    <SUITE FILE_PATH="coverage/Python_$001_circleList.coverage" NAME="001-circleList Coverage Results" MODIFIED="1541036799924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/004-List" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DjangoStudy/polls/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4255">
-              <caret line="189" column="29" selection-start-line="189" selection-start-column="29" selection-end-line="189" selection-end-column="29" />
-              <folding>
-                <element signature="e#8#69#0" expanded="true" />
-                <marker date="1542868570440" expanded="true" signature="4979:4984" ph="..." />
-                <marker date="1542868570440" expanded="true" signature="5662:5667" ph="..." />
-                <marker date="1542868570440" expanded="true" signature="5765:5770" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业/第四天作业/ATM_Deco.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-              <folding>
-                <element signature="e#163#196#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业/第五天作业/ReadMe.md">
+        <entry file="file://$PROJECT_DIR$/作业/第十天作业/netProtol.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret selection-end-column="10" />
+              <first_editor relative-caret-position="207">
+                <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业/第四天作业/userAccount.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业/第五天作业/manager.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/作业/第四天作业/loginAndAuthorze.py">
+        <entry file="file://$PROJECT_DIR$/作业/第十天作业/01-server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1193">
-              <caret line="77" column="15" lean-forward="true" selection-start-line="77" selection-start-column="15" selection-end-line="77" selection-end-column="15" />
-              <folding>
-                <element signature="e#185#212#0" expanded="true" />
-                <marker date="1542784796033" expanded="true" signature="421:425" ph="..." />
-                <marker date="1542784796033" expanded="true" signature="3322:3331" ph="..." />
-              </folding>
+            <state relative-caret-position="390">
+              <caret line="30" column="11" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业/个人练习/迭代器.py">
+        <entry file="file://$PROJECT_DIR$/作业/第十天作业/02-client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1702">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业/个人练习/生成器.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1150">
-              <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-              <folding>
-                <marker date="1542865881801" expanded="true" signature="232:237" ph="..." />
-                <marker date="1542865881801" expanded="true" signature="465:470" ph="..." />
-                <marker date="1542865881801" expanded="true" signature="681:686" ph="..." />
-                <marker date="1542865881801" expanded="true" signature="912:917" ph="..." />
-              </folding>
+            <state relative-caret-position="568">
+              <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -230,6 +97,8 @@
       <find>shopCar</find>
       <find>loginInfo[0]</find>
       <find>run_time</find>
+      <find>login_info</find>
+      <find>time</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -272,20 +141,22 @@
         <option value="$PROJECT_DIR$/DjangoStudy/polls/models.py" />
         <option value="$PROJECT_DIR$/作业/第五天作业/manager.py" />
         <option value="$PROJECT_DIR$/作业/第五天作业/ReadMe.md" />
+        <option value="$PROJECT_DIR$/DjangoStudy/TestShowDemo/LearnModel.py" />
+        <option value="$PROJECT_DIR$/DjangoStudy/TestShowDemo/manyToManyTable.py" />
+        <option value="$PROJECT_DIR$/DjangoStudy/TestShowDemo/模型的元数据Meta.py" />
+        <option value="$PROJECT_DIR$/作业/第六天作业/01-reCalculateTest.py" />
+        <option value="$PROJECT_DIR$/作业/第十天作业/netProtol.md" />
+        <option value="$PROJECT_DIR$/作业/第十天作业/01-socket.py" />
+        <option value="$PROJECT_DIR$/作业/第十天作业/02-client.py" />
+        <option value="$PROJECT_DIR$/作业/第十天作业/01-server.py" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1466" />
+    <option name="x" value="1440" />
     <option name="y" value="23" />
-    <option name="width" value="1465" />
-    <option name="height" value="1057" />
+    <option name="width" value="1637" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -312,7 +183,7 @@
               <item name="Python-" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python-" type="462c0819:PsiDirectoryNode" />
               <item name="作业" type="462c0819:PsiDirectoryNode" />
-              <item name="第四天作业" type="462c0819:PsiDirectoryNode" />
+              <item name="第十天作业" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -345,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ATM_Deco">
+  <component name="RunManager" selected="Python.02-client">
     <configuration name="有参装饰器" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -360,6 +231,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/第四天作业/有参装饰器.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="01-server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业/第十天作业" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/第十天作业/01-server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02-client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业/第十天作业" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/第十天作业/02-client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -457,12 +372,16 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.loginAndAuthorze" />
       <item itemvalue="Python.ATM_Deco" />
       <item itemvalue="Python.有参装饰器" />
+      <item itemvalue="Python.loginAndAuthorze" />
+      <item itemvalue="Python.01-server" />
+      <item itemvalue="Python.02-client" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.02-client" />
+        <item itemvalue="Python.01-server" />
         <item itemvalue="Python.ATM_Deco" />
         <item itemvalue="Python.有参装饰器" />
         <item itemvalue="Python.loginAndAuthorze" />
@@ -479,6 +398,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540865596710</updated>
+      <workItem from="1548211601223" duration="12000" />
+      <workItem from="1548211632210" duration="4279000" />
+      <workItem from="1548237203789" duration="505000" />
+      <workItem from="1548291148768" duration="1270000" />
+      <workItem from="1548636283516" duration="659000" />
+      <workItem from="1548640418834" duration="379000" />
+      <workItem from="1548658077396" duration="6069000" />
     </task>
     <servers />
   </component>
@@ -490,17 +416,19 @@
       <configuration name="pytest for 001-functionTest.test3" configurationId="tests" />
     </history-entry>
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13173000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="1466" y="23" width="1465" height="1057" extended-state="0" />
-    <editor active="true" />
+    <frame x="1440" y="23" width="1637" height="1032" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21503866" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15736677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3284974" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3088083" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.20829016" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19893616" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.20744681" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -555,63 +483,22 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/006-dictionary/001-dictionaryTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/009-class/001-createClass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="108" column="23" lean-forward="true" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/007-userInput/userInput.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/007-userInput/whileTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-504">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/008-functionTest/make_pizza.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/008-functionTest/002-yield.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/008-functionTest/001-functionTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="104" selection-start-line="104" selection-end-line="128" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/004-List/PythonListTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="100" column="14" selection-start-line="100" selection-start-column="14" selection-end-line="100" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/作业/05-cpTools.py" />
     <entry file="file://$PROJECT_DIR$/作业/05-fileAction.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -670,24 +557,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第二天作业/2-购物车.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-403">
-          <caret line="245" column="19" selection-start-line="245" selection-start-column="19" selection-end-line="245" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/作业/第三天作业/account.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="74" lean-forward="true" selection-start-line="2" selection-start-column="74" selection-end-line="2" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第三天作业/ATM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="70" selection-start-line="70" selection-end-line="99" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -797,13 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第四天作业/有参装饰器.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1357">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/作业/第四天作业/record_log.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -818,60 +684,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第四天作业/Shopping.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DjangoStudy/polls/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4255">
           <caret line="189" column="29" selection-start-line="189" selection-start-column="29" selection-end-line="189" selection-end-column="29" />
-          <folding>
-            <element signature="e#8#69#0" expanded="true" />
-            <marker date="1542868570440" expanded="true" signature="4979:4984" ph="..." />
-            <marker date="1542868570440" expanded="true" signature="5662:5667" ph="..." />
-            <marker date="1542868570440" expanded="true" signature="5765:5770" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第四天作业/ATM_Deco.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding>
-            <element signature="e#163#196#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/个人练习/迭代器.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1702">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/个人练习/生成器.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-          <folding>
-            <marker date="1542865881801" expanded="true" signature="232:237" ph="..." />
-            <marker date="1542865881801" expanded="true" signature="465:470" ph="..." />
-            <marker date="1542865881801" expanded="true" signature="681:686" ph="..." />
-            <marker date="1542865881801" expanded="true" signature="912:917" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第五天作业/manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -885,22 +701,136 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第四天作业/ATM_Deco.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第三天作业/ATM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/作业/第四天作业/userAccount.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        <state relative-caret-position="2507">
+          <caret line="109" column="42" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第四天作业/有参装饰器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第五天作业/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/作业/第四天作业/loginAndAuthorze.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1193">
-          <caret line="77" column="15" lean-forward="true" selection-start-line="77" selection-start-column="15" selection-end-line="77" selection-end-column="15" />
+        <state relative-caret-position="2415">
+          <caret line="105" column="26" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第四天作业/Shopping.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoStudy/TestShowDemo/LearnModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoStudy/TestShowDemo/manyToManyTable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/个人练习/迭代器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1702">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoStudy/TestShowDemo/模型的元数据Meta.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第二天作业/2-购物车.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="872">
+          <caret line="245" column="19" selection-start-line="245" selection-start-column="19" selection-end-line="245" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/个人练习/生成器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="872">
+          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第六天作业/01-reCalculateTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <element signature="e#185#212#0" expanded="true" />
-            <marker date="1542784796033" expanded="true" signature="421:425" ph="..." />
-            <marker date="1542784796033" expanded="true" signature="3322:3331" ph="..." />
+            <marker date="1548234505002" expanded="true" signature="209:214" ph="..." />
+            <marker date="1548234505002" expanded="true" signature="209:322" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十天作业/netProtol.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="207">
+            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十天作业/01-socket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十天作业/02-client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十天作业/01-server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" column="11" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
         </state>
       </provider>
     </entry>
