@@ -21,7 +21,7 @@ phone.setsockopt(socket.SOL_SOCKET,socket.SO_REUSEADDR,1)
 # 2.插卡 (绑定IP和端口)
 phone.bind(('127.0.0.1',8080))
 
-# 3.开机(等待)
+# 3.开机(等待) 只支持5个客户端
 phone.listen(5)
 
 # 循环接收所有的客户端消息
