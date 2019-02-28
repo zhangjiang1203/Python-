@@ -1,0 +1,4 @@
+{'password': '123456', 'salary': 17000, 'loginCount': 0, 'account': 'wang'}
+{'password': '123456', 'salary': 16000, 'loginCount': 1, 'account': 'guo'}
+{'password': '123456', 'salary': 19000, 'loginCount': 0, 'account': 'xiang'}
+{'password': '123456', 'salary': 15000, 'loginCount': 0, 'account': 'zhang'}
