@@ -15,4 +15,17 @@
     </ul>
 {% else %}
     <p>No polls are available.</p>
+
+
 {% endif %}
+
+{#action提交有三种方式#}
+    {#第一种方式 action提交的就是全路径    #}
+    {#第二中方式 action='/index/' 直接提交路径    #}
+    {#第三种方式 action='' 不写默认就是提交到所在文件    #}
+<form action="" method="post">
+        {% csrf_token %}
+        <p>名字: <input type="text" name="name"></p>
+        <p>密码: <input type="password" name="pwd"></p>
+        <button type="submit" value="提交">提交</button>
+</form>

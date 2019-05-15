@@ -4,7 +4,7 @@
 
 {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
 
-{#提交表单，提交表单之后跳到vote界面进行展示#}
+{#提交表单，提交表单之后跳到vote界面进行展示,url 跳转的界面(反向解析为url) 传值参数 直接拼接在后面#}
 <form action="{% url 'polls:vote' question.id %}" method='post'>
 
 

@@ -3,6 +3,7 @@
 from django.db import migrations, models
 import django.db.models.deletion
 
+# 这是执行数据库迁移的时候自动生成的文件
 
 class Migration(migrations.Migration):
 

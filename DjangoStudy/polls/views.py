@@ -6,7 +6,7 @@ from django.urls import reverse
 from django.views import generic
 # from django.template import loader
 
-# 重新定义视图，替换成Django的类视图
+
 
 class IndexView(generic.ListView):
     '''
@@ -82,6 +82,14 @@ def vote(request,question_id):
     :param question_id:
     :return:
     '''
+    # request 就是一个请求对象，包含请求头 请求类型等一系列配置文件
+    '''
+    获取对应的值
+    request.method 
+    request.GET
+    request.path  请求路劲  request.get_full_path() 获取请求的全路劲
+    
+    '''
     question = get_object_or_404(Question,pk=question_id)
     #request.POST["choice"]获取对应的post数据。这里的post就是一个字典
     try:
@@ -92,9 +100,17 @@ def vote(request,question_id):
             'question':question,
             'error_message':"You don't select a choice",
         })
+        # locals的作用就是把视图中的所有变量都构造成字典，并传到模板中类似于
+        # {
+        #     'question':question,
+        #     'error_message':"You don't select a choice",
+        #   }
+        # 对应的模板中直接取在视图中定义的变量名即可拿到对应的变量
+        # 模板对应的数据中可以拿到dic这个字典，里面包含了其中的所有数据
+        # return  render(request,'polls/detail.html',locals())
     else:
         selected_choice.votes += 1
         # 保存信息
         selected_choice.save()
-    # 返回一个重定向的URL
+    # 返回一个重定向的URL，反向解析URL，传递一个值，用元组的方式
     return HttpResponseRedirect(reverse('polls:results',args=(question.id,)))

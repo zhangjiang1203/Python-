@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32ab43cf-60a7-4075-841e-f16d1d36ea88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/作业/第十三天作业/1.python操作mysql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十三天作业/2.sql注入.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业/第十三天作业/day13.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoStudy/1.Django安装和启动.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/作业/第十三天作业/refuseSwift.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoStudy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoStudy/DjangoStudy/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoStudy/DjangoStudy/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoStudy/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoStudy/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoStudy/polls/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoStudy/polls/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoStudy/polls/templates/polls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoStudy/polls/templates/polls/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoStudy/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoStudy/polls/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoStudy/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoStudy/polls/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,65 +55,11 @@
     <SUITE FILE_PATH="coverage/Python_$06_.coverage" NAME="06-队列 Coverage Results" MODIFIED="1550214614993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第十一天作业" />
     <SUITE FILE_PATH="coverage/Python_$1_.coverage" NAME="1.线程开启的两种方式 Coverage Results" MODIFIED="1551258280994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第十二天作业" />
     <SUITE FILE_PATH="coverage/Python_$001_circleList.coverage" NAME="001-circleList Coverage Results" MODIFIED="1541036799924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/004-List" />
+    <SUITE FILE_PATH="coverage/Python_$refuseSwift.coverage" NAME="refuseSwift Coverage Results" MODIFIED="1553048515076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第十三天作业" />
     <SUITE FILE_PATH="coverage/Python_$01_.coverage" NAME="01-开启进程 Coverage Results" MODIFIED="1550047339500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/第十一天作业" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业/第十二天作业/10.线程池.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#159#228#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业/第十二天作业/11.数据库使用命令.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="386">
-                <caret line="62" column="2" selection-start-line="62" selection-start-column="2" selection-end-line="62" selection-end-column="2" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业/第十三天作业/1.python操作mysql.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" selection-start-line="8" selection-end-line="20" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/作业/第十三天作业/2.sql注入.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/作业/第十三天作业/day13.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="213">
-                <caret line="491" column="16" lean-forward="true" selection-start-line="491" selection-start-column="16" selection-end-line="491" selection-end-column="16" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -133,6 +85,7 @@
       <find>time</find>
       <find>client_close</find>
       <find>connect</find>
+      <find>createSwift</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -141,7 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DjangoStudy/polls/models.py" />
         <option value="$PROJECT_DIR$/作业/第五天作业/ReadMe.md" />
         <option value="$PROJECT_DIR$/DjangoStudy/TestShowDemo/LearnModel.py" />
         <option value="$PROJECT_DIR$/DjangoStudy/TestShowDemo/manyToManyTable.py" />
@@ -192,14 +144,15 @@
         <option value="$PROJECT_DIR$/作业/第十三天作业/1.python操作mysql.py" />
         <option value="$PROJECT_DIR$/作业/第十三天作业/2.sql注入.py" />
         <option value="$PROJECT_DIR$/作业/第十三天作业/day13.md" />
+        <option value="$PROJECT_DIR$/作业/第十三天作业/refuseSwift.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1613" />
-    <option name="y" value="23" />
-    <option name="width" value="1517" />
-    <option name="height" value="1032" />
+    <option name="x" value="1529" />
+    <option name="y" value="45" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -216,17 +169,6 @@
             <path>
               <item name="Python-" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python-" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python-" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python-" type="462c0819:PsiDirectoryNode" />
-              <item name="作业" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python-" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python-" type="462c0819:PsiDirectoryNode" />
-              <item name="作业" type="462c0819:PsiDirectoryNode" />
-              <item name="第十三天作业" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2.sql注入">
+  <component name="RunManager" selected="Python.refuseSwift">
     <configuration name="10.线程池" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -328,28 +270,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="8.进程池" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python-" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业/第十二天作业" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/第十二天作业/8.进程池.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="9.进程池之apply" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -372,20 +292,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="refuseSwift" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业/第十三天作业" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/第十三天作业/refuseSwift.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.8.进程池" />
       <item itemvalue="Python.9.进程池之apply" />
       <item itemvalue="Python.10.线程池" />
       <item itemvalue="Python.1.python操作mysql" />
       <item itemvalue="Python.2.sql注入" />
+      <item itemvalue="Python.refuseSwift" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.refuseSwift" />
         <item itemvalue="Python.2.sql注入" />
         <item itemvalue="Python.1.python操作mysql" />
         <item itemvalue="Python.10.线程池" />
         <item itemvalue="Python.9.进程池之apply" />
-        <item itemvalue="Python.8.进程池" />
       </list>
     </recent_temporary>
   </component>
@@ -417,7 +359,10 @@
       <workItem from="1551236494414" duration="12581000" />
       <workItem from="1551314997071" duration="17506000" />
       <workItem from="1551428643423" duration="3399000" />
-      <workItem from="1551663271154" duration="7731000" />
+      <workItem from="1551663271154" duration="7781000" />
+      <workItem from="1552008554705" duration="1678000" />
+      <workItem from="1553048099098" duration="466000" />
+      <workItem from="1557220007891" duration="240000" />
     </task>
     <servers />
   </component>
@@ -430,18 +375,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94584000" />
+    <option name="totallyTimeSpent" value="97018000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1613" y="23" width="1517" height="1032" extended-state="0" />
-    <editor active="true" />
+    <frame x="1529" y="45" width="1440" height="877" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22847457" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20028612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3284974" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966103" visible="true" weight="0.3042553" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966103" weight="0.30318472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3744681" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -529,54 +473,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/作业/第十天作业/粘包问题/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#323#336#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第十天作业/粘包问题/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第十天作业/基于TCP版的SSH客户端和服务端/02-client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="38" column="30" selection-end-line="50" selection-end-column="3" />
-          <folding>
-            <element signature="e#162#175#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第十天作业/基于TCP版的SSH客户端和服务端/01-server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="45" column="25" lean-forward="true" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第十天作业/基于UDP的服务端和客户端/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="56" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第十天作业/基于UDP的服务端和客户端/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/作业/第十天作业/基于socketServer的并发编程/server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -857,16 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第十二天作业/10.线程池.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#159#228#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.conda/envs/Python-/lib/python3.5/concurrent/futures/thread.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2392">
@@ -874,16 +760,6 @@
           <folding>
             <element signature="e#192#205#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第十二天作业/11.数据库使用命令.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="386">
-            <caret line="62" column="2" selection-start-line="62" selection-start-column="2" selection-end-line="62" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -908,17 +784,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十二天作业/10.线程池.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#159#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十二天作业/11.数据库使用命令.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="386">
+            <caret line="62" column="2" selection-start-line="62" selection-start-column="2" selection-end-line="62" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/作业/第十三天作业/1.python操作mysql.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" selection-start-line="8" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/作业/第十三天作业/2.sql注入.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -930,10 +819,32 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="213">
-            <caret line="491" column="16" lean-forward="true" selection-start-line="491" selection-start-column="16" selection-end-line="491" selection-end-column="16" />
+          <first_editor relative-caret-position="11316">
+            <caret line="492" column="19" selection-start-line="492" selection-start-column="19" selection-end-line="492" selection-end-column="19" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十三天作业/SwiftFiles/VyklRwpoVController.swift" />
+    <entry file="file://$PROJECT_DIR$/作业/第十三天作业/SwiftFiles/QkrnoWvocmVController.swift" />
+    <entry file="file://$PROJECT_DIR$/作业/第十三天作业/SwiftFiles/KmhixRbxvoVController.swift" />
+    <entry file="file://$PROJECT_DIR$/作业/第十三天作业/SwiftFiles/AuzvlBtzxcVController.swift" />
+    <entry file="file://$PROJECT_DIR$/作业/第十三天作业/SwiftFiles/KjwitiSvvtpkVController.swift" />
+    <entry file="file://$PROJECT_DIR$/作业/第十三天作业/refuseSwift.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#164#177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/作业/第十三天作业/2.sql注入.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
         </state>
       </provider>
     </entry>
