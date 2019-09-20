@@ -29,6 +29,8 @@ def getPositionList():
     print(path)
 
 
+
+
 def savePositionToDB(position):
     # 保存到数据库
     print(position.name,position.salary)
