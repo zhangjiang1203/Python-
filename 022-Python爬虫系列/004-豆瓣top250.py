@@ -35,17 +35,21 @@ def html_parse():
             starspan = soup.find_all('span', class_='rating_nums')
             stars = [a.get_text() for a in starspan]
             # 简介
-            sumspan = soup.find_all('span', class_='inq')
-            sums = [a.get_text() for a in sumspan]
+            sum_div = soup.select('tr.item > td:nth-of-type(2)')
+            sums = []
+            for div in sum_div:
+                sumspan = div.find('span',class_='inq')
+                summary = sumspan.get_text() if sumspan else '无'
+                sums.append(summary)
 
             for name, author, score, sum in zip(book_names, authors, stars, sums):
-                name = "书名：" + str(name.replace(" ","")) + '\n'
+                name = "书名：" + str(name.replace(" ","").replace('\n','')) + '\n'
                 author = "作者：" + str(author) + '\n'
                 score = '评分：' + str(score) + '\n'
                 sum = "简介：" + str(sum) + '\n'
                 data = name + author + score + sum
                 # 保存数据 seconds (remaining:
-                f.write(data + '='*30 + '\n')
+                f.write('\n' + '='*30 + '\n' + data + '='*30 + '\n')
 
 if __name__ == '__main__':
     html_parse()
