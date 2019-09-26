@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebdc7cb8-4ecc-465b-90c5-acd84028660a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/022-Python爬虫系列/005-煎蛋网图片.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/022-Python爬虫系列/006-拉勾网数据.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/022-Python爬虫系列/004-豆瓣top250.py" beforeDir="false" afterPath="$PROJECT_DIR$/022-Python爬虫系列/004-豆瓣top250.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/022-Python爬虫系列/豆瓣top250.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,43 +40,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/022-Python爬虫系列/001-基本原理.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1311">
-                <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/022-Python爬虫系列/003-beautifulSoup用法.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="521">
+              <caret line="83" column="26" lean-forward="true" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/022-Python爬虫系列/002-requests基本用法.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/022-Python爬虫系列/006-拉勾网数据.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1449">
-              <caret line="88" selection-start-line="88" selection-end-line="88" />
+            <state relative-caret-position="242">
+              <caret line="114" column="27" lean-forward="true" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="27" />
               <folding>
-                <element signature="e#161#176#0" expanded="true" />
+                <element signature="e#154#168#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/022-Python爬虫系列/003-beautifulSoup用法.py">
+        <entry file="file://$USER_HOME$/Library/Python/3.7/lib/python/site-packages/pymysql/err.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2116">
-              <caret line="92" column="28" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
+            <state relative-caret-position="814">
+              <caret line="108" selection-start-line="108" selection-end-line="108" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uploadApp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="49" column="48" lean-forward="true" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
+            <state relative-caret-position="406">
+              <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
               <folding>
                 <element signature="e#155#169#0" expanded="true" />
               </folding>
@@ -89,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/022-Python爬虫系列/004-豆瓣top250.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+            <state relative-caret-position="374">
+              <caret line="45" column="55" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="55" />
               <folding>
                 <element signature="e#157#172#0" expanded="true" />
               </folding>
@@ -101,20 +96,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/022-Python爬虫系列/005-煎蛋网图片.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="41" column="16" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+            <state relative-caret-position="387">
+              <caret line="38" column="41" lean-forward="true" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
               <folding>
                 <element signature="e#154#169#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/022-Python爬虫系列/煎蛋网.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="17" column="64" lean-forward="true" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -142,12 +128,13 @@
         <option value="$PROJECT_DIR$/022-Python爬虫系列/003-beautifulSoup用法.py" />
         <option value="$PROJECT_DIR$/022-Python爬虫系列/004-豆瓣top250.py" />
         <option value="$PROJECT_DIR$/022-Python爬虫系列/005-煎蛋网图片.py" />
+        <option value="$PROJECT_DIR$/022-Python爬虫系列/006-拉勾网数据.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1465" />
-    <option name="y" value="-112" />
+    <option name="x" value="1522" />
+    <option name="y" value="-114" />
     <option name="width" value="1670" />
     <option name="height" value="1028" />
   </component>
@@ -166,6 +153,47 @@
             <path>
               <item name="Python-" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python-" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python-" type="462c0819:PsiDirectoryNode" />
+              <item name="022-Python爬虫系列" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python-" type="462c0819:PsiDirectoryNode" />
+              <item name="022-Python爬虫系列" type="462c0819:PsiDirectoryNode" />
+              <item name="006-拉勾网数据.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="Python-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="Python-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="Python-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="pymysql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="pymysql" type="462c0819:PsiDirectoryNode" />
+              <item name="err.py" type="8704e2dd:PyFileNode" />
             </path>
           </expand>
           <select />
@@ -191,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.005-煎蛋网图片">
+  <component name="RunManager" selected="Python.006-拉勾网数据">
     <configuration name="002-requests基本用法" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -280,7 +308,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="spider1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="006-拉勾网数据" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -288,12 +316,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/020-爬虫练习" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/022-Python爬虫系列" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/020-爬虫练习/spider1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/022-Python爬虫系列/006-拉勾网数据.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -304,11 +332,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.006-拉勾网数据" />
         <item itemvalue="Python.005-煎蛋网图片" />
         <item itemvalue="Python.004-豆瓣top250" />
         <item itemvalue="Python.003-beautifulSoup用法" />
         <item itemvalue="Python.002-requests基本用法" />
-        <item itemvalue="Python.spider1" />
       </list>
     </recent_temporary>
   </component>
@@ -332,24 +360,25 @@
       <workItem from="1568775753540" duration="11312000" />
       <workItem from="1568859788682" duration="2179000" />
       <workItem from="1568945597963" duration="7050000" />
-      <workItem from="1569200981581" duration="4163000" />
+      <workItem from="1569200981581" duration="4652000" />
+      <workItem from="1569474917413" duration="8625000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30128000" />
+    <option name="totallyTimeSpent" value="39242000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1465" y="-112" width="1670" height="1028" extended-state="0" />
+    <frame x="1522" y="-114" width="1670" height="1028" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17076167" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17260443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.086538464" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41346154" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39957264" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -375,6 +404,7 @@
     <SUITE FILE_PATH="coverage/Python_$wangyimusic.coverage" NAME="wangyimusic Coverage Results" MODIFIED="1563864644690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫学习/网易云爬虫" />
     <SUITE FILE_PATH="coverage/Python_$spider1.coverage" NAME="spider1 Coverage Results" MODIFIED="1568775884336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/020-爬虫练习" />
     <SUITE FILE_PATH="coverage/Python_$004_top250.coverage" NAME="004-豆瓣top250 Coverage Results" MODIFIED="1569202517532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/022-Python爬虫系列" />
+    <SUITE FILE_PATH="coverage/Python_$006_.coverage" NAME="006-拉勾网数据 Coverage Results" MODIFIED="1569488885022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/022-Python爬虫系列" />
     <SUITE FILE_PATH="coverage/Python_$boss.coverage" NAME="boss Coverage Results" MODIFIED="1566173259793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫学习/boss直聘" />
     <SUITE FILE_PATH="coverage/Python_$005_.coverage" NAME="005-煎蛋网图片 Coverage Results" MODIFIED="1569222095172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/022-Python爬虫系列" />
   </component>
@@ -564,13 +594,7 @@
     <entry file="file://$PROJECT_DIR$/020-爬虫练习/test7.html" />
     <entry file="file://$PROJECT_DIR$/020-爬虫练习/test9.html" />
     <entry file="file://$PROJECT_DIR$/020-爬虫练习/test0.html" />
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2019.1/python_stubs/-1199943126/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2343">
-          <caret line="3617" column="30" lean-forward="true" selection-start-line="3617" selection-start-column="30" selection-end-line="3617" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2019.1/python_stubs/-1199943126/builtins.py" />
     <entry file="file://$USER_HOME$/Library/Python/3.7/lib/python/site-packages/bs4/element.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -585,43 +609,6 @@
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/020-爬虫练习/neihanspider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/022-Python爬虫系列/001-基本原理.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1311">
-            <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/022-Python爬虫系列/002-requests基本用法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1449">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-          <folding>
-            <element signature="e#161#176#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/022-Python爬虫系列/003-beautifulSoup用法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2116">
-          <caret line="92" column="28" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -649,39 +636,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/022-Python爬虫系列/004-豆瓣top250.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-          <folding>
-            <element signature="e#157#172#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/022-Python爬虫系列/001-基本原理.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1311">
+            <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/022-Python爬虫系列/煎蛋网.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="17" column="64" lean-forward="true" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+        <state relative-caret-position="322">
+          <caret line="14" column="67" lean-forward="true" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploadApp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+          <folding>
+            <element signature="e#155#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/022-Python爬虫系列/002-requests基本用法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="843">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="e#161#176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/020-爬虫练习/neihanspider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/022-Python爬虫系列/003-beautifulSoup用法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="83" column="26" lean-forward="true" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Python/3.7/lib/python/site-packages/pymysql/err.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/022-Python爬虫系列/005-煎蛋网图片.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="41" column="16" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        <state relative-caret-position="387">
+          <caret line="38" column="41" lean-forward="true" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
           <folding>
             <element signature="e#154#169#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uploadApp.py">
+    <entry file="file://$PROJECT_DIR$/022-Python爬虫系列/004-豆瓣top250.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="49" column="48" lean-forward="true" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
+        <state relative-caret-position="374">
+          <caret line="45" column="55" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="55" />
           <folding>
-            <element signature="e#155#169#0" expanded="true" />
+            <element signature="e#157#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/022-Python爬虫系列/006-拉勾网数据.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="114" column="27" lean-forward="true" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="27" />
+          <folding>
+            <element signature="e#154#168#0" expanded="true" />
           </folding>
         </state>
       </provider>
