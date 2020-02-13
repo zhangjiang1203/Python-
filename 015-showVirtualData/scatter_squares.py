@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 #绘制一系列点(x,y,)
 # plt.scatter([1,2,3,4,5],[1,8,27,64,125],s=100)
 x_values = list(range(1,1001))
-y_values = [x**3 for x in x_values]
+y_values = [x**2 for x in x_values]
 #删除数据点的轮廓 设置edgecolor为none 默认为蓝色点和黑色轮廓
 # plt.scatter(x_values,y_values,edgecolor='none',s=40)
 #自定义颜色 设置参数c，将其设置为要设置的颜色
