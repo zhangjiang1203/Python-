@@ -52,8 +52,8 @@ def drawLineWithData():
          cure_list.append(data['cure_num'])
          die_list.append(data['die_num'])
 
-     # drawColumnView(date_list,total_list,cure_list,die_list)
-     # drawLineChatView(date_list,total_list,cure_list,die_list)
+     drawColumnView(date_list,total_list,cure_list,die_list)
+     drawLineChatView(date_list,total_list,cure_list,die_list)
      drawDetailNumView(date_list,total_list,cure_list,die_list)
 
 
@@ -124,6 +124,7 @@ def drawDetailNumView(date_list,new_adds,cure_nums,die_nums):
     addHeightNumber(ax,rect2)
     addHeightNumber(ax,rect3)
     # plt.tick_params(labelsize=10)
+    # ax.render_to_file('feiyanDetails.svg')
     plt.show()
 
 
