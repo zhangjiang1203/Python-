@@ -17,6 +17,7 @@ def download_song():
     url = entry.get()
     # url = "https://music.163.com/playlist?id=2302000737"
     song_url = "http://music.163.com/song/media/outer/url?id={}"
+    print(url)
     result = requests.get(url,headers=header)
     html = BeautifulSoup(result.text,'html.parser')
     print(html)
@@ -28,6 +29,7 @@ def download_song():
         music_name = music.text
         music_dict[music_id] = music_name
 
+    print(music_dict)
     for k, v in music_dict.items():
         download_url = song_url.format(k)
         saveMusic(download_url,v)

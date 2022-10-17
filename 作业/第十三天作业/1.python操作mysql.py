@@ -13,14 +13,14 @@ import pymysql
 conn = pymysql.connect(host='localhost',
                        user='root',
                        password='zj901203',
-                       database='schoolInfo',
+                       database='gushici_data',
                        port=3306,charset='utf8',
                        # cursorclass 设置返回的格式为数组套字典，不设置返回的就是元组套元组
                        cursorclass=pymysql.cursors.DictCursor)
 # 拿到游标执行sql语句
 cursor = conn.cursor()
 # 执行sql语句
-res = cursor.execute("select * from class")
+res = cursor.execute("select * from Author")
 # cursor.fetchone() #只拿一个
 # cursor.fetchmany(size=10)  拿十条数据
 
@@ -29,7 +29,7 @@ print(info)
 # 添加单个数据
 # cursor.execute("insert into student (sname,gender,class_id) values (%s,%s,%s)" %('你好','男',2))
 # 添加多个数据
-cursor.executemany("insert into student (sname,gender,class_id) values (%s,%s,%s)", [('你好1','男',1),('你好2','男',5),('你好3','男',6)])
+# cursor.executemany("insert into student (sname,gender,class_id) values (%s,%s,%s)", [('你好1','男',1),('你好2','男',5),('你好3','男',6)])
 # 这个里面是默认开启事务的 删除 更新 新增的时候都要调用commit
 
 # 删除和更新也是类似的操作
@@ -38,7 +38,7 @@ cursor.executemany("insert into student (sname,gender,class_id) values (%s,%s,%s
 print(cursor.lastrowid)
 
 
-conn.commit()
+# conn.commit()
 
 
 # 最后关闭数据库
