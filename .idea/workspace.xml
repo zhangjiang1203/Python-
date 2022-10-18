@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebdc7cb8-4ecc-465b-90c5-acd84028660a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/爬虫学习/古诗词爬取/gushici.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/爬虫学习/古诗词爬取/1.get_poetry_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫学习/古诗词爬取/1.get_poetry_test.py" afterDir="false" />
     </list>
@@ -156,6 +157,11 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/爬虫学习/古诗词爬取" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.1.get_poetry_test">
     <configuration name="001-NPGLineMap" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-" />
@@ -308,7 +314,7 @@
       <workItem from="1581565051861" duration="4498000" />
       <workItem from="1581904478736" duration="392000" />
       <workItem from="1582382662171" duration="232000" />
-      <workItem from="1665971492211" duration="27081000" />
+      <workItem from="1665971492211" duration="32868000" />
     </task>
     <servers />
   </component>
@@ -374,7 +380,7 @@
     <SUITE FILE_PATH="coverage/Python_$001_NPGLineMap.coverage" NAME="001-NPGLineMap Coverage Results" MODIFIED="1582382739773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/015-showVirtualData" />
     <SUITE FILE_PATH="coverage/Python_$die_visual.coverage" NAME="die_visual Coverage Results" MODIFIED="1581301991081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/015-showVirtualData" />
     <SUITE FILE_PATH="coverage/Python_$pygal_test_model.coverage" NAME="pygal_test_model Coverage Results" MODIFIED="1581302019668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/015-showVirtualData" />
-    <SUITE FILE_PATH="coverage/Python_$1_get_poetry_test.coverage" NAME="1.get_poetry_test Coverage Results" MODIFIED="1666000692564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫学习/古诗词爬取" />
+    <SUITE FILE_PATH="coverage/Python_$1_get_poetry_test.coverage" NAME="1.get_poetry_test Coverage Results" MODIFIED="1666062633835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫学习/古诗词爬取" />
     <SUITE FILE_PATH="coverage/Python_$boss.coverage" NAME="boss Coverage Results" MODIFIED="1566173259793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫学习/boss直聘" />
     <SUITE FILE_PATH="coverage/Python_$spider1.coverage" NAME="spider1 Coverage Results" MODIFIED="1568775884336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/020-爬虫练习" />
     <SUITE FILE_PATH="coverage/Python_$006_.coverage" NAME="006-拉勾网数据 Coverage Results" MODIFIED="1580694531857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/022-Python爬虫系列" />
