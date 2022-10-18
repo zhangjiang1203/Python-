@@ -25,8 +25,8 @@ def get_dynasty_type():
     :return:
     """
     start_time = time.time()
-    dynasty_list = ['先秦','两汉','魏晋','南北朝','隋代','唐代','五代','宋代','金朝','元代','明代','清代']
-    # dynasty_list = ['魏晋','南北朝','隋代','唐代','五代','宋代','金朝','元代','明代','清代']
+    # dynasty_list = ['先秦','两汉','魏晋','南北朝','隋代','唐代','五代','宋代','金朝','元代','明代','清代']
+    dynasty_list = ['清代']
 
     for item in dynasty_list:
         get_peotriers_with_dynasty(item)
@@ -150,7 +150,10 @@ def get_poetry_content_info(url,author_id):
     except:
         print("insert Poetry error %s ,title:%s,content:%s.comment:%s,author_id:%s" %(original_url,title,content,comment,author_id))
 
-    # return (title,content,comment)
+
+
+def getTangPoetry():
+    print("")
 
 
 def close_data_base():
