@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebdc7cb8-4ecc-465b-90c5-acd84028660a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫学习/电视台直播地址/get_live_source.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫学习/电视台直播地址/get_live_source.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -343,7 +343,7 @@
       <workItem from="1581904478736" duration="392000" />
       <workItem from="1582382662171" duration="232000" />
       <workItem from="1665971492211" duration="48998000" />
-      <workItem from="1703516634366" duration="6071000" />
+      <workItem from="1703516634366" duration="6429000" />
     </task>
     <servers />
   </component>
@@ -418,7 +418,7 @@
     <SUITE FILE_PATH="coverage/Python_$003_beautifulSoup.coverage" NAME="003-beautifulSoup用法 Coverage Results" MODIFIED="1568964663371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/022-Python爬虫系列" />
     <SUITE FILE_PATH="coverage/Python_$die_visual.coverage" NAME="die_visual Coverage Results" MODIFIED="1581301991081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/015-showVirtualData" />
     <SUITE FILE_PATH="coverage/Python_$spider1.coverage" NAME="spider1 Coverage Results" MODIFIED="1568775884336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/020-爬虫练习" />
-    <SUITE FILE_PATH="coverage/Python_$get_live_source.coverage" NAME="get_live_source Coverage Results" MODIFIED="1703523679875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫学习/电视台直播地址" />
+    <SUITE FILE_PATH="coverage/Python_$get_live_source.coverage" NAME="get_live_source Coverage Results" MODIFIED="1703524272059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫学习/电视台直播地址" />
     <SUITE FILE_PATH="coverage/Python_$wangyimusic.coverage" NAME="wangyimusic Coverage Results" MODIFIED="1563864644690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫学习/网易云爬虫" />
     <SUITE FILE_PATH="coverage/Python_$002_requests.coverage" NAME="002-requests基本用法 Coverage Results" MODIFIED="1568792670161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/022-Python爬虫系列" />
   </component>

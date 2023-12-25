@@ -33,20 +33,21 @@ browser = webdriver.Chrome(options=options)
 
 
 def mockWebSearch():
-    browser.get("https://www.baidu.com/")
+    browser.get(base_url)
     title = browser.title
     print("当前直播源====3%s" % title)
+    time.sleep(5)
 
-    for source_name in source_name_list:
-        search = browser.find_element(by=By.ID, value='kw')
-        print("当前直播源====1%s" % search)
-        search.send_keys(source_name)
+    # for source_name in source_name_list:
+    #     search = browser.find_element(by=By.ID, value='kw')
+    #     print("当前直播源====1%s" % search)
+    #     search.send_keys(source_name)
+    # #
+    #     submit = browser.find_element(by=By.ID, value='su')
+    #     print("当前直播源====2%s" % submit)
+    #     submit.click()
     #
-        submit = browser.find_element(by=By.ID, value='su')
-        print("当前直播源====2%s" % submit)
-        submit.click()
-
-        time.sleep(10)
+    #     time.sleep(10)
     #     #获取对应的网络数据
     #     live_sources = browser.find_elements(by=By.XPATH,value='//div[@class="m3u8"]//td[2]/text()')
     #     print("当前直播源====3%s" %live_sources)
