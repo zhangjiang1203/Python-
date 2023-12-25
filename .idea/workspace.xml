@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ebdc7cb8-4ecc-465b-90c5-acd84028660a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/爬虫学习/电视台直播地址/get_live_source.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫学习/古诗词爬取/1.get_poetry_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫学习/古诗词爬取/1.get_poetry_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫学习/古诗词爬取/gushici.db" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫学习/古诗词爬取/gushici.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +64,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
   <component name="ProjectFrameBounds">
     <option name="x" value="17" />
     <option name="y" value="28" />
@@ -153,8 +159,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.1.get_poetry_test.executor": "Run",
+    "Python.get_live_source.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/zhangjiang/Documents/Github/Python-",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -162,9 +180,10 @@
       <recent name="$PROJECT_DIR$/爬虫学习/古诗词爬取" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1.get_poetry_test">
+  <component name="RunManager" selected="Python.get_live_source">
     <configuration name="001-NPGLineMap" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -187,6 +206,7 @@
     </configuration>
     <configuration name="1.get_poetry_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -209,6 +229,7 @@
     </configuration>
     <configuration name="bar_custom" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -229,8 +250,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="get_live_source" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫学习/电视台直播地址" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫学习/电视台直播地址/get_live_source.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="python_repos" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -251,37 +296,22 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="scatter_squares" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python-" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/015-showVirtualData" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/015-showVirtualData/scatter_squares.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.get_live_source" />
         <item itemvalue="Python.1.get_poetry_test" />
         <item itemvalue="Python.001-NPGLineMap" />
         <item itemvalue="Python.python_repos" />
         <item itemvalue="Python.bar_custom" />
-        <item itemvalue="Python.scatter_squares" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -315,6 +345,7 @@
       <workItem from="1581904478736" duration="392000" />
       <workItem from="1582382662171" duration="232000" />
       <workItem from="1665971492211" duration="48998000" />
+      <workItem from="1703516634366" duration="5304000" />
     </task>
     <servers />
   </component>
@@ -374,23 +405,24 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python_$python_repos.coverage" NAME="python_repos Coverage Results" MODIFIED="1581304521054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/017-useAPI" />
     <SUITE FILE_PATH="coverage/Python_$random_walk.coverage" NAME="random_walk Coverage Results" MODIFIED="1581302037485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/015-showVirtualData" />
+    <SUITE FILE_PATH="coverage/Python_$bar_custom.coverage" NAME="bar_custom Coverage Results" MODIFIED="1581304121184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/017-useAPI" />
     <SUITE FILE_PATH="coverage/Python_$scatter_squares.coverage" NAME="scatter_squares Coverage Results" MODIFIED="1581303322178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/015-showVirtualData" />
-    <SUITE FILE_PATH="coverage/Python_$001_NPGLineMap.coverage" NAME="001-NPGLineMap Coverage Results" MODIFIED="1582382739773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/015-showVirtualData" />
-    <SUITE FILE_PATH="coverage/Python_$die_visual.coverage" NAME="die_visual Coverage Results" MODIFIED="1581301991081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/015-showVirtualData" />
     <SUITE FILE_PATH="coverage/Python_$pygal_test_model.coverage" NAME="pygal_test_model Coverage Results" MODIFIED="1581302019668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/015-showVirtualData" />
-    <SUITE FILE_PATH="coverage/Python_$1_get_poetry_test.coverage" NAME="1.get_poetry_test Coverage Results" MODIFIED="1666086486721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫学习/古诗词爬取" />
-    <SUITE FILE_PATH="coverage/Python_$boss.coverage" NAME="boss Coverage Results" MODIFIED="1566173259793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫学习/boss直聘" />
-    <SUITE FILE_PATH="coverage/Python_$spider1.coverage" NAME="spider1 Coverage Results" MODIFIED="1568775884336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/020-爬虫练习" />
     <SUITE FILE_PATH="coverage/Python_$006_.coverage" NAME="006-拉勾网数据 Coverage Results" MODIFIED="1580694531857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/022-Python爬虫系列" />
     <SUITE FILE_PATH="coverage/Python_$004_top250.coverage" NAME="004-豆瓣top250 Coverage Results" MODIFIED="1569202517532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/022-Python爬虫系列" />
-    <SUITE FILE_PATH="coverage/Python_$003_beautifulSoup.coverage" NAME="003-beautifulSoup用法 Coverage Results" MODIFIED="1568964663371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/022-Python爬虫系列" />
-    <SUITE FILE_PATH="coverage/Python_$wangyimusic.coverage" NAME="wangyimusic Coverage Results" MODIFIED="1563864644690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫学习/网易云爬虫" />
+    <SUITE FILE_PATH="coverage/Python_$1_get_poetry_test.coverage" NAME="1.get_poetry_test Coverage Results" MODIFIED="1703516958250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫学习/古诗词爬取" />
+    <SUITE FILE_PATH="coverage/Python_$python_repos.coverage" NAME="python_repos Coverage Results" MODIFIED="1581304521054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/017-useAPI" />
     <SUITE FILE_PATH="coverage/Python_$005_.coverage" NAME="005-煎蛋网图片 Coverage Results" MODIFIED="1569222095172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/022-Python爬虫系列" />
-    <SUITE FILE_PATH="coverage/Python_$bar_custom.coverage" NAME="bar_custom Coverage Results" MODIFIED="1581304121184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/017-useAPI" />
-    <SUITE FILE_PATH="coverage/Python_$002_requests.coverage" NAME="002-requests基本用法 Coverage Results" MODIFIED="1568792670161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/022-Python爬虫系列" />
+    <SUITE FILE_PATH="coverage/Python_$001_NPGLineMap.coverage" NAME="001-NPGLineMap Coverage Results" MODIFIED="1582382739773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/015-showVirtualData" />
+    <SUITE FILE_PATH="coverage/Python_$boss.coverage" NAME="boss Coverage Results" MODIFIED="1566173259793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫学习/boss直聘" />
     <SUITE FILE_PATH="coverage/Python_$mpl_squares.coverage" NAME="mpl_squares Coverage Results" MODIFIED="1581302005098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/015-showVirtualData" />
+    <SUITE FILE_PATH="coverage/Python_$003_beautifulSoup.coverage" NAME="003-beautifulSoup用法 Coverage Results" MODIFIED="1568964663371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/022-Python爬虫系列" />
+    <SUITE FILE_PATH="coverage/Python_$die_visual.coverage" NAME="die_visual Coverage Results" MODIFIED="1581301991081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/015-showVirtualData" />
+    <SUITE FILE_PATH="coverage/Python_$spider1.coverage" NAME="spider1 Coverage Results" MODIFIED="1568775884336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/020-爬虫练习" />
+    <SUITE FILE_PATH="coverage/Python_$get_live_source.coverage" NAME="get_live_source Coverage Results" MODIFIED="1703522671509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫学习/电视台直播地址" />
+    <SUITE FILE_PATH="coverage/Python_$wangyimusic.coverage" NAME="wangyimusic Coverage Results" MODIFIED="1563864644690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫学习/网易云爬虫" />
+    <SUITE FILE_PATH="coverage/Python_$002_requests.coverage" NAME="002-requests基本用法 Coverage Results" MODIFIED="1568792670161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/022-Python爬虫系列" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/爬虫学习/boss直聘/boss.py">
