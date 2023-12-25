@@ -35,7 +35,14 @@ browser = webdriver.Chrome(options=options)
 def mockWebSearch():
     browser.get(base_url)
     title = browser.title
-    print("当前直播源====3%s" % title)
+    browser.find_element(by=By.ID, value='search').send_keys('CCTV1')
+
+    browser.find_element(by=By.XPATH, value='//*[@id="form1"]/input[2]').click()
+
+    live_sources = browser.find_elements(by=By.XPATH,value='//div[@class="m3u8"]//td[2]')
+    for live_source in live_sources:
+        print("当前直播源====3%s" %(live_source.text))
+
     time.sleep(5)
 
     # for source_name in source_name_list:
