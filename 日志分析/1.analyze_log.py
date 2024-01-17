@@ -1,5 +1,3 @@
-import os.path
-
 import os
 import re
 import xlwt
@@ -9,7 +7,7 @@ from xlutils.copy import copy
 resultSheet = "analyzeResult"
 subPattern = "\[(.*)\]"
 
-
+# 错误提示展示数据
 callAndMessage = "core.CallAndMessage"# .    logicError
 retainCycles = "Warc-retain-cycles"# ,  代码中可能存在一个保留环，可能导致内存泄露。
 unreachableCode = "Wunreachable-code"# ,  代码因为程序逻辑而永远不会被执行
@@ -59,7 +57,7 @@ def analyze_log():
         retainCyclesError = []
         # 逻辑上不可能执行的警告
         unreachableError = []
-        # 过时API
+        # 未初始化使用警告
         uninitializedError = []
         # 没有调用super
         missingSuperCallError = []
@@ -67,6 +65,9 @@ def analyze_log():
         propertyDecorateError = []
         # 参数多余
         extraArgsError = []
+        # 过期方法
+        declarationsError = []
+
 
 
         # errorType = []
@@ -128,6 +129,11 @@ def analyze_log():
                         errorStr = re.sub(subPattern, "", errorStr)
                         extraArgsError.append([moduleName, fileName, errorStr, "9", "","函数提供了多余的参数时发出警告"])
 
+                    if declarations in errorStr:
+                        errorStr = re.sub(subPattern, "", errorStr)
+                        declarationsError.append(
+                            [moduleName, fileName, errorStr, "10", "", "使用已被标记为过时的接口或方法"])
+
                     # 对errorStr 信息进行分类
         #             if "Value stored to " in errorStr:
         #                 deadStore.append([moduleName, fileName, errorStr, "", ""])
@@ -142,6 +148,7 @@ def analyze_log():
         write_excel_xlsx_append(file_path, resultSheet, missingSuperCallError)
         write_excel_xlsx_append(file_path, resultSheet, deadStoreError)
         write_excel_xlsx_append(file_path, resultSheet, extraArgsError)
+        write_excel_xlsx_append(file_path, resultSheet, declarationsError)
 
 
 def write_excel_xls(path, sheet_name, value):
