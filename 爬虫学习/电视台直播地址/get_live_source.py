@@ -27,9 +27,7 @@ source_name_list = [
 'CCTV1',
 'CCTV2',
 'CCTV3',
-'CCTV3D',
 'CCTV4',
-'CCTV5+',
 'CCTV5',
 'CCTV6',
 'CCTV7',
@@ -177,7 +175,7 @@ def mockWebSearch():
         browser.find_element(by=By.XPATH, value='//*[@id="form1"]/input[2]').click()
 
         live_sources = browser.find_elements(by=By.XPATH, value='//div[@class="m3u8"]//td[2]')
-        if len(live_sources) > 5 : live_sources = live_sources[0:5]
+        if len(live_sources) > 10 : live_sources = live_sources[0:10]
         live_sources = list(map(lambda item: item.text, live_sources))
         print(live_sources)
 
