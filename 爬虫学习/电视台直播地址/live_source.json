@@ -2,31 +2,31 @@
     {
         "name": "CCTV1",
         "sources": [
-            "http://39.134.24.161/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225804/index.m3u8",
             "https://node1.olelive.com:6443/live/CCTV1HD/hls.m3u8",
             "https://iptv.luas.edu.cn/liverespath/b455c7a019d404d571655c457e0ee8a9440a7802/e0eea3f2cd-0-0-7b16046e28b9e794d06c5fbcc82d37b9/index.m3u8",
-            "http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226667/1.m3u8",
-            "http://121.19.134.245:808/tsfile/live/0001_1.m3u8",
-            "http://183.134.3.22:8888/newlive/live/hls/2/live.m3u8",
+            "http://39.134.24.161/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225804/index.m3u8",
+            "http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225804/1.m3u8",
+            "http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225804/index.m3u8",
             "http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226016/index.m3u8",
-            "http://36.33.240.48:9901/tsfile/live/0001_1.m3u8",
-            "http://58.19.38.233:8888/newlive/live/hls/2/live.m3u8",
-            "http://119.54.2.125:58000/hls/1/index.m3u8"
+            "https://live-play.cctvnews.cctv.com/cctv/merge_cctv13.m3u8",
+            "https://node1.olelive.com:6443/live/CCTV13HD/hls.m3u8",
+            "http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225893/index.m3u8",
+            "http://159.75.85.63:5678/zb.php?id=douyin"
         ]
     },
     {
         "name": "CCTV2",
         "sources": [
             "https://iptv.luas.edu.cn/liverespath/6b13fe5368d391761312a985ace065c0ecad2f5e/877097d2fa-0-0-b7736e6941fd5cb71f45ef9397b68092/index.m3u8",
+            "http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226195/index.m3u8",
+            "http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226195/1.m3u8",
             "http://121.19.134.245:808/tsfile/live/0002_1.m3u8",
-            "http://58.19.38.233:8888/newlive/live/hls/3/live.m3u8",
+            "http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226739/1.m3u8",
+            "http://222.217.246.54:8282/tsfile/live/1013_1.m3u8",
             "http://36.33.240.48:9901/tsfile/live/0002_1.m3u8",
             "http://119.54.2.125:58000/hls/2/index.m3u8",
-            "http://hf.bbtu.top:10000/rtp/239.3.1.60:8084",
-            "http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226739/1.m3u8",
-            "http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226195/1.m3u8",
-            "http://jltpc.x3322.net:9901/tsfile/live/0002_1.m3u8?key=txiptv",
-            "http://zteres.sn.chinamobile.com:6060/000000001000/1000000001000023315/1.m3u8?channel-id=ystenlive&Contentid=1000000001000023315&livemode=1&stbId=3"
+            "http://58.19.38.233:8888/newlive/live/hls/3/live.m3u8",
+            "http://hf.bbtu.top:10000/rtp/239.3.1.60:8084"
         ]
     },
     {
@@ -34,19 +34,15 @@
         "sources": [
             "https://node1.olelive.com:6443/live/CCTV3HD/hls.m3u8",
             "https://iptv.luas.edu.cn/liverespath/f76f9947c68be18d7a456e25aa59a08c5747e6a5/0df24da9ec-0-0-dca40ddadd2a051ce1a83536d9310820/index.m3u8",
+            "http://[2409:8087:2001:20:2800:0:df6e:eb20]/ott.mobaibox.com/PLTV/4/224/3221228499/index.m3u8",
+            "http://58.19.38.233:8888/newlive/live/hls/4/live.m3u8",
+            "http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226397/1.m3u8",
+            "http://222.217.246.54:8282/tsfile/live/1014_1.m3u8",
+            "http://119.54.2.125:58000/hls/3/index.m3u8",
             "http://36.33.240.48:9901/tsfile/live/0003_1.m3u8",
             "http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226021/index.m3u8",
-            "http://58.19.38.233:8888/newlive/live/hls/4/live.m3u8",
-            "http://121.19.134.245:808/tsfile/live/0003_1.m3u8",
-            "http://119.54.2.125:58000/hls/3/index.m3u8",
-            "http://[2409:8087:2001:20:2800:0:df6e:eb20]/ott.mobaibox.com/PLTV/4/224/3221228499/index.m3u8",
-            "http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226397/1.m3u8",
-            "http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226720/1.m3u8"
+            "http://121.19.134.245:808/tsfile/live/0003_1.m3u8"
         ]
-    },
-    {
-        "name": "CCTV3D",
-        "sources": []
     },
     {
         "name": "CCTV4",
@@ -54,71 +50,56 @@
             "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8",
             "https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8",
             "https://iptv.luas.edu.cn/liverespath/c70d81eefb04fef7777c2a5aab4ddc9459ce4246/0baa43f537-0-0-5bc4eda6a2031a1140906b86d867a79e/index.m3u8",
+            "http://159.75.85.63:5679/cctv4k.php",
+            "http://119.54.2.125:58000/hls/4/index.m3u8",
             "http://36.33.240.48:9901/tsfile/live/0004_1.m3u8",
             "http://121.19.134.245:808/tsfile/live/0004_1.m3u8",
-            "http://119.54.2.125:58000/hls/4/index.m3u8",
             "http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226725/1.m3u8",
             "http://hf.bbtu.top:10000/rtp/239.3.1.105:8092",
-            "http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001290/index.m3u8?virtualDomain=yinhe.live_hls.zte.com",
-            "http://zteres.sn.chinamobile.com:6060/000000001000/1000000002000031664/1.m3u8?channel-id=ystenlive&Contentid=1000000002000031664&livemode=1&stbId=3"
-        ]
-    },
-    {
-        "name": "CCTV5+",
-        "sources": [
-            "https://node1.olelive.com:6443/live/CCTV5PHD/hls.m3u8",
-            "http://36.33.240.48:9901/tsfile/live/0016_1.m3u8",
-            "http://121.19.134.245:808/tsfile/live/0018_1.m3u8",
-            "http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226711/1.m3u8",
-            "http://101.33.17.11/liveplay-kk.rtxapp.com/live/program/live/cctv5hd8m/8000000/mnf.m3u8",
-            "http://hf.bbtu.top:10000/rtp/239.3.1.130:8004",
-            "http://hrare.gnway.cc/tv/ysp.php?id=cctv5p",
-            "https://tv.smart-chat.net/iptv.php?id=100900&num=1",
-            "https://tv.smart-chat.net/iptv.php?id=100900&num=2",
-            "https://tv.smart-chat.net/iptv.php?id=100900&num=3"
+            "http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001290/index.m3u8?virtualDomain=yinhe.live_hls.zte.com"
         ]
     },
     {
         "name": "CCTV5",
         "sources": [
-            "https://node1.olelive.com:6443/live/CCTV5HD/hls.m3u8",
             "http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226395/index.m3u8?",
+            "https://node1.olelive.com:6443/live/CCTV5HD/hls.m3u8",
             "http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226395/1.m3u8",
-            "https://iptv.luas.edu.cn/liverespath/3f76badfb3a23d95f26ff573a93902bbdb8b8e98/d576df8c0b-0-0-2de19686e2172f351d6e90c142a0be07/index.m3u8",
-            "http://36.33.240.48:9901/tsfile/live/0005_1.m3u8",
-            "http://121.19.134.245:808/tsfile/live/0005_1.m3u8",
-            "http://119.54.2.125:58000/hls/5/index.m3u8",
+            "http://hf.bbtu.top:10000/rtp/239.3.1.173:8001",
             "https://node1.olelive.com:6443/live/CCTV5PHD/hls.m3u8",
-            "http://36.33.240.48:9901/tsfile/live/0016_1.m3u8",
-            "http://121.19.134.245:808/tsfile/live/0018_1.m3u8"
+            "http://39.134.24.161/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226395/index.m3u8?",
+            "https://iptv.luas.edu.cn/liverespath/3f76badfb3a23d95f26ff573a93902bbdb8b8e98/d576df8c0b-0-0-2de19686e2172f351d6e90c142a0be07/index.m3u8",
+            "http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226731/1.m3u8",
+            "http://61.182.33.218:8000/hls/5/index.m3u8",
+            "http://222.217.246.54:8282/tsfile/live/1016_1.m3u8"
         ]
     },
     {
         "name": "CCTV6",
         "sources": [
             "http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226393/index.m3u8",
+            "http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226393/1.m3u8",
             "https://iptv.luas.edu.cn/liverespath/f2f39ee2105c85c32df375728a51b5d89d3afab4/113ed89f48-0-0-85216e55861329ec31ba1437a2ff37c9/index.m3u8",
-            "http://zteres.sn.chinamobile.com:6060/000000001000/1000000001000016466/1.m3u8?channel-id=ystenlive&Contentid=1000000001000016466&livemode=1&stbId=3",
-            "http://58.19.38.233:8888/newlive/live/hls/8/live.m3u8",
-            "http://36.33.240.48:9901/tsfile/live/0006_1.m3u8",
-            "http://121.19.134.245:808/tsfile/live/0006_1.m3u8",
-            "http://119.54.2.125:58000/hls/6/index.m3u8",
             "http://[2409:8087:2001:20:2800:0:df6e:eb22]/ott.mobaibox.com/PLTV/4/224/3221228516/index.m3u8",
-            "http://111.59.63.32:9901/tsfile/live/1013_1.m3u8",
-            "http://zteres.sn.chinamobile.com:6060/000000001000/5000000004000008886/1.m3u8?channel-id=bestzb&Contentid=5000000004000008886&livemode=1&stbId=3"
+            "http://218.17.196.234:9901/tsfile/live/0006_1.m3u8",
+            "http://[2409:8087:2001:20:2800:0:df6e:eb22]/ott.mobaibox.com/PLTV/4/224/3221228516/index.m3u8",
+            "http://zteres.sn.chinamobile.com:6060/000000001000/1000000001000016466/1.m3u8?channel-id=ystenlive&Contentid=1000000001000016466&livemode=1&stbId=3",
+            "http://222.217.246.54:8282/tsfile/live/1017_1.m3u8",
+            "http://36.33.240.48:9901/tsfile/live/0006_1.m3u8",
+            "http://58.19.38.233:8888/newlive/live/hls/8/live.m3u8"
         ]
     },
     {
         "name": "CCTV7",
         "sources": [
             "https://node1.olelive.com:6443/live/CCTV7HD/hls.m3u8",
+            "http://zteres.sn.chinamobile.com:6060/000000001000/6000000001000009055/1.m3u8?channel-id=wasusyt&Contentid=6000000001000009055&livemode=1&stbId=3",
+            "http://119.54.2.125:58000/hls/7/index.m3u8",
             "http://36.33.240.48:9901/tsfile/live/0007_1.m3u8",
             "http://121.19.134.245:808/tsfile/live/0007_1.m3u8",
-            "http://119.54.2.125:58000/hls/7/index.m3u8",
             "http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001291/index.m3u8?virtualDomain=yinhe.live_hls.zte.com",
             "http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225644/index.m3u8",
             "http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226721/1.m3u8",
-            "http://zteres.sn.chinamobile.com:6060/000000001000/6000000001000009055/1.m3u8?channel-id=wasusyt&Contentid=6000000001000009055&livemode=1&stbId=3",
             "http://zteres.sn.chinamobile.com:6060/000000001000/5000000005000026715/1.m3u8?channel-id=bestzb&Contentid=5000000005000026715&livemode=1&stbId=3",
             "http://hf.bbtu.top:10000/rtp/239.3.1.61:8104"
         ]
@@ -127,13 +108,13 @@
         "name": "CCTV8",
         "sources": [
             "https://iptv.luas.edu.cn/liverespath/9e6e3b618b5dc902d992949f0c669bb674f6cde8/cae4471c68-0-0-316245c664c3311072c7279ec29672fe/index.m3u8",
-            "http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226715/1.m3u8",
             "http://61.182.33.218:8000/hls/8/index.m3u8",
+            "http://58.19.38.233:8888/newlive/live/hls/10/live.m3u8",
+            "http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226715/1.m3u8",
+            "http://222.217.246.54:8282/tsfile/live/1019_1.m3u8",
+            "http://119.54.2.125:58000/hls/8/index.m3u8",
             "http://36.33.240.48:9901/tsfile/live/0008_1.m3u8",
             "http://121.19.134.245:808/tsfile/live/0008_1.m3u8",
-            "http://119.54.2.125:58000/hls/8/index.m3u8",
-            "http://159.75.85.63:8654/xx8k50fps.php",
-            "http://58.19.38.233:8888/newlive/live/hls/10/live.m3u8",
             "http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001869/index.m3u8?virtualDomain=yinhe.live_hls.zte.com",
             "http://39.135.138.60:18890/PLTV/88888910/224/3221225635/index.m3u8"
         ]
@@ -142,60 +123,60 @@
         "name": "CCTV9",
         "sources": [
             "https://node1.olelive.com:6443/live/CCTV9HD/hls.m3u8",
-            "http://36.33.240.48:9901/tsfile/live/0009_1.m3u8",
+            "https://iptv.luas.edu.cn/liverespath/0d0f0da65ba843b8d1dd6fed315bfea896ddd20d/a1920294b0-0-0-f3b9b294fd2e3c4db85f962e6949c4a1/index.m3u8",
+            "http://221.2.146.228:8888/newlive/live/hls/10/live.m3u8",
+            "http://171.8.138.71:85/tsfile/live/0009_1.m3u8",
+            "http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226651/1.m3u8",
+            "http://zteres.sn.chinamobile.com:6060/000000001000/1000000001000014583/1.m3u8?channel-id=ystenlive&Contentid=1000000001000014583&livemode=1&stbId=3",
+            "http://222.217.246.54:8282/tsfile/live/1020_1.m3u8",
             "http://121.19.134.245:808/tsfile/live/0009_1.m3u8",
             "http://119.54.2.125:58000/hls/9/index.m3u8",
-            "https://iptv.luas.edu.cn/liverespath/0d0f0da65ba843b8d1dd6fed315bfea896ddd20d/a1920294b0-0-0-f3b9b294fd2e3c4db85f962e6949c4a1/index.m3u8",
-            "http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001294/index.m3u8?virtualDomain=yinhe.live_hls.zte.com",
-            "http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226651/1.m3u8",
-            "http://hrare.gnway.cc/tv/ysp.php?id=cctv9",
-            "http://hf.bbtu.top:10000/rtp/239.3.1.62:8112",
-            "https://tv.smart-chat.net/iptv.php?id=101400&num=1"
+            "http://36.33.240.48:9901/tsfile/live/0009_1.m3u8"
         ]
     },
     {
         "name": "CCTV10",
         "sources": [
-            "http://36.33.240.48:9901/tsfile/live/0010_1.m3u8",
-            "http://121.19.134.245:808/tsfile/live/0010_1.m3u8",
-            "http://119.54.2.125:58000/hls/10/index.m3u8",
             "http://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/25137bd7c4494128bf0cba271974928f/1200.m3u8",
             "https://iptv.luas.edu.cn/liverespath/924e6292a0e6f7440e8380075908fed9915b3c00/780499a193-0-0-c50d57fd93cf32a5144ec8d889eb3ed9/index.m3u8",
+            "http://222.217.246.54:8282/tsfile/live/0010_1.m3u8",
+            "http://119.54.2.125:58000/hls/10/index.m3u8",
+            "http://36.33.240.48:9901/tsfile/live/0010_1.m3u8",
+            "http://121.19.134.245:808/tsfile/live/0010_1.m3u8",
             "http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221225730/index.m3u8",
             "http://58.19.38.233:8888/newlive/live/hls/12/live.m3u8",
             "http://hf.bbtu.top:10000/rtp/239.3.1.63:8116",
-            "http://hrare.gnway.cc/tv/ysp.php?id=cctv10",
-            "https://tv.smart-chat.net/iptv.php?id=101500&num=1"
+            "http://hrare.gnway.cc/tv/ysp.php?id=cctv10"
         ]
     },
     {
         "name": "CCTV11",
         "sources": [
             "https://iptv.luas.edu.cn/liverespath/3d0aa0f1604f13f0ae90c2dc0590ca22a1bcaaa2/646e868153-0-0-a53121a1df5b93a74d1980270e652878/index.m3u8",
+            "http://222.217.246.54:8282/tsfile/live/1022_1.m3u8",
+            "http://119.54.2.125:58000/hls/11/index.m3u8",
             "http://36.33.240.48:9901/tsfile/live/0011_1.m3u8",
             "http://121.19.134.245:808/tsfile/live/0011_1.m3u8",
-            "http://119.54.2.125:58000/hls/11/index.m3u8",
             "http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226714/1.m3u8",
             "http://58.19.38.233:8888/newlive/live/hls/13/live.m3u8",
             "http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001327/index.m3u8?virtualDomain=yinhe.live_hls.zte.com",
             "http://hwrr.jx.chinamobile.com:8080/PLTV/88888910/224/3221225628/index.m3u8",
-            "http://183.134.3.22:8888/newlive/live/hls/12/live.m3u8",
-            "http://hf.bbtu.top:10000/rtp/239.3.1.152:8120"
+            "http://183.134.3.22:8888/newlive/live/hls/12/live.m3u8"
         ]
     },
     {
         "name": "CCTV12",
         "sources": [
+            "https://iptv.luas.edu.cn/liverespath/fb84bde1de15cdb0308a7910cebc0497594ae94e/e2d8885f42-0-0-6e1f55986652ba786606a116c5cc0775/index.m3u8",
+            "http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226748/1.m3u8",
+            "http://222.217.246.54:8282/tsfile/live/0012_1.m3u8",
+            "http://119.54.2.125:58000/hls/12/index.m3u8",
             "http://36.33.240.48:9901/tsfile/live/0012_1.m3u8",
             "http://121.19.134.245:808/tsfile/live/0012_1.m3u8",
-            "http://119.54.2.125:58000/hls/12/index.m3u8",
-            "https://iptv.luas.edu.cn/liverespath/fb84bde1de15cdb0308a7910cebc0497594ae94e/e2d8885f42-0-0-6e1f55986652ba786606a116c5cc0775/index.m3u8",
             "http://58.19.38.233:8888/newlive/live/hls/14/live.m3u8",
             "http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225495/index.m3u8?fmt=ts2hls",
-            "http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226748/1.m3u8",
             "http://hf.bbtu.top:10000/rtp/239.3.1.64:8124",
-            "http://hrare.gnway.cc/tv/ysp.php?id=cctv12",
-            "https://tv.smart-chat.net/iptv.php?id=101700&num=1"
+            "http://hrare.gnway.cc/tv/ysp.php?id=cctv12"
         ]
     },
     {
@@ -204,80 +185,80 @@
             "https://live-play.cctvnews.cctv.com/cctv/merge_cctv13.m3u8",
             "https://node1.olelive.com:6443/live/CCTV13HD/hls.m3u8",
             "https://live-play.cctvnews.cctv.com/cctv/merge_cctv13_mud.m3u8",
-            "http://36.33.240.48:9901/tsfile/live/0013_1.m3u8",
-            "http://121.19.134.245:808/tsfile/live/0013_1.m3u8",
-            "http://119.54.2.125:58000/hls/13/index.m3u8",
             "https://live-play.cctvnews.cctv.com/cctv/merge_cctv13.m3u8",
             "https://live-play.cctvnews.cctv.com/cctv/merge_cctv13_mud.m3u8",
             "https://live-play.cctvnews.cctv.com/cctv/merge_cctv13.m3u8",
-            "http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226233/index.m3u8"
+            "https://iptv.luas.edu.cn/liverespath/8a2f3cd1ae4091c8d073cd239518f24cd4560d8e/0af5e4ebbf-0-0-73acd2813c45f8d650460bda2f73cdf0/index.m3u8",
+            "http://58.19.38.233:8888/newlive/live/hls/15/live.m3u8",
+            "http://121.19.134.245:808/tsfile/live/0013_1.m3u8",
+            "http://222.217.246.54:8282/tsfile/live/1024_1.m3u8"
         ]
     },
     {
         "name": "CCTV14",
         "sources": [
+            "https://iptv.luas.edu.cn/liverespath/0e0973e58d4835f4b872548164462930003f77b4/0ef01acfdb-0-0-3c10e95bcde07ba14f0f93a8d831b684/index.m3u8",
             "https://node1.olelive.com:6443/live/CCTV14HD/hls.m3u8",
+            "http://222.217.246.54:8282/tsfile/live/1026_1.m3u8",
+            "http://119.54.2.125:58000/hls/14/index.m3u8",
             "http://36.33.240.48:9901/tsfile/live/0014_1.m3u8",
             "http://121.19.134.245:808/tsfile/live/0014_1.m3u8",
-            "http://119.54.2.125:58000/hls/14/index.m3u8",
-            "https://iptv.luas.edu.cn/liverespath/0e0973e58d4835f4b872548164462930003f77b4/0ef01acfdb-0-0-3c10e95bcde07ba14f0f93a8d831b684/index.m3u8",
             "http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226645/1.m3u8",
             "http://hf.bbtu.top:10000/rtp/239.3.1.65:8132",
             "http://hrare.gnway.cc/tv/ysp.php?id=cctv14",
-            "https://tv.smart-chat.net/iptv.php?id=101900&num=1",
-            "https://tv.smart-chat.net/iptv.php?id=101900&num=2"
+            "https://tv.smart-chat.net/iptv.php?id=101900&num=1"
         ]
     },
     {
         "name": "CCTV15",
         "sources": [
-            "http://36.33.240.48:9901/tsfile/live/0015_1.m3u8",
+            "http://58.19.38.233:8888/newlive/live/hls/17/live.m3u8",
             "http://121.19.134.245:808/tsfile/live/0015_1.m3u8",
-            "http://119.54.2.125:58000/hls/15/index.m3u8",
-            "http://vod.cctv.cn/cms/2018-08-10/CCTV15_2m_20180810124638599-16050_video_1-001.mp4",
+            "http://171.8.138.71:85/tsfile/live/0015_1.m3u8",
             "https://iptv.luas.edu.cn/liverespath/59c02d176e7c3b05a62a9bb42be1ca2a92df2e1c/aefabb5259-0-0-65038e86b205c58b18c0c661afd99fae/index.m3u8",
+            "http://222.217.246.54:8282/tsfile/live/1025_1.m3u8",
+            "http://119.54.2.125:58000/hls/15/index.m3u8",
+            "http://36.33.240.48:9901/tsfile/live/0015_1.m3u8",
             "http://gdcucc-livod.qn-cdn.gitv.tv/gitv_live/G_CCTV-15-HQ/G_CCTV-15-HQ.m3u8?p=GITV&area=GD_CUCC&$4M FHD",
             "http://hf.bbtu.top:10000/rtp/239.3.1.153:8136",
-            "http://hrare.gnway.cc/tv/ysp.php?id=cctv15",
-            "https://tv.smart-chat.net/iptv.php?id=102000&num=1",
-            "https://tv.smart-chat.net/iptv.php?id=102000&num=2"
+            "http://hrare.gnway.cc/tv/ysp.php?id=cctv15"
         ]
     },
     {
         "name": "CCTV16",
         "sources": [
-            "http://121.19.134.245:808/tsfile/live/0016_1.m3u8",
-            "http://119.54.2.125:58000/hls/16/index.m3u8",
-            "http://119.54.2.125:58000/hls/29/index.m3u8",
+            "http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225893/index.m3u8",
+            "http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226921/1.m3u8",
             "http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226921/index.m3u8",
+            "http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226100/index.m3u8",
+            "http://39.134.24.161/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226921/index.m3u8?",
+            "http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226825/1.m3u8",
+            "http://119.54.2.125:58000/hls/16/index.m3u8",
+            "http://121.19.134.245:808/tsfile/live/0016_1.m3u8",
             "http://101.33.17.11/liveplay-kk.rtxapp.com/live/program/live/cctv16hd8m/8000000/mnf.m3u8",
-            "http://hf.bbtu.top:10000/rtp/239.3.1.184:8001",
-            "http://hrare.gnway.cc/tv/ysp.php?id=cctv16",
-            "https://tv.smart-chat.net/iptv.php?id=102100&num=1",
-            "http://gdcucc-livod.qn-cdn.gitv.tv/gitv_live/G_CCTV-16-HQ/G_CCTV-16-HQ.m3u8?p=GITV&area=GD_CUCC&$4M FHD",
-            "http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226100/index.m3u8"
+            "http://hf.bbtu.top:10000/rtp/239.3.1.184:8001"
         ]
     },
     {
         "name": "CCTV17",
         "sources": [
+            "http://159.75.85.63:5678/zb.php?id=douyin",
+            "http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221225765/index.m3u8",
+            "http://hf.bbtu.top:10000/rtp/239.3.1.151:8144",
             "http://121.19.134.245:808/tsfile/live/0017_1.m3u8",
+            "http://222.217.246.54:8282/tsfile/live/1029_1.m3u8",
             "http://119.54.2.125:58000/hls/17/index.m3u8",
             "http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226727/1.m3u8",
             "http://101.33.17.11/liveplay-kk.rtxapp.com/live/program/live/cctv17hd8m/8000000/mnf.m3u8",
-            "http://hf.bbtu.top:10000/rtp/239.3.1.151:8144",
             "http://hrare.gnway.cc/tv/ysp.php?id=cctv17",
-            "https://tv.smart-chat.net/iptv.php?id=102200&num=1",
-            "https://tv.smart-chat.net/iptv.php?id=102200&num=2",
-            "https://tv.smart-chat.net/iptv.php?id=102200&num=3",
-            "http://gdcucc-livod.qn-cdn.gitv.tv/gitv_live/G_CCTV-17-HQ/G_CCTV-17-HQ.m3u8?p=GITV&area=GD_CUCC&$4M FHD"
+            "https://tv.smart-chat.net/iptv.php?id=102200&num=1"
         ]
     },
     {
         "name": "CETV1",
         "sources": [
-            "http://121.19.134.245:808/tsfile/live/1035_1.m3u8",
             "http://119.54.2.125:58000/hls/70/index.m3u8",
+            "http://121.19.134.245:808/tsfile/live/1035_1.m3u8",
             "http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225753/index.m3u8",
             "http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221225652/index.m3u8",
             "https://epg.pw/stream/14867319e0bd88b95b76ec4ccfd62c4a50370f70bccf3fac4576396494640b1e.ctv",
@@ -291,8 +272,8 @@
     {
         "name": "CETV2",
         "sources": [
-            "http://121.19.134.245:808/tsfile/live/1038_1.m3u8",
             "http://119.54.2.125:58000/hls/71/index.m3u8",
+            "http://121.19.134.245:808/tsfile/live/1038_1.m3u8",
             "http://222.134.240.136:9901/tsfile/live/1072_1.m3u8",
             "http://101.33.17.11/liveplay-kk.rtxapp.com/live/program/live/cetv2/2500000/mnf.m3u8",
             "http://jltpc.x3322.net:9901/tsfile/live/1009_1.m3u8?key=txiptv",
@@ -321,8 +302,8 @@
     {
         "name": "CETV4",
         "sources": [
-            "http://121.19.134.245:808/tsfile/live/1039_1.m3u8",
             "http://119.54.2.125:58000/hls/72/index.m3u8",
+            "http://121.19.134.245:808/tsfile/live/1039_1.m3u8",
             "http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221225783/index.m3u8",
             "http://222.134.240.136:9901/tsfile/live/1069_1.m3u8",
             "http://101.33.17.11/liveplay-kk.rtxapp.com/live/program/live/zgjy4hd8m/8000000/mnf.m3u8",
@@ -339,27 +320,27 @@
             "http://live.cgtn.com/500/prog_index.m3u8",
             "http://live.cgtn.com/1000/prog_index.m3u8",
             "http://tvpremiumhd.club/lista-gratuita/221424/tv/live.php?id=livees.cgtn.com/1000e/prog_index.m3u8&checkedby:iptvcat.com",
-            "https://iptv.luas.edu.cn/liverespath/42085633aae0f63aebc607259e815b0088ab8017/9ea5495673-0-0-664084d22e04048916ba8fd8dcb06ed2/index.m3u8",
-            "http://live.cgtn.com/1000/prog_index.m3u8?zshijd",
+            "http://live.cgtn.com/1000/prog_index.m3u8",
             "http://livear.cgtn.com/1000a/prog_index.m3u8",
             "https://live.cgtn.com/1000/prog_index.m3u8",
-            "http://livefr.cgtn.com/1000f/prog_index.m3u8",
+            "https://cgentertainment-cgtv-1-it.samsung.wurl.tv/playlist.m3u8",
             "http://livees.cgtn.com/500e/prog_index.m3u8",
-            "https://livees.cgtn.com/200e/prog_index.m3u8"
+            "https://livees.cgtn.com/200e/prog_index.m3u8",
+            "http://tvpremiumhd.club/lista-gratuita/221424/cgtnespanol.m3u8"
         ]
     },
     {
         "name": "CHC动作电影",
         "sources": [
-            "http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226465/index.m3u8",
             "https://iptv.luas.edu.cn/liverespath/e0096742f0c5be4c5225cf3c7ab1077177bec05f/7b32f53261-0-0-3d182015277233e27cbca4cf9285edb3/index.m3u8",
+            "http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226465/1.m3u8",
             "https://epg.pw/stream/2f2e29b8759a2458730dc1f3686024472691952a50e787fe075944d0cb17f36e.ctv",
+            "http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226465/index.m3u8",
             "https://epg.pw/stream/02a582fc67bfff3762422afd2afafd15a346db899ab08ec26b328ce146665b2e.m3u8",
             "https://tv.smart-chat.net/iptv.php?id=600200&num=1",
             "https://tv.smart-chat.net/iptv.php?id=600200&num=2",
             "http://wo.xiang.lai.ge.bi.jiao.chang.de.yu.ming.wan.wan.jie.xi.bu.zhi.dao.ke.bu.ke.xing.hk3.20212021.tk.cdn.cloudflare.net/daili/liugongzi.php?id=wqCHCdzdyH265_4000",
             "http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226465/1.m3u8",
-            "http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226465/1.m3u8",
             "http://58.19.13.92:9901/tsfile/live/1037_1.m3u8"
         ]
     },
@@ -381,9 +362,9 @@
     {
         "name": "CHC高清电影",
         "sources": [
-            "http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226463/1.m3u8",
             "http://pi.0472.org/tv/cbn.php?id=chcgqdyHD",
             "http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226463/index.m3u8",
+            "http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226463/1.m3u8",
             "http://58.19.13.92:9901/tsfile/live/1038_1.m3u8",
             "https://tv.smart-chat.net/iptv.php?id=600300&num=1",
             "https://tv.smart-chat.net/iptv.php?id=600300&num=2",
@@ -683,7 +664,6 @@
         "name": "NEWTV超级电影",
         "sources": [
             "https://cloudvideo.servers10.com:8081/8130/index.m3u8",
-            "http://stream.smntv.cn/smtv1/sd/live.m3u8",
             "http://zteres.sn.chinamobile.com:6060/000000001000/1000000003000012426/1.m3u8?channel-id=ystenlive&Contentid=1000000003000012426&livemode=1&stbId=3",
             "http://zteres.sn.chinamobile.com:6060/000000001000/2000000003000000031/1.m3u8?channel-id=hnbblive&Contentid=2000000003000000031&livemode=1&stbId=3",
             "http://zteres.sn.chinamobile.com:6060/000000001000/1000000001000012884/1.m3u8?channel-id=ystenlive&Contentid=1000000001000012884&livemode=1&stbId=3",
@@ -691,14 +671,15 @@
             "http://111.40.196.27:443/0000000000001000/1000000003000012426/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000003000012426",
             "http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225623/index.m3u8",
             "http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225766/index.m3u8",
-            "http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225623/index.m3u8"
+            "http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225623/index.m3u8",
+            "http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888910/224/3221225766/index.m3u8"
         ]
     },
     {
         "name": "NEWTV超级电视剧",
         "sources": [
-            "http://zteres.sn.chinamobile.com:6060/000000001000/1000000006000268003/1.m3u8?channel-id=ystenlive&Contentid=1000000006000268003&livemode=1&stbId=3",
             "http://zteres.sn.chinamobile.com:6060/000000001000/2000000003000000032/1.m3u8?channel-id=hnbblive&Contentid=2000000003000000032&livemode=1&stbId=3",
+            "http://zteres.sn.chinamobile.com:6060/000000001000/1000000006000268003/1.m3u8?channel-id=ystenlive&Contentid=1000000006000268003&livemode=1&stbId=3",
             "http://zteres.sn.chinamobile.com:6060/000000001000/1000000001000008139/1.m3u8?channel-id=ystenlive&Contentid=1000000001000008139&livemode=1&stbId=3",
             "http://zteres.sn.chinamobile.com:6060/000000001000/1000000004000024993/1.m3u8?channel-id=ystenlive&Contentid=1000000004000024993&livemode=1&stbId=3",
             "http://111.40.196.27:443/0000000000001000/1000000006000268003/index.m3u8?livemode=1&stbId=10&channel-id=ystenlive&Contentid=1000000006000268003",
@@ -727,8 +708,8 @@
     {
         "name": "NEWTV金牌综艺",
         "sources": [
-            "https://epg.pw/stream/d4388d0883822c943bfd9c08204f99d0bb0607a81b2b207ffcb104ee82038496.m3u8",
             "http://zteres.sn.chinamobile.com:6060/000000001000/2000000003000000005/1.m3u8?channel-id=hnbblive&Contentid=2000000003000000005&livemode=1&stbId=3",
+            "https://epg.pw/stream/d4388d0883822c943bfd9c08204f99d0bb0607a81b2b207ffcb104ee82038496.m3u8",
             "http://zteres.sn.chinamobile.com:6060/000000001000/1000000004000026167/1.m3u8?channel-id=ystenlive&Contentid=1000000004000026167&livemode=1&stbId=3",
             "http://111.40.196.29:443/PLTV/88888888/224/3221225650/1.m3u8",
             "http://111.40.196.30:443/PLTV/88888888/224/3221225650/1.m3u8",
@@ -749,31 +730,31 @@
     {
         "name": "NHK",
         "sources": [
+            "https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8",
+            "https://stream.fs1.tv/hls/webstream.m3u8",
+            "https://stream01.willfonk.com/live_playlist.m3u8?cid=BS101&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1",
             "https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8",
-            "https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8",
             "https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8",
-            "https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8",
-            "https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8",
             "https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8",
             "http://tvpremiumhd.club/lista-gratuita/221424/tv/iptv.php?id=nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/263941/live_wa_s&checkedby:iptvcat.com",
+            "https://content.uplynk.com/channel/0123b306191a4307a31b9fb573213fd3.m3u8",
             "https://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp-en/index_600k.m3u8",
-            "https://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp-en/index_1M.m3u8",
             "http://tvpremiumhd.club/lista-gratuita/221424/tv/live.php?id=nhkwtvglobal-i.akamaihd.net/hls/live/263941/nhkwtvglobal/index.m3u8&checkedby:iptvcat.com"
         ]
     },
     {
         "name": "NHKWorld",
         "sources": [
-            "http://tvpremiumhd.club/lista-gratuita/221424/tv/iptv.php?id=nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/263941/live_wa_s&checkedby:iptvcat.com",
             "https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8",
+            "http://tvpremiumhd.club/lista-gratuita/221424/tv/iptv.php?id=nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/263941/live_wa_s&checkedby:iptvcat.com",
+            "https://cdn.nhkworld.jp/www11/nhkworld-tv/pre/hlscomp.m3u8",
+            "https://cdn.nhkworld.jp/www11/nhkworld-tv/bmcc-live/es/playlist.m3u8",
             "https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8",
             "https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/sycc-live/zh/playlist.m3u8",
             "https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8",
             "https://cdn.nhkworld.jp/www11/nhkworld-tv/bmcc-live/pt/playlist.m3u8",
             "https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/2003458/live.m3u8",
-            "http://tvpremiumhd.club/lista-gratuita/221424/tv/iptv.php?id=nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/263941/live_wa_s&checkedby:iptvcat.com",
-            "https://cdn.nhkworld.jp/www11/nhkworld-tv/bmcc-live/fr/playlist.m3u8",
-            "https://cdn.nhkworld.jp/www11/nhkworld-tv/bmcc-live/es/playlist.m3u8"
+            "http://tvpremiumhd.club/lista-gratuita/221424/tv/iptv.php?id=nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/263941/live_wa_s&checkedby:iptvcat.com"
         ]
     },
     {
@@ -801,23 +782,23 @@
     {
         "name": "NickJr",
         "sources": [
-            "https://cdn-main.lolokoko.tv/NickJr.stream/playlist.m3u8",
-            "http://198.16.100.90:8278/Nickjr/playlist.m3u8?tid=MFCF1347936613479366&ct=19249&tsum=547e162f9338962a46e76507dbf7d1e4"
+            "http://198.16.100.90:8278/Nickjr/playlist.m3u8?tid=MFCF1347936613479366&ct=19249&tsum=547e162f9338962a46e76507dbf7d1e4",
+            "https://cdn-main.lolokoko.tv/NickJr.stream/playlist.m3u8"
         ]
     },
     {
         "name": "Nickelodeon",
         "sources": [
+            "http://143.244.60.30/NICKELODEON/index.m3u8",
             "http://iptv-telik.usite.pro/load/0-0-1-125-20",
             "http://myott.top/stream/DT6QU63K5VX/127.m3u8",
             "https://cdn-main.lolokoko.tv/Nickelodeon.stream/playlist.m3u8",
-            "http://143.244.60.30/NICKELODEON/index.m3u8",
+            "http://4k.best-tv.me:80/play/live.php?mac=00:1A:79:A5:DD:10&stream=162235&extension=ts",
             "http://moobl.ru/hls/Nickelodeon.m3u8",
             "http://198.16.100.90:8278/Nickelodeon/playlist.m3u8?tid=MBBB9174743591747435&ct=19249&tsum=9901089db6361b9cafc0ab9de5612bee",
             "http://europe3.livetv.az/russia/nickelodeon/playlist.m3u8",
             "http://dtv21.org:8080/play/live.php?mac=00:1A:79:00:21:D9&extension=ts&stream=287809",
-            "http://198.16.100.90:8278/Nickelodeon/playlist.m3u8?tid=MB0B3920856439208564&ct=19225&tsum=8dd558d6ca17cb0d8e9e4563c0787c69",
-            "https://regiotv-b.iptv-playoutcenter.de/regiotv-b/regiotv-b.stream_1/playlist.m3u8"
+            "http://198.16.100.90:8278/Nickelodeon/playlist.m3u8?tid=MB0B3920856439208564&ct=19225&tsum=8dd558d6ca17cb0d8e9e4563c0787c69"
         ]
     },
     {
@@ -849,16 +830,16 @@
     {
         "name": "SkyNews",
         "sources": [
-            "https://stream.skynewsarabia.com/hls/sna_720.m3u8",
+            "http://tvpremiumhd.club/lista-gratuita/221424/tv/iptv.php?id=skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/07&checkedby:iptvcat.com",
+            "https://skynewsau-live.akamaized.net/hls/live/2002690/skynewsau-extra2/master.m3u8",
             "https://stream.skynewsarabia.com/vertical/vertical.m3u8",
             "https://stream.skynewsarabia.com/hls/sna.m3u8",
             "http://198.16.100.90:8278/skynews_antik/playlist.m3u8?tid=MA0A3161061431610614&ct=19249&tsum=15f8cca00a8cc3a6d2a61519b7dfeb59",
+            "https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8",
             "https://stream.skynewsarabia.com/hls/sna_720.m3u8",
             "https://stream.skynewsarabia.com/vertical/vertical.m3u8",
             "http://198.16.100.90:8278/skynews_antik/playlist.m3u8?tid=MA7A8995522289955222&ct=19225&tsum=017cd1040a70d579955560a0c550c0f2",
-            "http://198.16.100.90:8278/skynews_antik/playlist.m3u8?tid=MA0A3161061431610614&ct=19249&tsum=15f8cca00a8cc3a6d2a61519b7dfeb59",
-            "https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8",
-            "https://stream.skynewsarabia.com/vertical/vertical.m3u8"
+            "http://198.16.100.90:8278/skynews_antik/playlist.m3u8?tid=MA0A3161061431610614&ct=19249&tsum=15f8cca00a8cc3a6d2a61519b7dfeb59"
         ]
     },
     {
@@ -868,16 +849,16 @@
     {
         "name": "TVBS",
         "sources": [
-            "http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8",
             "http://198.16.100.90:8278/tvbs/playlist.m3u8?tid=MEFE3093330530933305&ct=19249&tsum=ce6b5e9293b3618104ad53084745a223",
-            "http://198.16.100.90:8278/tvbs/playlist.m3u8?tid=MDED5111960351119603&ct=19226&tsum=49931e2d3885c468d56ffae2c2db9e6e",
-            "http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8",
-            "http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8",
             "http://50.7.238.114:8278/tvbs/playlist.m3u8?tid=MEFE3093330530933305&ct=19249&tsum=ce6b5e9293b3618104ad53084745a223",
-            "http://38.64.72.148/hls/modn/list/4005/playlist.m3u8",
             "http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8?zshijd",
+            "http://38.64.72.148/hls/modn/list/4006/chunklist1.m3u8",
+            "http://38.64.72.148:80/hls/modn/list/4006/chunklist0.m3u8",
             "http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8",
-            "http://38.64.72.148:80/hls/modn/list/4006/chunklist0.m3u8"
+            "http://38.64.72.148/hls/modn/list/4006/chunklist1.m3u8?$1920x1080",
+            "http://38.64.72.148:80/hls/modn/list/4006/chunklist0.m3u8",
+            "http://38.64.72.148/hls/modn/list/4006/playlist.m3u8",
+            "http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8"
         ]
     },
     {
@@ -898,22 +879,22 @@
     {
         "name": "TVBS新闻",
         "sources": [
-            "http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8",
+            "http://38.64.72.148/hls/modn/list/4006/chunklist1.m3u8",
             "http://38.64.72.148:80/hls/modn/list/4006/chunklist0.m3u8",
-            "http://38.64.72.148/hls/modn/list/4006/chunklist1.m3u8?$1920x1080",
-            "http://198.16.100.90:8278/tvbs_n/playlist.m3u8?tid=MECE3233774032337740&ct=19225&tsum=47a22a993d8e9b29582dfde5631c78b0",
-            "http://198.16.100.90:8278/tvbs_n/playlist.m3u8?tid=MEFE5283322452833224&ct=19226&tsum=5f4e9bb0782ab3aae36328763cba2ffd",
-            "http://198.16.100.90:8278/tvbs_n/playlist.m3u8?tid=MECE3233774032337740&ct=19225&tsum=47a22a993d8e9b29582dfde5631c78b0",
-            "http://50.7.238.114:8278/tvbs_n/playlist.m3u8?tid=MECE3233774032337740&ct=19225&tsum=47a22a993d8e9b29582dfde5631c78b0",
-            "http://198.16.100.90:8278/tvbs_n/playlist.m3u8?tid=MEFE5283322452833224&ct=19226&tsum=5f4e9bb0782ab3aae36328763cba2ffd",
             "http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8",
-            "http://38.64.72.148/hls/modn/list/4006/playlist.m3u8"
+            "http://38.64.72.148/hls/modn/list/4006/chunklist1.m3u8?$1920x1080",
+            "http://38.64.72.148:80/hls/modn/list/4006/chunklist0.m3u8",
+            "http://38.64.72.148/hls/modn/list/4006/playlist.m3u8",
+            "http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8",
+            "http://38.64.72.148/hls/modn/list/4006/chunklist1.m3u8",
+            "http://198.16.100.90:8278/tvbs_n/playlist.m3u8?tid=MEFE5283322452833224&ct=19226&tsum=5f4e9bb0782ab3aae36328763cba2ffd",
+            "http://198.16.100.90:8278/tvbs_n/playlist.m3u8?tid=MECE3233774032337740&ct=19225&tsum=47a22a993d8e9b29582dfde5631c78b0"
         ]
     },
     {
         "name": "TVBS欢乐",
         "sources": [
-            "http://198.16.100.90:8278/tvbshuanle_twn/playlist.m3u8?tid=MA5A9262292692622926&ct=19254&tsum=cd369d68a5d2c1a2fa04df748cda142c",
+            "http://198.16.100.90:8278/tvbshuanle_twn/playlist.m3u8?ct=19193&tid=MC8C2318787923187879&tsum=394d2b9af3df7846e2cdc60d69dd4219",
             "http://198.16.100.90:8278/tvbshuanle_twn/playlist.m3u8?tid=MA5A9262292692622926&ct=19254&tsum=cd369d68a5d2c1a2fa04df748cda142c",
             "http://50.7.238.114:8278/tvbshuanle_twn/playlist.m3u8?ct=19193&tid=MC8C2318787923187879&tsum=394d2b9af3df7846e2cdc60d69dd4219",
             "http://50.7.238.114:8278/tvbshuanle_twn/playlist.m3u8?ct=19193&tid=MC8C2318787923187879&tsum=394d2b9af3df7846e2cdc60d69dd4219",
@@ -958,8 +939,8 @@
         "sources": [
             "https://edge6a.v2h-cdn.com/xinghe/xinghe.stream/playlist.m3u8",
             "https://edge6a.v2h-cdn.com/xinghe/xinghe.stream/chunklist.m3u8",
-            "http://113.117.74.12:8081/hls/135/index.m3u8",
             "https://edge6a.v2h-cdn.com/xinghe/xinghe.stream/chunklist.m3u8",
+            "http://113.117.74.12:8081/hls/135/index.m3u8",
             "http://198.16.100.90:8278/Xinhe/playlist.m3u8?tid=MCFC2010151520101515&ct=19249&tsum=a8fd0cb32ef01d8472773a604402a683",
             "http://dtv21.org:8080/play/live.php?mac=00:1A:79:00:21:D9&extension=ts&stream=306342",
             "http://113.117.74.28:8081/hls/137/index.m3u8",
@@ -971,8 +952,8 @@
     {
         "name": "TVB翡翠台",
         "sources": [
-            "http://r.jdshipin.com/qClQf",
             "https://edge6a.v2h-cdn.com/jade/jade.stream/chunklist.m3u8",
+            "http://r.jdshipin.com/qClQf",
             "http://120.236.57.77:9901/tsfile/live/1076_1.m3u8",
             "https://epg.pw/stream/fe02817d95c6d58f41e1ea8208b5a8c9462bf525b153819b0c3918406127925a.m3u8",
             "http://r.jdshipin.com/n90gt",
@@ -990,6 +971,7 @@
     {
         "name": "ThaiPBS",
         "sources": [
+            "https://thaipbs-ujxrch.cdn.byteark.com/live/playlist_1080p/index.m3u8",
             "https://thaipbs-live.cdn.byteark.com/live/playlist_720p/index.m3u8",
             "http://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8",
             "https://thaipbs-live.cdn.byteark.com/live/playlist_1080p/index.m3u8",
@@ -998,8 +980,7 @@
             "https://thaipbs-ujxrch.cdn.byteark.com/live/playlist_1080p/index.m3u8",
             "http://thaipbs-live.cdn.byteark.com/live/playlist_480p/index.m3u8",
             "http://thaipbs-live.cdn.byteark.com/live/playlist_480p/index.m3u8",
-            "http://thaipbs-live.cdn.byteark.com/live-en/playlist_720p/index.m3u8",
-            "http://thaipbs-live.cdn.byteark.com/live/playlist_480p/index.m3u8"
+            "http://thaipbs-live.cdn.byteark.com/live-en/playlist_720p/index.m3u8"
         ]
     },
     {
@@ -1103,52 +1084,51 @@
         "name": "世界地理",
         "sources": [
             "http://119.54.2.125:58000/hls/76/index.m3u8",
-            "http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226947/index.m3u8",
-            "https://epg.pw/stream/6c49b3dcaa8df3ccc513b14c3dbeb8b0c6a404805e88aee19c1ebc53d79dbfef.m3u8",
             "http://hrare.gnway.cc/tv/ysp.php?id=sjdl",
             "http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226947/index.m3u8",
             "http://645c6e6320d051d49b446bac57d65143.v.smtcdns.net/tlivecloud-ipv6.ysp.cctv.cn/ysp/2012513303.m3u8",
             "http://183.237.231.139:9901/tsfile/live/1099_1.m3u8",
             "http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000002485/index.m3u8?virtualDomain=yinhe.live_hls.zte.com",
             "http://111.225.92.130:8800/hls/73/index.m3u8",
-            "http://gmxw.7766.org:808/hls/11/index.m3u8"
+            "http://gmxw.7766.org:808/hls/11/index.m3u8",
+            "http://gxdl-lhs.8866.org:85/tsfile/live/1104_1.m3u8?key=txiptv&playlive=1&authid=0",
+            "http://36.131.221.148/tlivecloud-ipv6.ysp.cctv.cn/ysp/2012513303.m3u8"
         ]
     },
     {
         "name": "东南卫视",
         "sources": [
-            "http://36.33.240.48:9901/tsfile/live/0137_1.m3u8",
-            "http://121.19.134.245:808/tsfile/live/1014_1.m3u8",
-            "http://119.54.2.125:58000/hls/44/index.m3u8",
             "https://iptv.luas.edu.cn/liverespath/7a202b5f39c56db4ca3ca7a3dc21b073c9bc472a/d9afa7cc30-0-0-3e5c5bdb7f887a673145f9e5fe249e7c/index.m3u8",
+            "http://60.205.114.16/ysp/dnws.m3u8",
+            "http://121.19.134.245:808/tsfile/live/1014_1.m3u8",
+            "http://222.217.246.54:8282/tsfile/live/1043_1.m3u8",
+            "http://119.54.2.125:58000/hls/44/index.m3u8",
+            "http://36.33.240.48:9901/tsfile/live/0137_1.m3u8",
             "http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001044/index.m3u8?virtualDomain=yinhe.live_hls.zte.com",
             "http://hf.bbtu.top:10000/rtp/239.3.1.156:8148",
             "http://hf.bbtu.top:10000/rtp/239.3.1.36:8112",
-            "http://hrare.gnway.cc/tv/ysp.php?id=dnws",
-            "https://tv.smart-chat.net/iptv.php?id=201400&num=1",
-            "https://tv.smart-chat.net/iptv.php?id=201400&num=2"
+            "http://hrare.gnway.cc/tv/ysp.php?id=dnws"
         ]
     },
     {
         "name": "东方卫视",
         "sources": [
             "https://iptv.luas.edu.cn/liverespath/4015e6015b3b818a4cbc2247960b8536a3cd0153/0bc51b40df-0-0-23a64a0dc546104d1ba498a41ff49540/index.m3u8",
-            "http://36.33.240.48:9901/tsfile/live/0107_1.m3u8",
+            "http://zteres.sn.chinamobile.com:6060/000000001000/2000000002000000056/1.m3u8?channel-id=hnbblive&Contentid=2000000002000000056&livemode=1&stbId=3",
+            "http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226734/1.m3u8",
             "http://121.19.134.245:808/tsfile/live/1026_1.m3u8",
-            "http://119.54.2.125:58000/hls/31/index.m3u8",
+            "http://60.205.114.16/ysp/dfws.m3u8",
+            "http://222.217.246.54:8282/tsfile/live/1033_1.m3u8",
+            "http://61.182.33.218:8000/hls/30/index.m3u8",
+            "http://36.33.240.48:9901/tsfile/live/0107_1.m3u8",
             "http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226345/index.m3u8",
-            "https://epg.pw/stream/ca2f2aece144ab46ee64c76f769fa36ab38326fd216dd3d9e980bf055524466f.ctv",
-            "http://hf.bbtu.top:10000/rtp/239.3.1.136:8032",
-            "http://hf.bbtu.top:10000/rtp/239.3.1.34:8192",
-            "http://hrare.gnway.cc/tv/ysp.php?id=dfws",
-            "https://tv.smart-chat.net/iptv.php?id=200500&num=1"
+            "http://119.54.2.125:58000/hls/31/index.m3u8"
         ]
     },
     {
         "name": "东方影视",
         "sources": [
             "http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001016/index.m3u8",
-            "http://zteres.sn.chinamobile.com:6060/000000001000/5000000010000032212/1.m3u8?channel-id=bestzb&Contentid=5000000010000032212&livemode=1&stbId=3",
             "http://101.33.17.11/liveplay-kk.rtxapp.com/live/program/live/dfyshd8m/8000000/mnf.m3u8",
             "https://live.v1.mk/api/bestv.php?id=dfyshd8m/8000000",
             "http://111.13.111.242/0000000000001000/1.m3u8?channel-id=bestzb&Contentid=5000000010000032212&livemode=1&stbId=3&HlsProfileId=",
@@ -1156,7 +1136,8 @@
             "http://[2409:8087:1e03:21::42]:6610/cms001/ch00000090990000001016/index.m3u8?",
             "http://xiaozeng.hk3.345888.xyz.cdn.cloudflare.net/ww/bestv.php?id=dfyshd8m/8000000",
             "https://live.goodiptv.club/api/bestv.php?id=dfyshd8m/8000000",
-            "http://111.40.196.28:443/PLTV/88888888/224/3221225615/1.m3u8"
+            "http://111.40.196.28:443/PLTV/88888888/224/3221225615/1.m3u8",
+            "http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001016/index.m3u8?"
         ]
     },
     {
@@ -1216,8 +1197,8 @@
     {
         "name": "中华美食",
         "sources": [
-            "http://121.24.99.45:8090/hls/73/index.m3u8",
             "http://gdcucc-livod.qn-cdn.gitv.tv/gitv_live/G_ZHONGHUAMS/G_ZHONGHUAMS.m3u8?p=GITV&area=GD_CUCC&$2M SD",
+            "http://121.24.99.45:8090/hls/73/index.m3u8",
             "http://zteres.sn.chinamobile.com:6060/000000001000/2000000003000000052/1.m3u8?channel-id=hnbblive&Contentid=2000000003000000052&livemode=1&stbId=3",
             "http://180.97.247.27/1301-tx.otvstream.otvcloud.com/otv/skcc/live/channel37002/index.m3u8",
             "http://zteres.sn.chinamobile.com:6060/000000001000/1000000005000266015/1.m3u8?channel-id=ystenlive&Contentid=1000000005000266015&livemode=1&stbId=3",
@@ -1231,8 +1212,8 @@
     {
         "name": "中国交通",
         "sources": [
-            "http://121.19.134.245:808/tsfile/live/1040_1.m3u8",
             "http://119.54.2.125:58000/hls/69/index.m3u8",
+            "http://121.19.134.245:808/tsfile/live/1040_1.m3u8",
             "http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226248/index.m3u8",
             "http://222.134.240.136:9901/tsfile/live/1028_1.m3u8",
             "http://jltpc.x3322.net:9901/tsfile/live/1038_1.m3u8?key=txiptv",
@@ -1264,20 +1245,20 @@
             "http://210.210.155.37/uq2663/h/h157/index2.m3u8",
             "http://210.210.155.37/uq2663/h/h157/index2.m3u8",
             "http://210.210.155.37/uq2663/h/h157/index2.m3u8",
-            "http://[2409:8087:2001:20:2800:0:df6e:eb24]/wh7f454c46tw3553140416_-2021535160/ott.mobaibox.com/PLTV/3/224/3221228527/index.m3u8",
-            "http://pi.0472.org/tv/cbn.php?id=xfjcHD",
-            "http://113.117.74.18:8081/hls/37/index.m3u8",
-            "http://210.210.155.37/uq2663/h/h157/index2.m3u8?app_type=web&userid=50n13N0v14nd1&tkn=829341hrjhaq0q30q&chname=Phoenix_Chinese",
-            "http://198.16.100.90:8278/phoenixtv_hd/playlist.m3u8?tid=MF6F2163882521638825&ct=19249&tsum=2375037c2689c4190d14c8a52bc35c83",
             "http://198.16.100.90:8278/phoenixtv_hd/playlist.m3u8?tid=MFBF2713938527139385&ct=19225&tsum=1c8ca0899277714ab83db57245220068",
-            "http://[2409:8087:2001:20:2800:0:df6e:eb24]:80/ott.mobaibox.com/PLTV/3/224/3221228527/index.m3u8"
+            "http://pi.0472.org/tv/cbn.php?id=xfjcHD",
+            "https://fake-stream.livednow.com/mdvb/phx-chinese?token=666e67d952f67d62d3cf407e49892124&user_id=1254950701&user_token=9f7ce824f2caceacca70a2fc1cd96236",
+            "http://198.16.100.90:8278/phoenixtv_hd/playlist.m3u8?tid=MF6F2163882521638825&ct=19249&tsum=2375037c2689c4190d14c8a52bc35c83",
+            "http://210.210.155.37/uq2663/h/h157/index2.m3u8?app_type=web&userid=50n13N0v14nd1&tkn=829341hrjhaq0q30q&chname=Phoenix_Chinese",
+            "http://198.16.100.90:8278/phoenixtv_hd/playlist.m3u8?tid=MFBF2713938527139385&ct=19225&tsum=1c8ca0899277714ab83db57245220068",
+            "http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226547/1.m3u8"
         ]
     },
     {
         "name": "凤凰卫视中文台",
         "sources": [
-            "https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV43.m3u8",
-            "http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226547/index.m3u8"
+            "http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226547/index.m3u8",
+            "https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV43.m3u8"
         ]
     },
     {
@@ -1300,21 +1281,22 @@
     {
         "name": "凤凰资讯",
         "sources": [
-            "http://[2409:8087:2001:20:2800:0:df6e:eb27]:80/wh7f454c46tw1890984412_1778241929/ott.mobaibox.com/PLTV/3/224/3221228524/index.m3u8?icpid=3&RTS=1674373416&from=40&popid=40&hms_devid=2293&prioritypopid=40&vqe=3",
-            "http://r.jdshipin.com/0Rp07",
+            "http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226546/index.m3u8",
             "http://50.7.238.114:8278/phoenixinfo_hd/playlist.m3u8?tid=m7f4a830029be&ct=18336&tsum=74f57bddc0725f74838380086dce3e44",
-            "http://php.17186.eu.org/phtv/fhzx.m3u8",
-            "http://113.117.74.18:8081/hls/36/index.m3u8",
-            "http://113.117.74.18:8081/hls/36/index.m3u8",
+            "http://113.117.74.28:8081/hls/36/index.m3u8",
+            "https://fake-stream.livednow.com/mdvb/phx-news?token=d28d104a6c176af9d59823e8dccbd619&user_id=1254950701&user_token=9f7ce824f2caceacca70a2fc1cd96236",
             "http://198.16.100.90:8278/phoenixinfo_hd/playlist.m3u8?tid=MC1C1591244615912446&ct=19225&tsum=a4fd6441d252c98ea603b13ef749a84e",
             "http://198.16.100.90:8278/phoenixinfo_hd/playlist.m3u8?tid=m7f4a830029be&ct=18336&tsum=74f57bddc0725f74838380086dce3e44",
             "http://198.16.100.90:8278/phoenixinfo_hd/playlist.m3u8?tid=MB5B7253262872532628&ct=19249&tsum=e2b2dcd00f39adb64b6c03601da1e0e0",
-            "http://[2409:8087:2001:20:2800:0:df6e:eb26]:80/ott.mobaibox.com/PLTV/4/224/3221228524/index.m3u8"
+            "http://line.premiumpowers.net/play/live.php?mac=00:1A:79:73:45:10&extension=ts&stream=156407",
+            "http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002187/index.m3u8?virtualDomain=yinhe.live_hls.zte.com",
+            "http://r.jdshipin.com/0Rp07"
         ]
     },
     {
         "name": "动漫秀场",
         "sources": [
+            "http://zteres.sn.chinamobile.com:6060/000000001000/5000000002000023636/1.m3u8?channel-id=bestzb&Contentid=5000000002000023636&livemode=1&stbId=3",
             "http://119.54.2.125:58000/hls/98/index.m3u8",
             "http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001196/index.m3u8",
             "http://wo.xiang.lai.ge.bi.jiao.chang.de.yu.ming.wan.wan.jie.xi.bu.zhi.dao.ke.bu.ke.xing.hk3.20212021.tk.cdn.cloudflare.net/daili/liugongzi.php?id=yybb-dmxc-H265_4000",
@@ -1323,20 +1305,19 @@
             "http://120.236.57.77:9901/tsfile/live/1104_1.m3u8",
             "http://116.11.158.91:8181/tsfile/live/1055_1.m3u8",
             "http://101.33.17.11/liveplay-kk.rtxapp.com/live/program/live/dmxc8m/8000000/mnf.m3u8",
-            "http://180.97.247.27/4309-tx.otvstream.otvcloud.com/otv/skcc/live/channel43045/index.m3u8",
-            "http://49.235.110.121:9090/daili/小果.php?id=yybb-dmxc-H265_4000&Cf.m3u8"
+            "http://180.97.247.27/4309-tx.otvstream.otvcloud.com/otv/skcc/live/channel43045/index.m3u8"
         ]
     },
     {
         "name": "咪咕体育",
         "sources": [
             "http://39.135.134.67/000000001000/3000000001000028638/index.m3u8",
-            "http://39.135.134.67/000000001000/3000000001000007218/index.m3u8",
-            "http://39.135.134.67/000000001000/3000000001000028638/index.m3u8",
             "http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225895/index.m3u8",
+            "http://39.135.134.67/000000001000/3000000001000028638/index.m3u8",
             "http://r.jdshipin.com/ln4xk",
             "http://iptv.kjrzxhb.top:2086/udp/239.10.0.28:5140",
             "http://39.137.49.76:8080/PLTV/88888888/224/3221226241/index.m3u8?",
+            "http://39.135.134.67/000000001000/3000000001000007218/index.m3u8",
             "http://39.135.134.67/000000001000/3000000001000031494/index.m3u8",
             "http://39.135.134.67/000000001000/3000000001000008379/index.m3u8",
             "http://iptv.kjrzxhb.top:2086/udp/239.10.0.17:5140"
@@ -1390,6 +1371,8 @@
     {
         "name": "嘉佳卡通",
         "sources": [
+            "http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226227/index.m3u8",
+            "http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226227/index.m3u8",
             "http://hf.bbtu.top:10000/rtp/239.3.1.147:9268",
             "http://101.33.17.11/liveplay-kk.rtxapp.com/live/program/live/jjkt/1300000/mnf.m3u8",
             "http://wo.xiang.lai.ge.bi.jiao.chang.de.yu.ming.wan.wan.jie.xi.bu.zhi.dao.ke.bu.ke.xing.hk3.20212021.tk.cdn.cloudflare.net/daili/liugongzi.php?id=jjkt_2000",
@@ -1397,21 +1380,19 @@
             "https://epg.pw/stream/d0178ea9187bf71c3e4ba342479c27611605c51a4c4875642a553c57be320e58.m3u8",
             "https://skype.serv00.net/itouch.php?id=jjkt",
             "http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001310/index.m3u8?virtualDomain=yinhe.live_hls.zte.com",
-            "http://hodos.ddns.net:8181/tsfile/live/1013_1.m3u8",
-            "http://116.11.158.91:8181/tsfile/live/1085_1.m3u8",
-            "http://222.134.240.136:9901/tsfile/live/1026_1.m3u8"
+            "http://hodos.ddns.net:8181/tsfile/live/1013_1.m3u8"
         ]
     },
     {
         "name": "湖南都市",
         "sources": [
-            "http://119.39.128.18:88/hls/27/index.m3u8",
             "http://180.97.247.27/4309-tx.otvstream.otvcloud.com/otv/skcc/live/channel43028/index.m3u8",
             "http://180.97.247.27/4309-tx.otvstream.otvcloud.com/otv/skcc/live/channel43094/index.m3u8",
             "http://223.109.210.41/4309-tx.otvstream.otvcloud.com/otv/skcc/live/channel43028/index.m3u8",
             "http://223.109.210.41/4309-tx.otvstream.otvcloud.com/otv/skcc/live/channel43094/index.m3u8",
             "http://111.40.196.34:443/PLTV/88888888/224/3221225656/1.m3u8",
             "http://[2409:8087:5011:1020::1f]/180000001001/00000001000000001001000000000041/main.m3u8?IASHttpSessionId=OTT",
+            "http://119.39.128.18:88/hls/27/index.m3u8",
             "http://120.132.122.244:10413/hls/3/index.m3u8",
             "http://api2.52tb.xyz/info?id=567&token=20230218htjgzi"
         ]
@@ -1420,8 +1401,8 @@
         "name": "湖南金鹰卡通",
         "sources": [
             "http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225744/index.m3u8",
-            "http://zteres.sn.chinamobile.com:6060/000000001000/6000000003000016791/1.m3u8?channel-id=wasusyt&Contentid=6000000003000016791&livemode=1&stbId=3",
             "http://zteres.sn.chinamobile.com:6060/000000001000/1000000002000016601/1.m3u8?channel-id=ystenlive&Contentid=1000000002000016601&livemode=1&stbId=3",
+            "http://zteres.sn.chinamobile.com:6060/000000001000/6000000003000016791/1.m3u8?channel-id=wasusyt&Contentid=6000000003000016791&livemode=1&stbId=3",
             "http://zteres.sn.chinamobile.com:6060/000000001000/5000000006000040024/1.m3u8?channel-id=bestzb&Contentid=5000000006000040024&livemode=1&stbId=3"
         ]
     },
@@ -1469,6 +1450,7 @@
         "name": "澳门莲花",
         "sources": [
             "http://61.244.22.5/ch3/ch3.live/chunklist.m3u8",
+            "http://moss.hk3.345888.xyz.cdn.cloudflare.net/11/lotus.php",
             "https://p.ggiptv.com/v/macaulotustv.php",
             "http://anren.live/HK/BiIOU11uLA.m3u8",
             "http://anren.live/HK/BiIOU11uLA.m3u8?zgangd",
@@ -1476,8 +1458,7 @@
             "http://anren.live/HK/BiIOU11uLA.m3u8",
             "https://p.ggiptv.com/v/macaulotustv.php",
             "http://103.45.68.47/gy/gy563/xsj.php?id=lotustv",
-            "http://107.151.203.111:2209/135/hk.php?id=amlh",
-            "http://anren.live/HK/BiIOU11uLA.m3u"
+            "http://107.151.203.111:2209/135/hk.php?id=amlh"
         ]
     },
     {
@@ -1492,12 +1473,13 @@
             "http://zteres.sn.chinamobile.com:6060/yinhe/2/ch00000090990000001709/index.m3u8?virtualDomain=yinhe.live_hls.zte.com",
             "http://live.cooltv.top/tv/aishang.php?id=as4k",
             "http://111.20.40.170/PLTV/88888893/224/3221226352/index.m3u8",
-            "http://hf.bbtu.top:10000/rtp/239.3.1.236:2000"
+            "http://222.217.246.54:8282/tsfile/live/1068_1.m3u8"
         ]
     },
     {
         "name": "爱尔达娱乐台",
         "sources": [
+            "https://fake-stream.livednow.com/4gtv/4gtv-4gtv070?token=db069a3611acce8397d3d2aa3254120e&user_id=1254950701&user_token=9f7ce824f2caceacca70a2fc1cd96236",
             "http://www.336699.live:1935/blockfour/4gtv-4gtv070.stream/playlist.m3u8"
         ]
     },
