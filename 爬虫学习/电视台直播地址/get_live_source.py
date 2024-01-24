@@ -189,6 +189,10 @@ def mockWebSearch():
 
 
 def getAllLiveSource() -> None:
+
+    # 获取电视资源信息
+
+
     # 搜索以上所有支持的电视的直播源
     for source_name in source_name_list:
         original_url = base_url
