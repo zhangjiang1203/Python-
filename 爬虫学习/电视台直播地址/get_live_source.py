@@ -2,9 +2,9 @@
 import json
 
 import requests
-# from bs4 import BeautifulSoup
 import time
-# from lxml import etree
+
+from lxml import etree
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
@@ -157,12 +157,33 @@ source_name_list = [
     '环球旅游',
 ]
 
-# 创建浏览器对象
-options = webdriver.ChromeOptions()
-browser = webdriver.Chrome(options=options)
+tvname = [
+"MTV音乐",
+"怀旧音乐",
+"MTV音乐频道",
+"MV音乐",
+"新音乐",
+"音乐_22",
+"音乐_70",
+"80后音乐",
+"番薯音乐",
+"鬥魚音樂",
+"斗鱼音乐",
+"车载音乐",
+"风云音乐",
+"音乐现场",
+"咪咕音乐",
+"中国音乐",
+"音乐荟萃",
+"鬥魚直播-T-ARA音樂",
+"乐享汇_音乐正青春"
+          ]
 
 
 def mockWebSearch():
+    # 创建浏览器对象
+    options = webdriver.ChromeOptions()
+    browser = webdriver.Chrome(options=options)
     browser.get(base_url)
     total_source_list = []
 
@@ -188,32 +209,38 @@ def mockWebSearch():
         json.dump(total_source_list, json_file, ensure_ascii=False, indent=4)
 
 
-def getAllLiveSource() -> None:
+def getAllLiveSource():
 
     # 获取电视资源信息
+    with open('IPTVName.json', 'r', encoding='utf-8') as json_file:
+        data = json.load(json_file)
+        for item in data:
+            print(data[item])
 
 
-    # 搜索以上所有支持的电视的直播源
-    for source_name in source_name_list:
-        original_url = base_url
-        print("开始请求============== url:", original_url)
-        result = requests.post(original_url, data={"search": source_name}, headers=header)
-        # result = requests.post(original_url, headers=header)
-        try:
-            print("当前返回数据===%s" % result.content)
-            # html = etree.HTML(result.content.decode('utf-8'))
-            # items = html.xpath('//div[@class="m3u8"]//td[2]/text()')
-            # print("获取结果信息 %s" %items)
-            #
-            # if len(items) == 0: break
-            #
-            # authors = []
-            # for item in items:
-            #     print("拉流地址===%s" %item)
-
-        except:
-            print("出错了展示设置")
+    # # 搜索以上所有支持的电视的直播源
+    # for source_name in source_name_list:
+    #     original_url = base_url
+    #     print("开始请求============== url:", original_url)
+    #     result = requests.post(original_url, data={"search": source_name}, headers=header)
+    #     # result = requests.post(original_url, headers=header)
+    #     try:
+    #         print("当前返回数据===%s" % result.content)
+    #         # html = etree.HTML(result.content.decode('utf-8'))
+    #         # items = html.xpath('//div[@class="m3u8"]//td[2]/text()')
+    #         # print("获取结果信息 %s" %items)
+    #         #
+    #         # if len(items) == 0: break
+    #         #
+    #         # authors = []
+    #         # for item in items:
+    #         #     print("拉流地址===%s" %item)
+    #
+    #     except:
+    #         print("出错了展示设置")
 
 
 if __name__ == '__main__':
-    mockWebSearch()
+    getAllLiveSource()
+    # getCategoryTVData()
+    # mockWebSearch()
