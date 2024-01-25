@@ -65,8 +65,16 @@
             "icon":"http://www.tvyan.com/uploads/dianshi/cctv17.jpg"
         },
         {
-            "title":"CETV-1",
+            "title":"CETV1",
             "icon":"http://www.tvyan.com/uploads/dianshi/cetv1.jpg"
+        },
+        {
+            "title":"CETV2",
+            "icon":"http://www.tvyan.com/uploads/dianshi/cetv2.jpg"
+        },
+        {
+            "title":"CETV3",
+            "icon":"http://www.tvyan.com/uploads/dianshi/cetv2.jpg"
         },
         {
             "title":"CETV4",
@@ -75,10 +83,6 @@
         {
             "title":"CCTV5+体育赛事",
             "icon":"http://www.tvyan.com/uploads/dianshi/cctv5+.jpg"
-        },
-        {
-            "title":"CETV-2",
-            "icon":"http://www.tvyan.com/uploads/dianshi/cetv2.jpg"
         },
         {
             "title":"CGTN纪录频道",
