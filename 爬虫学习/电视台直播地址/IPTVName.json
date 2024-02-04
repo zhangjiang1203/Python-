@@ -319,8 +319,8 @@
             "icon":"http://www.tvyan.com/uploads/dianshi/xinjiangtv.jpg"
         },
         {
-        "title":"青海安多卫视",
-        "icon":"http://www.tvyan.com/uploads/dianshi/anduo.jpg"
+            "title":"青海安多卫视",
+            "icon":"http://www.tvyan.com/uploads/dianshi/anduo.jpg"
         },
         {
             "title":"广西卫视",
@@ -333,10 +333,6 @@
         {
             "title":"卡酷少儿频道",
             "icon":"http://www.tvyan.com/uploads/dianshi/kaku.jpg"
-        },
-        {
-            "title":"西藏藏语卫视",
-            "icon":"http://www.tvyan.com/uploads/dianshi/xizang-zangyu.jpg"
         },
         {
             "title":"陕西卫视",
@@ -361,10 +357,6 @@
         {
             "title":"黄河卫视",
             "icon":"http://www.tvyan.com/uploads/dianshi/huanghetv.jpg"
-        },
-        {
-            "title":"内蒙古蒙语卫视",
-            "icon":"http://www.tvyan.com/uploads/dianshi/neimenggutv.jpg"
         },
         {
             "title":"甘肃卫视",
@@ -429,18 +421,6 @@
         {
             "title":"CETV-3人文记录",
             "icon":"http://www.tvyan.com/uploads/dianshi/cetv3.jpg"
-        },
-        {
-            "title":"旅游卫视",
-            "icon":"http://www.tvyan.com/uploads/dianshi/lvyoutv.jpg"
-        },
-        {
-            "title":"靓妆频道",
-            "icon":"http://www.tvyan.com/uploads/dianshi/jslz.jpg"
-        },
-        {
-            "title":"健康卫视",
-            "icon":"http://www.tvyan.com/uploads/dianshi/jkwst.jpg"
         },
         {
             "title":"东北亚卫视",
@@ -881,10 +861,6 @@
         {
             "title":"合肥文体博览",
             "icon":"http://www.tvyan.com/uploads/dianshi/hfwtbl.jpg"
-        },
-        {
-            "title":"滚动力rollor",
-            "icon":"http://www.tvyan.com/uploads/dianshi/rollor.jpg"
         }
     ]
 }
