@@ -87,5 +87,4 @@ def getAllLiveSource():
 
 if __name__ == '__main__':
     # getAllLiveSource()
-    # getCategoryTVData()
     mockWebSearch()
