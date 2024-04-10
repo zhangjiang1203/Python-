@@ -1,10 +1,12 @@
 import os
 import sys
 
-proj_path = os.path.dirname(os.path.abspath(__file__))
+# proj_path = os.path.dirname(os.path.abspath(__file__))
+#
+# print("proj_path =", proj_path)
 
-file_path = os.path.join(proj_path, 'syncAssignToPodfile.py')
-print("proj_path =", proj_path)
+podfile_path = sys.argv[1]
+# podfile_path = "/Users/zhangjiang/Documents/个人项目/douyu/DYHeart/Podfile"
 
 
 def components_in_line(comps, line):
@@ -24,7 +26,7 @@ def get_component_name(line):
 
 def sync_assign_to_podfile():
     components = []
-    with open(file_path, "r") as file:
+    with open(podfile_path, "r") as file:
         for line in file:
             if line.strip().startswith('#'):
                 continue
@@ -36,12 +38,9 @@ def sync_assign_to_podfile():
                     components.append(component_name)
 
     # 获取该需求中所有涉及的组件后 同步到养鱼工具中
+    print(components)
     return components
 
 
 if __name__ == "__main__":
-    # components = components_in_line(["DYStorage"], "pod 'DYStorage', '0.0.30'")
-    # print("hahah", components)
-    get_component_name(
-        "pod 'Alamofire', :git => 'https://github.com/Alamofire/Alamofire.git', :branch => 'feature_branch'")
-    get_component_name("pod 'MyLibrary', :path => '~/Documents/MyLibrary'")
+    sync_assign_to_podfile()
